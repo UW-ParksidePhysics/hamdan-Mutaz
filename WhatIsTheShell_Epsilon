@@ -1,0 +1,90 @@
+Last login: Thu Feb  6 14:57:32 on ttys000
+maclab-127:~ hamda013$ dshdshds
+-bash: dshdshds: command not found
+maclab-127:~ hamda013$ dshdshds
+-bash: dshdshds: command not found
+maclab-127:~ hamda013$ date
+Thu Feb  6 15:05:35 CST 2020
+maclab-127:~ hamda013$ cal
+   February 2020      
+Su Mo Tu We Th Fr Sa  
+                   1  
+ 2  3  4  5  6  7  8  
+ 9 10 11 12 13 14 15  
+16 17 18 19 20 21 22  
+23 24 25 26 27 28 29  
+                      
+maclab-127:~ hamda013$ df
+Filesystem    512-blocks      Used Available Capacity iused               ifree %iused  Mounted on
+/dev/disk1s1   489620264 274239392 209837024    57% 2046369 9223372036852729438    0%   /
+devfs                373       373         0   100%     646                   0  100%   /dev
+/dev/disk1s4   489620264   4194344 209837024     2%       1 9223372036854775806    0%   /private/var/vm
+map -hosts             0         0         0   100%       0                   0  100%   /net
+map auto_home          0         0         0   100%       0                   0  100%   /home
+map -fstab             0         0         0   100%       0                   0  100%   /Network/Servers
+maclab-127:~ hamda013$ vm_stat
+Mach Virtual Memory Statistics: (page size of 4096 bytes)
+Pages free:                             2105062.
+Pages active:                            751330.
+Pages inactive:                          581496.
+Pages speculative:                       192281.
+Pages throttled:                              0.
+Pages wired down:                        563799.
+Pages purgeable:                          30181.
+"Translation faults":                  22318482.
+Pages copy-on-write:                     430409.
+Pages zero filled:                     14062150.
+Pages reactivated:                         2427.
+Pages purged:                              9501.
+File-backed pages:                       461129.
+Anonymous pages:                        1063978.
+Pages stored in compressor:                   0.
+Pages occupied by compressor:                 0.
+Decompressions:                               0.
+Compressions:                                 0.
+Pageins:                                2581113.
+Pageouts:                                     7.
+Swapins:                                      0.
+Swapouts:                                     0.
+maclab-127:~ hamda013$ free
+-bash: free: command not found
+maclab-127:~ hamda013$ $ free
+-bash: $: command not found
+maclab-127:~ hamda013$ free -m
+-bash: free: command not found
+maclab-127:~ hamda013$ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
