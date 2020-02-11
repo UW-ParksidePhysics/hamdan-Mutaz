@@ -1,0 +1,102 @@
+Last login: Tue Feb 11 14:32:04 on ttys000
+maclab-127:~ hamda013$ ls
+Desktop		Downloads	Movies		Pictures	PycharmProjects
+Documents	Library		Music		Public
+maclab-127:~ hamda013$ file
+Usage: file [bcCdEhikLlNnprsvzZ0] [-e test] [-f namefile] [-F separator] [-m magicfiles] [-M magicfiles] file...
+       file -C -m magicfiles
+Try `file --help' for more information.
+maclab-127:~ hamda013$ less
+Missing filename ("less --help" for help)
+maclab-127:~ hamda013$ less
+Missing filename ("less --help" for help)
+maclab-127:~ hamda013$ ls -1
+Desktop
+Documents
+Downloads
+Library
+Movies
+Music
+Pictures
+Public
+PycharmProjects
+maclab-127:~ hamda013$ -options arguments
+-bash: -options: command not found
+maclab-127:~ hamda013$ cmmand -options arguments
+-bash: cmmand: command not found
+maclab-127:~ hamda013$ command -options arguments
+-bash: command: -o: invalid option
+command: usage: command [-pVv] command [arg ...]
+maclab-127:~ hamda013$ ls -lt
+total 0
+drwx------+  4 hamda013  UWP\Domain Users   128 Feb 11 15:06 Downloads
+drwx------+  3 hamda013  UWP\Domain Users    96 Feb 11 14:29 Documents
+drwx------@ 58 hamda013  UWP\Domain Users  1856 Feb 11 08:07 Library
+drwxr-xr-x   4 hamda013  UWP\Domain Users   128 Feb  6 14:25 PycharmProjects
+drwx------+  3 hamda013  UWP\Domain Users    96 Feb  6 14:06 Desktop
+drwx------+  3 hamda013  UWP\Domain Users    96 Feb  6 14:06 Movies
+drwx------+  3 hamda013  UWP\Domain Users    96 Feb  6 14:06 Music
+drwx------+  3 hamda013  UWP\Domain Users    96 Feb  6 14:06 Pictures
+drwxr-xr-x+  4 hamda013  UWP\Domain Users   128 Feb  6 14:06 Public
+maclab-127:~ hamda013$ ls -lt --reverse
+ls: illegal option -- -
+usage: ls [-ABCFGHLOPRSTUWabcdefghiklmnopqrstuwx1] [file ...]
+maclab-127:~ hamda013$ ls -lt --reverse
+ls: illegal option -- -
+usage: ls [-ABCFGHLOPRSTUWabcdefghiklmnopqrstuwx1] [file ...]
+maclab-127:~ hamda013$ ls -lt
+total 0
+drwx------+  4 hamda013  UWP\Domain Users   128 Feb 11 15:06 Downloads
+drwx------+  3 hamda013  UWP\Domain Users    96 Feb 11 14:29 Documents
+drwx------@ 58 hamda013  UWP\Domain Users  1856 Feb 11 08:07 Library
+drwxr-xr-x   4 hamda013  UWP\Domain Users   128 Feb  6 14:25 PycharmProjects
+drwx------+  3 hamda013  UWP\Domain Users    96 Feb  6 14:06 Desktop
+drwx------+  3 hamda013  UWP\Domain Users    96 Feb  6 14:06 Movies
+drwx------+  3 hamda013  UWP\Domain Users    96 Feb  6 14:06 Music
+drwx------+  3 hamda013  UWP\Domain Users    96 Feb  6 14:06 Pictures
+drwxr-xr-x+  4 hamda013  UWP\Domain Users   128 Feb  6 14:06 Public
+maclab-127:~ hamda013$ --reverse
+-bash: --reverse: command not found
+maclab-127:~ hamda013$ ls -lt
+total 0
+drwx------+  4 hamda013  UWP\Domain Users   128 Feb 11 15:06 Downloads
+drwx------+  3 hamda013  UWP\Domain Users    96 Feb 11 14:29 Documents
+drwx------@ 58 hamda013  UWP\Domain Users  1856 Feb 11 08:07 Library
+drwxr-xr-x   4 hamda013  UWP\Domain Users   128 Feb  6 14:25 PycharmProjects
+drwx------+  3 hamda013  UWP\Domain Users    96 Feb  6 14:06 Desktop
+drwx------+  3 hamda013  UWP\Domain Users    96 Feb  6 14:06 Movies
+drwx------+  3 hamda013  UWP\Domain Users    96 Feb  6 14:06 Music
+drwx------+  3 hamda013  UWP\Domain Users    96 Feb  6 14:06 Pictures
+drwxr-xr-x+  4 hamda013  UWP\Domain Users   128 Feb  6 14:06 Public
+maclab-127:~ hamda013$ ls -lt --reverse
+ls: illegal option -- -
+usage: ls [-ABCFGHLOPRSTUWabcdefghiklmnopqrstuwx1] [file ...]
+maclab-127:~ hamda013$ -all
+-bash: -all: command not found
+maclab-127:~ hamda013$ -d
+-bash: -d: command not found
+maclab-127:~ hamda013$ -a
+-bash: -a: command not found
+maclab-127:~ hamda013$ -rw-r--r--
+-bash: -rw-r--r--: command not found
+maclab-127:~ hamda013$ 1
+-bash: 1: command not found
+maclab-127:~ hamda013$ root
+-bash: root: command not found
+maclab-127:~ hamda013$ /
+-bash: /: is a directory
+maclab-127:~ hamda013$ /bin
+-bash: /bin: is a directory
+maclab-127:~ hamda013$ /boot
+-bash: /boot: No such file or directory
+maclab-127:~ hamda013$ 
+
+
+
+
+
+
+
+
+
+
