@@ -1,0 +1,105 @@
+Last login: Thu Feb 13 16:06:24 on ttys000
+maclab-65:~ hamda013$ command
+maclab-65:~ hamda013$ type command
+command is a shell builtin
+maclab-65:~ hamda013$ type type
+type is a shell builtin
+maclab-65:~ hamda013$ type ls
+ls is /bin/ls
+maclab-65:~ hamda013$ type cp
+cp is /bin/cp
+maclab-65:~ hamda013$ which ls
+/bin/ls
+maclab-65:~ hamda013$ which cd
+/usr/bin/cd
+maclab-65:~ hamda013$ help cd
+cd: cd [-L|-P] [dir]
+    Change the current directory to DIR.  The variable $HOME is the
+    default DIR.  The variable CDPATH defines the search path for
+    the directory containing DIR.  Alternative directory names in CDPATH
+    are separated by a colon (:).  A null directory name is the same as
+    the current directory, i.e. `.'.  If DIR begins with a slash (/),
+    then CDPATH is not used.  If the directory is not found, and the
+    shell option `cdable_vars' is set, then try the word as a variable
+    name.  If that variable has a value, then cd to the value of that
+    variable.  The -P option says to use the physical directory structure
+    instead of following symbolic links; the -L option forces symbolic links
+    to be followed.
+maclab-65:~ hamda013$ mkdir --help
+mkdir: illegal option -- -
+usage: mkdir [-pv] [-m mode] directory ...
+maclab-65:~ hamda013$ cd
+maclab-65:~ hamda013$ ls cd
+ls: cd: No such file or directory
+maclab-65:~ hamda013$ cd
+maclab-65:~ hamda013$ ls
+Desktop		Downloads	Movies		Pictures	help
+Documents	Library		Music		Public
+maclab-65:~ hamda013$ cd
+maclab-65:~ hamda013$ mkdir help
+mkdir: help: File exists
+maclab-65:~ hamda013$ man program
+No manual entry for program
+maclab-65:~ hamda013$ man program 
+No manual entry for program
+maclab-65:~ hamda013$ man help
+No manual entry for help
+maclab-65:~ hamda013$ man program
+No manual entry for program
+maclab-65:~ hamda013$ man ls
+maclab-65:~ hamda013$ 
+maclab-65:~ hamda013$ man 5 passwd
+maclab-65:~ hamda013$ apropos floppy
+floppy: nothing appropriate
+maclab-65:~ hamda013$ apropos floppy
+floppy: nothing appropriate
+maclab-65:~ hamda013$ what is ls
+is: No such file or directory
+maclab-65:~ hamda013$ whatis ls
+builtin(1), !(1), %(1), .(1), :(1), @(1), {(1), }(1), alias(1), alloc(1), bg(1), bind(1), bindkey(1), break(1), breaksw(1), builtins(1), case(1), cd(1), chdir(1), command(1), complete(1), continue(1), default(1), dirs(1), do(1), done(1), echo(1), echotc(1), elif(1), else(1), end(1), endif(1), endsw(1), esac(1), eval(1), exec(1), exit(1), export(1), false(1), fc(1), fg(1), filetest(1), fi(1), for(1), foreach(1), getopts(1), glob(1), goto(1), hash(1), hashstat(1), history(1), hup(1), if(1), jobid(1), jobs(1), kill(1), limit(1), local(1), log(1), login(1), logout(1), ls-F(1), nice(1), nohup(1), notify(1), onintr(1), popd(1), printenv(1), pushd(1), pwd(1), read(1), readonly(1), rehash(1), repeat(1), return(1), sched(1), set(1), setenv(1), settc(1), setty(1), setvar(1), shift(1), source(1), stop(1), suspend(1), switch(1), telltc(1), test(1), then(1), time(1), times(1), trap(1), true(1), type(1), ulimit(1), umask(1), unalias(1), uncomplete(1), unhash(1), unlimit(1), unset(1), unsetenv(1), until(1), wait(1), where(1), which(1), while(1) - shell built-in commands
+ls(1)                    - list directory contents
+maclab-65:~ hamda013$ 1
+-bash: 1: command not found
+maclab-65:~ hamda013$ info coreutils
+maclab-65:~ hamda013$ cd /usr; ls; cd -
+bin		libexec		sbin		standalone
+lib		local		share
+/Users/hamda013
+maclab-65:~ hamda013$ type test
+test is a shell builtin
+maclab-65:~ hamda013$ type foo
+-bash: type: foo: not found
+maclab-65:~ hamda013$ alias foo='cd /usr; ls; cd -'
+maclab-65:~ hamda013$ alias name='string'
+maclab-65:~ hamda013$ foo
+bin		libexec		sbin		standalone
+lib		local		share
+/Users/hamda013
+maclab-65:~ hamda013$ type foo
+foo is aliased to `cd /usr; ls; cd -'
+maclab-65:~ hamda013$ unalias foo
+maclab-65:~ hamda013$ tyoe foo
+-bash: tyoe: command not found
+maclab-65:~ hamda013$ type ls
+ls is hashed (/bin/ls)
+maclab-65:~ hamda013$ foo
+-bash: foo: command not found
+maclab-65:~ hamda013$ foo
+-bash: foo: command not found
+maclab-65:~ hamda013$ type foo
+-bash: type: foo: not found
+maclab-65:~ hamda013$ alias foo='cd /usr; ls; cd -'
+maclab-65:~ hamda013$ foo
+bin		libexec		sbin		standalone
+lib		local		share
+/Users/hamda013
+maclab-65:~ hamda013$ type foo
+foo is aliased to `cd /usr; ls; cd -'
+maclab-65:~ hamda013$ unalias foo
+maclab-65:~ hamda013$ type foo
+-bash: type: foo: not found
+maclab-65:~ hamda013$ type ls
+ls is hashed (/bin/ls)
+maclab-65:~ hamda013$ alias
+alias name='string'
+maclab-65:~ hamda013$ 
