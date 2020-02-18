@@ -1,0 +1,215 @@
+Last login: Tue Feb 18 14:02:49 on console
+maclab-95:~ hamda013$ echo this is a test
+this is a test
+maclab-95:~ hamda013$ ecgo *
+-bash: ecgo: command not found
+maclab-95:~ hamda013$ echo *
+Desktop Documents Downloads Library Movies Music Pictures Public PycharmProjects help
+maclab-95:~ hamda013$ ls
+Desktop		Downloads	Movies		Pictures	PycharmProjects
+Documents	Library		Music		Public		help
+maclab-95:~ hamda013$ echo D*
+Desktop Documents Downloads
+maclab-95:~ hamda013$ echo *s
+Documents Downloads Movies Pictures PycharmProjects
+maclab-95:~ hamda013$ echo [[:upper:]]*
+Desktop Documents Downloads Library Movies Music Pictures Public PycharmProjects
+maclab-95:~ hamda013$ echo /usr/*/share
+/usr/*/share
+maclab-95:~ hamda013$ echo ~
+/Users/hamda013
+maclab-95:~ hamda013$ echo ~foo
+~foo
+maclab-95:~ hamda013$ echo $((2 + 2))
+4
+maclab-95:~ hamda013$ echo $(($((5echo $(($((5**2)) * 3))
+> 75
+> q
+> q
+> -bash: unexpected EOF while looking for matching `)'
+-bash: syntax error: unexpected end of file
+maclab-95:~ hamda013$ echo $(($((5**2)) * 3))
+75
+maclab-95:~ hamda013$ echo $(((5**2) * 3))
+75
+maclab-95:~ hamda013$ echo Five divided by two equals $((5/2))
+Five divided by two equals 2
+maclab-95:~ hamda013$ echo with $((5%2)) left over.
+with 1 left over.
+maclab-95:~ hamda013$ echo Front-{A,B,C}-Back
+Front-A-Back Front-B-Back Front-C-Back
+maclab-95:~ hamda013$ echo Number_{1..5}
+Number_1 Number_2 Number_3 Number_4 Number_5
+maclab-95:~ hamda013$ echo {01..15}
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15
+maclab-95:~ hamda013$ echo {001..15}
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15
+maclab-95:~ hamda013$ echo {Z..A}
+Z Y X W V U T S R Q P O N M L K J I H G F E D C B A
+maclab-95:~ hamda013$ echo a{A{1,2},B{3,4}}b
+aA1b aA2b aB3b aB4b
+maclab-95:~ hamda013$ mkdir Photos
+maclab-95:~ hamda013$ cd Photos
+maclab-95:Photos hamda013$ mkdir {2007..2009}-{01..12}
+maclab-95:Photos hamda013$ ls
+2007-1	2007-2	2007-6	2008-1	2008-2	2008-6	2009-1	2009-2	2009-6
+2007-10	2007-3	2007-7	2008-10	2008-3	2008-7	2009-10	2009-3	2009-7
+2007-11	2007-4	2007-8	2008-11	2008-4	2008-8	2009-11	2009-4	2009-8
+2007-12	2007-5	2007-9	2008-12	2008-5	2008-9	2009-12	2009-5	2009-9
+maclab-95:Photos hamda013$ echo $USER
+hamda013
+maclab-95:Photos hamda013$ me
+-bash: me: command not found
+maclab-95:Photos hamda013$ printenv | less
+maclab-95:Photos hamda013$ echo $SUER
+
+maclab-95:Photos hamda013$ echo $(ls)
+2007-1 2007-10 2007-11 2007-12 2007-2 2007-3 2007-4 2007-5 2007-6 2007-7 2007-8 2007-9 2008-1 2008-10 2008-11 2008-12 2008-2 2008-3 2008-4 2008-5 2008-6 2008-7 2008-8 2008-9 2009-1 2009-10 2009-11 2009-12 2009-2 2009-3 2009-4 2009-5 2009-6 2009-7 2009-8 2009-9
+maclab-95:Photos hamda013$ ls -l $(which cp)
+-rwxr-xr-x  1 root  wheel  29024 May  4  2019 /bin/cp
+maclab-95:Photos hamda013$ file $(ls -d /usr/bin/* | grep zip)
+/usr/bin/bunzip2:        Mach-O 64-bit executable x86_64
+/usr/bin/bzip2:          Mach-O 64-bit executable x86_64
+/usr/bin/bzip2recover:   Mach-O 64-bit executable x86_64
+/usr/bin/funzip:         Mach-O 64-bit executable x86_64
+/usr/bin/gunzip:         Mach-O 64-bit executable x86_64
+/usr/bin/gzip:           Mach-O 64-bit executable x86_64
+/usr/bin/unzip:          Mach-O 64-bit executable x86_64
+/usr/bin/unzipsfx:       Mach-O 64-bit executable x86_64
+/usr/bin/zip:            Mach-O 64-bit executable x86_64
+/usr/bin/zipcloak:       Mach-O 64-bit executable x86_64
+/usr/bin/zipdetails:     Perl script text executable
+/usr/bin/zipdetails5.18: Perl script text executable
+/usr/bin/zipgrep:        POSIX shell script text executable, ASCII text
+/usr/bin/zipinfo:        Mach-O 64-bit executable x86_64
+/usr/bin/zipnote:        Mach-O 64-bit executable x86_64
+/usr/bin/zipsplit:       Mach-O 64-bit executable x86_64
+maclab-95:Photos hamda013$ s -l `which cp`
+-bash: s: command not found
+maclab-95:Photos hamda013$ ls -l `which cp`
+-rwxr-xr-x  1 root  wheel  29024 May  4  2019 /bin/cp
+maclab-95:Photos hamda013$ echo this is a     test
+this is a test
+maclab-95:Photos hamda013$ echo The total is $100.00
+The total is 00.00
+maclab-95:Photos hamda013$ ls -l two words.txt
+ls: two: No such file or directory
+ls: words.txt: No such file or directory
+maclab-95:Photos hamda013$ ls -l "two words.txt"
+ls: two words.txt: No such file or directory
+maclab-95:Photos hamda013$ mv "two words.txt" two_words.txt
+mv: rename two words.txt to two_words.txt: No such file or directory
+maclab-95:Photos hamda013$ echo "$USER $((2+2)) $(cal)"
+hamda013 4    February 2020      
+Su Mo Tu We Th Fr Sa  
+                   1  
+ 2  3  4  5  6  7  8  
+ 9 10 11 12 13 14 15  
+16 17 18 19 20 21 22  
+23 24 25 26 27 28 29  
+                      
+maclab-95:Photos hamda013$ echo this is a     test
+this is a test
+maclab-95:Photos hamda013$ echo "this is a     test"
+this is a     test
+maclab-95:Photos hamda013$ echo $(cal)
+February 2020 Su Mo Tu We Th Fr Sa 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29
+maclab-95:Photos hamda013$ echo "$(cal)"
+   February 2020      
+Su Mo Tu We Th Fr Sa  
+                   1  
+ 2  3  4  5  6  7  8  
+ 9 10 11 12 13 14 15  
+16 17 18 19 20 21 22  
+23 24 25 26 27 28 29  
+                      
+maclab-95:Photos hamda013$  echo text ~/*.txt {a,b} $(echo foo) $((2+2)) $USER
+text /Users/hamda013/*.txt a b foo 4 hamda013
+maclab-95:Photos hamda013$ echo "text ~/*.txt {a,b} $(echo foo) $((2+2)) $USER"
+text ~/*.txt {a,b} foo 4 hamda013
+maclab-95:Photos hamda013$ echo 'text ~/*.txt {a,b} $(echo foo) $((2+2)) $USER'
+text ~/*.txt {a,b} $(echo foo) $((2+2)) $USER
+maclab-95:Photos hamda013$ echo "echo "The balance for user $USER is: \$5.00"
+> The balance for user me is: $5.00
+> -bash: unexpected EOF while looking for matching `"'
+-bash: syntax error: unexpected end of file
+maclab-95:Photos hamda013$ mv bad\&filename good_filename
+mv: rename bad&filename to good_filename: No such file or directory
+maclab-95:Photos hamda013$ echo "Bad name" > bad\&filename
+maclab-95:Photos hamda013$ ls
+2007-1		2007-6		2008-2		2009-1		2009-6
+2007-10		2007-7		2008-3		2009-10		2009-7
+2007-11		2007-8		2008-4		2009-11		2009-8
+2007-12		2007-9		2008-5		2009-12		2009-9
+2007-2		2008-1		2008-6		2009-2		bad&filename
+2007-3		2008-10		2008-7		2009-3
+2007-4		2008-11		2008-8		2009-4
+2007-5		2008-12		2008-9		2009-5
+maclab-95:Photos hamda013$ mv bad\&filename good_filename
+maclab-95:Photos hamda013$ ls
+2007-1		2007-6		2008-2		2009-1		2009-6
+2007-10		2007-7		2008-3		2009-10		2009-7
+2007-11		2007-8		2008-4		2009-11		2009-8
+2007-12		2007-9		2008-5		2009-12		2009-9
+2007-2		2008-1		2008-6		2009-2		good_filename
+2007-3		2008-10		2008-7		2009-3
+2007-4		2008-11		2008-8		2009-4
+2007-5		2008-12		2008-9		2009-5
+maclab-95:Photos hamda013$ rm good_filename 
+maclab-95:Photos hamda013$ !ech
+echo "Bad name" > bad\&filename
+maclab-95:Photos hamda013$ echo "Hello"
+Hello
+maclab-95:Photos hamda013$ echo "Hello" > hello.txt
+maclab-95:Photos hamda013$ cat hello.txt
+Hello
+maclab-95:Photos hamda013$ ls
+2007-1		2007-6		2008-2		2009-1		2009-6
+2007-10		2007-7		2008-3		2009-10		2009-7
+2007-11		2007-8		2008-4		2009-11		2009-8
+2007-12		2007-9		2008-5		2009-12		2009-9
+2007-2		2008-1		2008-6		2009-2		bad&filename
+2007-3		2008-10		2008-7		2009-3		hello.txt
+2007-4		2008-11		2008-8		2009-4
+2007-5		2008-12		2008-9		2009-5
+maclab-95:Photos hamda013$ find .
+.
+./2009-3
+./2009-4
+./2007-10
+./2007-5
+./2007-2
+./2009-5
+./2009-2
+./2007-3
+./2007-4
+./2007-11
+./2008-9
+./2009-11
+./2008-7
+./2008-6
+./2008-1
+./2008-8
+./2009-10
+./2008-10
+./bad&filename
+./2008-11
+./2007-8
+./2007-1
+./2007-6
+./2009-7
+./2009-9
+./2007-7
+./2007-9
+./2007-12
+./2009-8
+./2009-1
+./2009-6
+./2009-12
+./2008-4
+./2008-3
+./2008-2
+./2008-5
+./hello.txt
+./2008-12
+maclab-95:Photos hamda013$ 
