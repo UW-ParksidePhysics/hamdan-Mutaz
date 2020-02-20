@@ -1,0 +1,114 @@
+Last login: Thu Feb 20 14:41:26 on ttys000
+maclab-95:~ hamda013$ printenv | less
+maclab-95:~ hamda013$ 
+maclab-95:~ hamda013$  printenv USER
+hamda013
+maclab-95:~ hamda013$ set | less
+maclab-95:~ hamda013$ 
+maclab-95:~ hamda013$ echo $HOME
+/Users/hamda013
+maclab-95:~ hamda013$ alias
+maclab-95:~ hamda013$ [ -f ~/.bashrc ];
+maclab-95:~ hamda013$ . ~/.bashrc
+-bash: /Users/hamda013/.bashrc: No such file or directory
+maclab-95:~ hamda013$ . ~/.bashrc
+-bash: /Users/hamda013/.bashrc: No such file or directory
+maclab-95:~ hamda013$ # .bash_profile
+maclab-95:~ hamda013$ [ -f ~/.bashrc ];
+maclab-95:~ hamda013$ . ~/.bashrc
+-bash: /Users/hamda013/.bashrc: No such file or directory
+maclab-95:~ hamda013$ 
+maclab-95:~ hamda013$  if [ -f ~/.bashrc ]; then
+> . ~/.bashrc
+> fi
+maclab-95:~ hamda013$ If the file "~/.bashrc" exists, then
+-bash: If: command not found
+maclab-95:~ hamda013$      read the "~/.bashrc" file.
+-bash: read: `~/.bashrc': not a valid identifier
+maclab-95:~ hamda013$ ~/.bashrc
+-bash: /Users/hamda013/.bashrc: No such file or directory
+maclab-95:~ hamda013$ # .bash_profile
+maclab-95:~ hamda013$ # Get the aliases and functions
+maclab-95:~ hamda013$ if [ -f ~/.bashrc ]; then
+> . ~/.bashrc
+> fi
+maclab-95:~ hamda013$ # User specific environment and startup programs
+maclab-95:~ hamda013$ 
+maclab-95:~ hamda013$ PATH=$PATH:$HOME/bin
+maclab-95:~ hamda013$ export PATH
+maclab-95:~ hamda013$  if [ -f ~/.bashrc ]; then
+> . ~/.bashrc
+> fi
+maclab-95:~ hamda013$     If the file "~/.bashrc" exists, then
+-bash: If: command not found
+maclab-95:~ hamda013$      read the "    If the file "~/.bashrc" exists, then
+> -bash: unexpected EOF while looking for matching `"'
+-bash: syntax error: unexpected end of file
+maclab-95:~ hamda013$ clear
+
+maclab-95:~ hamda013$  printenv | less
+maclab-95:~ hamda013$ 
+maclab-95:~ hamda013$ printenv USER
+hamda013
+maclab-95:~ hamda013$ set | less
+maclab-95:~ hamda013$ 
+maclab-95:~ hamda013$ echo $HOME
+/Users/hamda013
+maclab-95:~ hamda013$ alias
+maclab-95:~ hamda013$ foo="This is some "foo="This is some "
+maclab-95:~ hamda013$ echo $foo
+This is some foo=This is some
+maclab-95:~ hamda013$ foo=$foo"text."
+maclab-95:~ hamda013$ echo $foo
+This is some foo=This is some text.
+maclab-95:~ hamda013$ open -a TextEdit mutaz.txt.pdf
+The file /Users/hamda013/mutaz.txt.pdf does not exist.
+maclab-95:~ hamda013$ ls
+Desktop		Library		Photos		PycharmProjects
+Documents	Movies		Pictures	help
+Downloads	Music		Public		ls-output.txt
+maclab-95:~ hamda013$ cd downloads
+maclab-95:downloads hamda013$ open -a TextEdit mutaz.txt.pdf
+maclab-95:downloads hamda013$ open mutaz.txt.pdf 
+maclab-95:downloads hamda013$ file mutaz.txt.pdf 
+mutaz.txt.pdf: PDF document, version 1.3
+maclab-95:downloads hamda013$ open ls-output.txt
+The file /Users/hamda013/Downloads/ls-output.txt does not exist.
+maclab-95:downloads hamda013$ cd..
+-bash: cd..: command not found
+maclab-95:downloads hamda013$ cd ..
+maclab-95:~ hamda013$ ls
+Desktop		Library		Photos		PycharmProjects
+Documents	Movies		Pictures	help
+Downloads	Music		Public		ls-output.txt
+maclab-95:~ hamda013$ open ls-output.txt
+maclab-95:~ hamda013$ nano .bashrc
+maclab-95:~ hamda013$ cat .bashrc
+# .bashrc
+
+maclab-95:~ hamda013$ nano .bashrc
+maclab-95:~ hamda013$ nano .bashrc
+maclab-95:~ hamda013$ source .bashrc
+maclab-95:~ hamda013$ 11
+-bash: 11: command not found
+maclab-95:~ hamda013$ umask 0002
+maclab-95:~ hamda013$ cd
+maclab-95:~ hamda013$ cd ..
+maclab-95:Users hamda013$ cd downloads
+-bash: cd: downloads: No such file or directory
+maclab-95:Users hamda013$ cd ls
+-bash: cd: ls: No such file or directory
+maclab-95:Users hamda013$ cd 
+maclab-95:~ hamda013$ downloads
+-bash: downloads: command not found
+maclab-95:~ hamda013$ ls
+Desktop		Downloads	Movies		Photos		Public		help
+Documents	Library		Music		Pictures	PycharmProjects	ls-output.txt
+maclab-95:~ hamda013$ cd downloads
+maclab-95:downloads hamda013$ unmask 002
+-bash: unmask: command not found
+maclab-95:downloads hamda013$  source .bashrc
+-bash: .bashrc: No such file or directory
+maclab-95:downloads hamda013$ 11
+-bash: 11: command not found
+maclab-95:downloads hamda013$ 
