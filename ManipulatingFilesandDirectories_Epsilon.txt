@@ -1,0 +1,413 @@
+
+Last login: Thu Feb 13 14:43:10 on ttys000
+maclab-105:~ klige001$ mkdir ryan1 ryan2 ryan3
+mkdir: ryan1: File exists
+mkdir: ryan2: File exists
+mkdir: ryan3: File exists
+maclab-105:~ klige001$ ls downloads
+item2.pdf	item3.pdf	ryan1		ryan2		ryan3
+maclab-105:~ klige001$ cp item3.pdf
+usage: cp [-R [-H | -L | -P]] [-fi | -n] [-apvXc] source_file target_file
+       cp [-R [-H | -L | -P]] [-fi | -n] [-apvXc] source_file ... target_directory
+maclab-105:~ klige001$ cp item3.pdf ryan1
+cp: item3.pdf: No such file or directory
+maclab-105:~ klige001$ mv item3.pdf ryan1
+mv: rename item3.pdf to ryan1/item3.pdf: No such file or directory
+maclab-105:~ klige001$ cd ryan3
+maclab-105:ryan3 klige001$ ls 
+maclab-105:ryan3 klige001$ cd ..
+maclab-105:~ klige001$ ls
+Desktop		Library		Pictures	ryan1
+Documents	Movies		Public		ryan2
+Downloads	Music		directory...	ryan3
+maclab-105:~ klige001$ ls -l
+total 0
+drwx------+  3 klige001  UWP\Domain Users    96 Feb 13 14:04 Desktop
+drwx------+  4 klige001  UWP\Domain Users   128 Feb 13 14:51 Documents
+drwx------+  9 klige001  UWP\Domain Users   288 Feb 13 14:51 Downloads
+drwx------@ 56 klige001  UWP\Domain Users  1792 Feb 13 14:42 Library
+drwx------+  3 klige001  UWP\Domain Users    96 Feb 13 14:04 Movies
+drwx------+  3 klige001  UWP\Domain Users    96 Feb 13 14:04 Music
+drwx------+  3 klige001  UWP\Domain Users    96 Feb 13 14:04 Pictures
+drwxr-xr-x+  4 klige001  UWP\Domain Users   128 Feb 13 14:04 Public
+drwxr-xr-x   2 klige001  UWP\Domain Users    64 Feb 13 14:21 directory...
+drwxr-xr-x   2 klige001  UWP\Domain Users    64 Feb 13 14:22 ryan1
+drwxr-xr-x   2 klige001  UWP\Domain Users    64 Feb 13 14:22 ryan2
+drwxr-xr-x   2 klige001  UWP\Domain Users    64 Feb 13 14:22 ryan3
+maclab-105:~ klige001$ ls dowloads
+ls: dowloads: No such file or directory
+maclab-105:~ klige001$ ls Downloads/
+item2.pdf	item3.pdf	ryan1		ryan2		ryan3
+maclab-105:~ klige001$ cd downloads
+maclab-105:downloads klige001$ ls
+item2.pdf	item3.pdf	ryan1		ryan2		ryan3
+maclab-105:downloads klige001$ mv item2.pdf ryan2/
+maclab-105:downloads klige001$ ls ryan2
+item2.pdf
+maclab-105:downloads klige001$ mv item3.pdf ryan3/
+maclab-105:downloads klige001$ ls ryan3
+item3.pdf
+maclab-105:downloads klige001$ rm item3.pdf
+rm: item3.pdf: No such file or directory
+maclab-105:downloads klige001$ ls ryan3
+item3.pdf
+maclab-105:downloads klige001$ cd .
+maclab-105:downloads klige001$ rm ryan3
+rm: ryan3: is a directory
+maclab-105:downloads klige001$ rm item3.pdf
+rm: item3.pdf: No such file or directory
+maclab-105:downloads klige001$ ls
+ryan1	ryan2	ryan3
+maclab-105:downloads klige001$ rm item3.pdf ryan3/
+rm: item3.pdf: No such file or directory
+rm: ryan3/: is a directory
+maclab-105:downloads klige001$ rm item3.pdf 
+rm: item3.pdf: No such file or directory
+maclab-105:downloads klige001$ ryan3
+-bash: ryan3: command not found
+maclab-105:downloads klige001$ ls ryan3
+item3.pdf
+maclab-105:downloads klige001$ rm item3.pdf
+rm: item3.pdf: No such file or directory
+maclab-105:downloads klige001$ rm item3.pdf
+rm: item3.pdf: No such file or directory
+maclab-105:downloads klige001$ rm item3
+rm: item3: No such file or directory
+maclab-105:downloads klige001$ rm item3...
+rm: item3...: No such file or directory
+maclab-105:downloads klige001$ cd downloads
+-bash: cd: downloads: No such file or directory
+maclab-105:downloads klige001$ cd ..
+maclab-105:~ klige001$ ls
+Desktop		Documents	Downloads	Library		Movies		Music		Pictures	Public		directory...	ryan1		ryan2		ryan3
+maclab-105:~ klige001$ ls downloads
+ryan1	ryan2	ryan3
+maclab-105:~ klige001$ cd downloads
+maclab-105:downloads klige001$ rm item3.pdf
+rm: item3.pdf: No such file or directory
+maclab-105:downloads klige001$ rm ryan2
+rm: ryan2: is a directory
+maclab-105:downloads klige001$ rm
+usage: rm [-f | -i] [-dPRrvW] file ...
+       unlink file
+maclab-105:downloads klige001$ item2.pdf
+-bash: item2.pdf: command not found
+maclab-105:downloads klige001$ rm item3.pdf
+rm: item3.pdf: No such file or directory
+maclab-105:downloads klige001$  ln item2.pdf link
+ln: item2.pdf: No such file or directory
+maclab-105:downloads klige001$ rm -r item3.pdf ryan3
+rm: item3.pdf: No such file or directory
+maclab-105:downloads klige001$ ls
+ryan1	ryan2
+maclab-105:downloads klige001$ ls downloads
+ls: downloads: No such file or directory
+maclab-105:downloads klige001$ ls Downloads/
+ls: Downloads/: No such file or directory
+maclab-105:downloads klige001$ ls downloads/
+ls: downloads/: No such file or directory
+maclab-105:downloads klige001$ ls
+ryan1	ryan2
+maclab-105:downloads klige001$ ln file link 
+ln: file: No such file or directory
+maclab-105:downloads klige001$ ln item2.pdf link
+ln: item2.pdf: No such file or directory
+maclab-105:downloads klige001$ ln ryan1 link
+ln: ryan1: Is a directory
+maclab-105:downloads klige001$ ln -s ryan1 
+ln: ./ryan1: File exists
+maclab-105:downloads klige001$ cd
+maclab-105:~ klige001$ mkdir playground
+maclab-105:~ klige001$ 
+maclab-105:~ klige001$ 
+!                              bzip2recover                   db_load                        fold                           ioalloccount                   locate                         nettop                         postcat                        rview                          sqlite3                        unlink
+./                             bzless                         db_printlog                    fontrestore                    ioclasscount                   lockstat                       networksetup                   postconf                       rvim                           ssh                            unpack200
+2to3                           bzmore                         db_recover                     footprint                      iofile.d                       log                            newaliases                     postdrop                       rwbypid.d                      ssh-add                        unset
+2to3-                          c++                            db_stat                        for                            iofileb.d                      logger                         newfs_apfs                     postfix                        rwbytype.d                     ssh-agent                      unsetpassword
+2to3-2.7                       c++filt                        db_upgrade                     format-sql                     iopattern                      login                          newfs_exfat                    postkick                       rwsnoop                        ssh-copy-id                    until
+2to3-3.6                       c2ph                           db_verify                      format-sql5.18                 iopending                      logname                        newfs_hfs                      postlock                       s2p                            ssh-keygen                     unvis
+2to3-3.8                       c2ph5.18                       dbicadmin                      from                           ioreg                          logout                         newfs_msdos                    postlog                        s2p5.18                        ssh-keyscan                    unzip
+:                              c89                            dbicadmin5.18                  fs_usage                       iosnoop                        logresolve                     newfs_udf                      postmap                        sa                             sshd                           unzipsfx
+AppleFileServer                c99                            dbilogstrip                    fsck                           iostat                         look                           newgrp                         postmulti                      safaridriver                   sso_util                       update_dyld_shared_cache
+AssetCacheLocatorUtil          caffeinate                     dbilogstrip5.18                fsck_apfs                      iotop                          lookbib                        newproc.d                      postqueue                      sample                         stapler                        update_terminal_cwd
+AssetCacheManagerUtil          cal                            dbiprof                        fsck_cs                        ip2cc                          lorder                         newsyslog                      postsuper                      sampleproc                     stat                           uptime
+AssetCacheTetheratorUtil       calendar                       dbiprof5.18                    fsck_exfat                     ip2cc5.18                      lp                             nfs4mapid                      power_report.sh                sandbox-exec                   stringdups                     usbkdp
+BootCacheControl               caller                         dbiproxy                       fsck_hfs                       ipconfig                       lpadmin                        nfsd                           powermetrics                   say                            stringdups32                   usernoted
+BuildStrings                   cancel                         dbiproxy5.18                   fsck_msdos                     ipcount                        lpc                            nfsiod                         pp                             sc_auth                        strings                        users
+CpMac                          cap_mkdb                       dbmmanage                      fsck_udf                       ipcount5.18                    lpinfo                         nfsstat                        pp5.18                         sc_usage                       strip                          uuchk
+DeRez                          captoinfo                      dc                             fstyp                          ipcrm                          lpmove                         nice                           ppdc                           scandeps.pl                    stty                           uucico
+DevToolsSecurity               case                           dd                             fstyp_hfs                      ipcs                           lpoptions                      nl                             ppdhtml                        scandeps5.18.pl                stty.pl                        uuconv
+DirectoryService               cat                            ddns-confgen                   fstyp_msdos                    ippfind                        lpq                            nlcontrol                      ppdi                           schemagen                      stty5.18.pl                    uucp
+GetFileInfo                    cc                             debinhex.pl                    fstyp_ntfs                     ipptool                        lpr                            nm                             ppdmerge                       scp                            su                             uudecode
+IOAccelMemory                  cd                             debinhex5.18.pl                fstyp_udf                      iprofiler                      lprm                           nmedit                         ppdpo                          screen                         sudo                           uuencode
+KernelEventAgent               certtool                       declare                        function                       iptab                          lpstat                         nohup                          pppd                           screencapture                  sum                            uuidgen
+MergePef                       cfprefsd                       defaults                       funzip                         iptab5.18                      ls                             nologin                        pr                             script                         suspend                        uulog
+MvMac                          chat                           defragcli                      fuser                          irb                            lsappinfo                      notifyd                        praudit                        scselect                       svn                            uuname
+NetBootClientStatus            checkgid                       delv                           fwkdp                          jamf                           lsbom                          notifyutil                     pre-grohtml                    scutil                         svnadmin                       uupick
+PasswordService                checknr                        desdp                          fwkpfv                         jamfAgent                      lskq                           nroff                          priclass.d                     sdef                           svndumpfilter                  uusched
+ResMerger                      chflags                        dev_mkdb                       g++                            jar                            lsm                            nscurl                         pridist.d                      sdiff                          svnlook                        uustat
+Rez                            chfn                           df                             gatherheaderdoc                jarsigner                      lsmp                           nslookup                       printenv                       sdp                            svnserve                       uuto
+RezDet                         chgrp                          diagnose-fu                    gcc                            java                           lsof                           nsupdate                       printf                         sdx                            svnsync                        uux
+RezWack                        chmod                          diff                           gcore                          javac                          lsvfs                          nvram                          procsystime                    security                       svnversion                     uuxqt
+SafeEjectGPU                   chown                          diff3                          gcov                           javadoc                        lwp-download                   objdump                        productbuild                   securityd                      sw_vers                        vi
+SetFile                        chpass                         diffstat                       gdiffmk                        javah                          lwp-download5.18               ocspcheck                      productsign                    sed                            swift                          view
+SplitForks                     chroot                         dig                            gem                            javap                          lwp-dump                       ocspd                          profiles                       seeksize.d                     swiftc                         vifs
+UnRezWack                      chsh                           dirname                        gen_bridge_metadata            javapackager                   lwp-dump5.18                   od                             prove                          segedit                        symbols                        vim
+WirelessRadioManagerd          ckksctl                        dirs                           gencat                         javaws                         lwp-mirror                     odutil                         prove5.18                      select                         symbolscache                   vimdiff
+[                              cksum                          disklabel                      genstrings                     jcmd                           lwp-mirror5.18                 open                           ps                             sendmail                       sync                           vimtutor
+[[                             clang                          disktool                       getconf                        jconsole                       lwp-request                    opendiff                       psed                           seq                            sysadminctl                    vipw
+]]                             clang++                        diskutil                       getopt                         jcontrol                       lwp-request5.18                opensnoop                      psed5.18                       serialver                      syscallbypid.d                 vis
+a2p                            clear                          disown                         getopts                        jdb                            m4                             openssl                        pstopdf                        serverinfo                     syscallbyproc.d                visudo
+a2p5.18                        cmp                            dispqlen.d                     git                            jdeps                          mDNSResponder                  orbd                           pstruct                        servertool                     syscallbysysc.d                vm_stat
+ab                             cmpdylib                       distnoted                      git-cvsserver                  jhat                           mDNSResponderHelper            osacompile                     pstruct5.18                    set                            sysctl                         vmmap
+ac                             codesign                       ditto                          git-receive-pack               jhsdb                          macbinary                      osadecompile                   ptar                           setkey                         sysdiagnose                    vmmap32
+accept                         codesign_allocate              dmc                            git-shell                      jimage                         macerror                       osalang                        ptar5.18                       setquota                       syslog                         vpnd
+accton                         col                            dmesg                          git-upload-archive             jinfo                          macerror5.18                   osascript                      ptardiff                       setregion                      syslogd                        vsdbutil
+actool                         colcrt                         dnctl                          git-upload-pack                jjs                            machine                        otool                          ptardiff5.18                   setuids.d                      system_profiler                w
+addftinfo                      colldef                        dns-sd                         gm4                            jmap                           mail                           pack200                        ptargrep                       sfltool                        systemkeychain                 wait
+afclip                         colrm                          dnsextd                        gnumake                        jmc                            mailq                          package-stash-conflicts        ptargrep5.18                   sftp                           systemsetup                    wait4path
+afconvert                      column                         do                             gperf                          jobs                           mailx                          package-stash-conflicts5.18    pubsub                         sh                             systemsoundserverd             wall
+afhash                         comm                           done                           gpt                            join                           make                           pagesize                       purge                          shar                           systemstats                    wc
+afida                          command                        dot_clean                      graphicssession                jot                            makeinfo                       pagestuff                      pushd                          sharing                        systriage                      wdutil
+afinfo                         compgen                        drutil                         grep                           jps                            malloc_history                 par.pl                         pwd                            shasum                         tab2space                      wfsctl
+afmtodit                       complete                       dscacheutil                    grn                            jrunscript                     malloc_history32               par5.18.pl                     pwd_mkdb                       shasum5.18                     tabs                           what
+afplay                         compress                       dscl                           grodvi                         jsadebugd                      man                            parl                           pwhich                         shell_session_delete_expired   tail                           whatis
+afscexpand                     compression_tool               dsconfigad                     groff                          jshell                         manpath                        parl5.18                       pwhich5.18                     shell_session_history_allowed  tailspin                       whereis
+agentxtrap                     config_data                    dsconfigldap                   groffer                        json_pp                        mcxquery                       parldyn                        pwpolicy                       shell_session_history_check    talk                           which
+agvtool                        config_data5.18                dseditgroup                    grog                           json_pp5.18                    mcxrefresh                     parldyn5.18                    pydoc                          shell_session_history_enable   tar                            while
+alias                          continue                       dsenableroot                   grolbp                         jstack                         md5                            passwd                         pydoc2.7                       shell_session_save             taskinfo                       who
+amt                            coreaudiod                     dserr                          grolj4                         jstat                          mddiagnose                     paste                          pydoc3                         shell_session_save_history     taskpolicy                     whoami
+apachectl                      corebrightnessdiag             dsexport                       grops                          jstatd                         mdfind                         patch                          pydoc3.6                       shell_session_update           tbl                            whois
+apfs_hfs_convert               corelist                       dsimport                       grotty                         jvisualvm                      mdimport                       pathchk                        pydoc3.8                       shift                          tbtdiagnose                    wirelessproxd
+applesingle                    corelist5.18                   dsmemberutil                   groups                         kadmin                         mdls                           pathopens.d                    python                         shlock                         tccutil                        wish
+appletviewer                   cp                             dsymutil                       gssd                           kadmin.local                   mdutil                         pax                            python-config                  shopt                          tclsh                          wish8.5
+apply                          cpan                           dtrace                         gunzip                         kcc                            memory_pressure                pbcopy                         python2.7                      showmount                      tclsh8.5                       write
+appsleepd                      cpan2dist                      dtruss                         gzcat                          kdcsetup                       mesg                           pbpaste                        python2.7-config               shutdown                       tcpdump                        wsgen
+apropos                        cpan2dist5.18                  du                             gzexe                          kdestroy                       mib2c                          pcap-config                    python3                        sigdist.d                      tcsh                           wsimport
+apt                            cpan5.18                       dwarfdump                      gzip                           kextcache                      mib2c-update                   pcsctest                       python3-32                     sips                           tee                            xar
+ar                             cpanp                          dynamic_pager                  h2ph                           kextfind                       mig                            pdisk                          python3-config                 size                           test                           xargs
+arch                           cpanp-run-perl                 easy_install                   h2ph5.18                       kextlibs                       mkbom                          periodic                       python3.6                      skywalkctl                     texi2dvi                       xartutil
+arp                            cpanp-run-perl5.18             easy_install-2.7               h2xs                           kextload                       mkdep                          perl                           python3.6-32                   slapacl                        texi2pdf                       xattr
+as                             cpanp5.18                      easy_install-3.6               h2xs5.18                       kextstat                       mkdir                          perl5.18                       python3.6-config               slapadd                        texindex                       xattr-2.7
+asa                            cpio                           easy_install-3.8               halt                           kextunload                     mkextunpack                    perlbug                        python3.6m                     slapauth                       textutil                       xcode-select
+asctl                          cpp                            echo                           hash                           kextutil                       mkfifo                         perlbug5.18                    python3.6m-config              slapcat                        tfmtodit                       xcodebuild
+aslmanager                     cpu_profiler.d                 ed                             hdid                           keytool                        mkfile                         perldoc                        python3.8                      slapconfig                     tftp                           xcrun
+asr                            cpuwalk.d                      edquota                        hdik                           kgetcred                       mklocale                       perldoc5.18                    python3.8-config               slapdn                         then                           xcscontrol
+assetutil                      crc32                          egrep                          hdiutil                        kill                           mknod                          perlivp                        pythonw                        slapindex                      thermal                        xcsdiagnose
+at                             crc325.18                      elif                           hdxml2manxml                   kill.d                         mkpassdb                       perlivp5.18                    pythonw2.7                     slappasswd                     tic                            xed
+atos                           creatbyproc.d                  else                           head                           killall                        mktemp                         perlthanks                     pyvenv                         slapschema                     tidy                           xgettext.pl
+atq                            createhomedir                  emacs                          headerdoc2html                 kinit                          mmroff                         perlthanks5.18                 pyvenv-3.6                     slaptest                       tiff2icns                      xgettext5.18.pl
+atrm                           crlrefresh                     emacs-undumped                 heap                           klist                          mnthome                        pfbtops                        qc2movie                       sleep                          tiffutil                       xip
+atsutil                        cron                           emacsclient                    heap32                         kpasswd                        moo-outdated                   pfctl                          qlmanage                       slogin                         time                           xjc
+audit                          crontab                        emond                          help                           krb5-config                    moo-outdated5.18               pgrep                          qtdefaults                     smbd                           timer_analyser.d               xml2-config
+auditd                         csdiagnose                     enable                         hexdump                        krbservicesetup                moose-outdated                 phar                           qtmodernizer                   smbdiagnose                    timerfires                     xml2man
+auditreduce                    csgather                       enc2xs                         hidutil                        ksh                            moose-outdated5.18             phar.phar                      quota                          smbutil                        times                          xmlcatalog
+autodiskmount                  csh                            enc2xs5.18                     history                        kswitch                        more                           php                            quotacheck                     smtpd.py                       tkcon                          xmllint
+automator                      csplit                         encode_keychange               hiutil                         ktrace                         mount                          php-config                     quotaoff                       smtpd2.7.py                    tkmib                          xpath
+automount                      csreq                          env                            host                           ktutil                         mount_9p                       php-fpm                        quotaon                        sncfginstall                   tkpp                           xpath5.18
+auval                          csrutil                        eqn                            hostinfo                       lam                            mount_acfs                     phpize                         racoon                         sncfgquery                     tkpp5.18                       xsanctl
+auvaltool                      ctags                          erb                            hostname                       languagesetup                  mount_afp                      pic                            raidutil                       sncfgremove                    tmdiagnose                     xscertadmin
+avbdeviced                     ctf_insert                     errinfo                        hotspot.d                      last                           mount_apfs                     pico                           rails                          sncfgtemplate                  tmutil                         xslt-config
+avbdiagnose                    cu                             esac                           hpftodit                       lastcomm                       mount_cd9660                   piconv                         rake                           sncfgvalidate                  tnameserv                      xsltproc
+avbutil                        cups-config                    etags                          hpmdiagnose                    lastwords                      mount_cddafs                   piconv5.18                     ranlib                         sndiskmove                     toe                            xsubpp
+avconvert                      cupsaccept                     eval                           htcacheclean                   latency                        mount_devfs                    pictd                          rarpd                          snfsdefrag                     top                            xsubpp5.18
+avmetareadwrite                cupsaddsmb                     ex                             htdbm                          launchctl                      mount_exfat                    pidpersec.d                    rdoc                           snmp-bridge-mib                tops                           xxd
+awk                            cupsctl                        exec                           htdigest                       launchd                        mount_fdesc                    ping                           read                           snmpbulkget                    topsyscall                     yaa
+banner                         cupsdisable                    execsnoop                      htmltree                       layerutil                      mount_ftp                      ping6                          readlink                       snmpbulkwalk                   topsysproc                     yacc
+base64                         cupsenable                     exit                           htmltree5.18                   ld                             mount_hfs                      pip3                           readonly                       snmpconf                       touch                          yes
+basename                       cupsfilter                     expand                         htpasswd                       ldapadd                        mount_msdos                    pip3.6                         rebase                         snmpd                          tput                           zcat
+bash                           cupsreject                     expect                         httpd                          ldapcompare                    mount_nfs                      pip3.8                         reboot                         snmpdelta                      tr                             zcmp
+bashbug                        cupstestdsc                    export                         httpd-wrapper                  ldapdelete                     mount_ntfs                     pkgbuild                       redo_prebinding                snmpdf                         trace                          zdiff
+batch                          cupstestppd                    expr                           httxt2dbm                      ldapexop                       mount_smbfs                    pkgutil                        refer                          snmpget                        traceroute                     zdump
+bc                             curl                           extcheck                       ibtool                         ldapmodify                     mount_udf                      pkill                          reject                         snmpgetnext                    traceroute6                    zegrep
+bg                             curl-config                    eyapp                          iconutil                       ldapmodrdn                     mount_webdav                   pl                             renice                         snmpinform                     trap                           zfgrep
+biff                           cut                            eyapp5.18                      iconv                          ldappasswd                     mp2bug                         pl2pm                          repairHomePermissions          snmpnetstat                    traptoemail                    zforce
+bind                           cvadmin                        false                          ictool                         ldapsearch                     mpioutil                       pl2pm5.18                      repquota                       snmpset                        treereg                        zgrep
+binhex                         cvaffinity                     fc                             id                             ldapurl                        msgs                           plockstat                      reset                          snmpstatus                     treereg5.18                    zic
+binhex.pl                      cvcp                           fcgistarter                    idle                           ldapwhoami                     mtree                          pluginkit                      resolveLinks                   snmptable                      trimforce                      zip
+binhex5.18.pl                  cvdb                           fddist                         idle2.7                        leaks                          mv                             plutil                         return                         snmptest                       troff                          zipcloak
+bioutil                        cvdbset                        fdesetup                       idle3                          leaks32                        nano                           pmset                          rev                            snmptranslate                  true                           zipdetails
+bison                          cvfsck                         fdisk                          idle3.6                        leave                          nasm                           pod2html                       ri                             snmptrap                       tset                           zipdetails5.18
+bitesize.d                     cvfsdb                         fg                             idle3.8                        less                           native2ascii                   pod2html5.18                   rm                             snmptrapd                      tsig-keygen                    zipgrep
+bless                          cvfsid                         fgrep                          idlj                           lessecho                       nbdst                          pod2latex                      rmdir                          snmpusm                        tsort                          zipinfo
+bluetoothaudiod                cvgather                       fi                             if                             let                            nc                             pod2latex5.18                  rmic                           snmpvacm                       tty                            zipnote
+bluetoothd                     cvlabel                        fibreconfig                    ifconfig                       lex                            ncal                           pod2man                        rmid                           snmpwalk                       type                           zipsplit
+bnepd                          cvmkdir                        file                           imptrace                       libnetcfg                      ncctl                          pod2man5.18                    rmiregistry                    sntp                           typeset                        zless
+brctl                          cvmkfile                       filebyproc.d                   in                             libnetcfg5.18                  ncdestroy                      pod2readme                     rotatelogs                     soelim                         uasysdiagnose                  zmore
+break                          cvmkfs                         filecoordinationd              indent                         libtool                        ncinit                         pod2readme5.18                 route                          softwareupdate                 ul                             znew
+bsdtar                         cvupdatefs                     filtercalltree                 indxbib                        link                           nclist                         pod2text                       rpc.lockd                      sort                           ulimit                         zprint
+bspatch                        cvversions                     find                           info                           lipo                           ncurses5.4-config              pod2text5.18                   rpc.statd                      source                         umask                          zsh
+btmmdiagnose                   dappprof                       find2perl                      infocmp                        lkbib                          ndisasm                        pod2usage                      rpcbind                        spctl                          umount                         {
+builtin                        dapptrace                      find2perl5.18                  infokey                        lldb                           ndp                            pod2usage5.18                  rpcgen                         spfd                           unalias                        }
+bunzip2                        darwinup                       findrule                       infotocap                      llvm-g++                       neqn                           podchecker                     rpcinfo                        spfd5.18                       uname                          
+bzcat                          date                           findrule5.18                   install                        llvm-gcc                       net-server                     podchecker5.18                 rs                             spfquery                       uncompress                     
+bzcmp                          db_archive                     finger                         install-info                   ln                             net-server5.18                 podselect                      rsync                          spfquery5.18                   unexpand                       
+bzdiff                         db_checkpoint                  firmwarepasswd                 install_name_tool              loads.d                        net-snmp-cert                  podselect5.18                  rtadvd                         spindump                       unifdef                        
+bzegrep                        db_codegen                     fixproc                        installer                      local                          net-snmp-config                policytool                     rtsol                          splain                         unifdefall                     
+bzfgrep                        db_deadlock                    flex                           instmodsh                      locale                         net-snmp-create-v3-user        popd                           rtsold                         splain5.18                     uniq                           
+bzgrep                         db_dump                        flex++                         instmodsh5.18                  localedef                      netbiosd                       post-grohtml                   ruby                           split                          units                          
+bzip2                          db_hotbackup                   fmt                            instruments                    localemanager                  netstat                        postalias                      rvictl                         spray                          universalaccessd               
+maclab-105:~ klige001$ less
+Missing filename ("less --help" for help)
+maclab-105:~ klige001$ less
+Missing filename ("less --help" for help)
+maclab-105:~ klige001$ ls
+Desktop		Documents	Downloads	Library		Movies		Music		Pictures	Public		directory...	playground	ryan1		ryan2		ryan3
+maclab-105:~ klige001$ cd
+maclab-105:~ klige001$ mkdir playground
+mkdir: playground: File exists
+maclab-105:~ klige001$ cd playground
+maclab-105:playground klige001$ cp /etc/passwd.
+usage: cp [-R [-H | -L | -P]] [-fi | -n] [-apvXc] source_file target_file
+       cp [-R [-H | -L | -P]] [-fi | -n] [-apvXc] source_file ... target_directory
+maclab-105:playground klige001$ mkdir dir1 dir2
+maclab-105:playground klige001$ cp /etc/passswd .
+cp: /etc/passswd: No such file or directory
+maclab-105:playground klige001$ mkdir ryan1 ryan2
+maclab-105:playground klige001$ cp .etc/passwd .
+cp: .etc/passwd: No such file or directory
+maclab-105:playground klige001$ mv item2.pdf playground
+mv: rename item2.pdf to playground: No such file or directory
+maclab-105:playground klige001$ ls
+dir1	dir2	ryan1	ryan2
+maclab-105:playground klige001$ move dir2 yan1
+-bash: move: command not found
+maclab-105:playground klige001$ mv dir2 ryan1
+maclab-105:playground klige001$ ls
+dir1	ryan1	ryan2
+maclab-105:playground klige001$ ls Downloads
+ls: Downloads: No such file or directory
+maclab-105:playground klige001$ rm dir1 dir2
+rm: dir1: is a directory
+rm: dir2: No such file or directory
+maclab-105:playground klige001$ cd playground 
+-bash: cd: playground: No such file or directory
+maclab-105:playground klige001$ mkdir dir1 dir2
+mkdir: dir1: File exists
+maclab-105:playground klige001$ cp /etc/passwd .
+maclab-105:playground klige001$ ls -1
+dir1
+dir2
+passwd
+ryan1
+ryan2
+maclab-105:playground klige001$ cp -v /etc/passwd .
+/etc/passwd -> ./passwd
+maclab-105:playground klige001$ cp -i /etc/passwd .\
+> cp -i /etc/passwd .
+overwrite ./passwd? (y/n [n]) y
+cp: .cp: No such file or directory
+cp: -i: No such file or directory
+overwrite ./passwd? (y/n [n]) mv passwd fun
+not overwritten
+maclab-105:playground klige001$ mv fun dir1
+mv: rename fun to dir1/fun: No such file or directory
+maclab-105:playground klige001$ mv fun dir2
+mv: rename fun to dir2/fun: No such file or directory
+maclab-105:playground klige001$ ls
+dir1	dir2	passwd	ryan1	ryan2
+maclab-105:playground klige001$ mv fun dir1
+mv: rename fun to dir1/fun: No such file or directory
+maclab-105:playground klige001$ mv fun dir1
+mv: rename fun to dir1/fun: No such file or directory
+maclab-105:playground klige001$ mv item2.pdf dir1
+mv: rename item2.pdf to dir1/item2.pdf: No such file or directory
+maclab-105:playground klige001$ mv passwd fun
+maclab-105:playground klige001$ ls
+dir1	dir2	fun	ryan1	ryan2
+maclab-105:playground klige001$ mv fun dir1
+maclab-105:playground klige001$ mv dir1/fun dir2
+maclab-105:playground klige001$ mv dir2/fun
+usage: mv [-f | -i | -n] [-v] source target
+       mv [-f | -i | -n] [-v] source ... directory
+maclab-105:playground klige001$ mv dir2/fun .
+maclab-105:playground klige001$ mv fun dir1
+maclab-105:playground klige001$ mv dir1 dir2
+maclab-105:playground klige001$ ls -1 dir2
+dir1
+maclab-105:playground klige001$ ls -1 dir2
+dir1
+maclab-105:playground klige001$ ls -1 dir2/dir1
+fun
+maclab-105:playground klige001$ mv dir2/dir .
+mv: rename dir2/dir to ./dir: No such file or directory
+maclab-105:playground klige001$ mv dir1/fun .
+mv: rename dir1/fun to ./fun: No such file or directory
+maclab-105:playground klige001$ ls
+dir2	ryan1	ryan2
+maclab-105:playground klige001$ mkdir dir1
+maclab-105:playground klige001$ ls
+dir1	dir2	ryan1	ryan2
+maclab-105:playground klige001$ mv dir2/dir1 .
+maclab-105:playground klige001$ mv dir1/fun .
+maclab-105:playground klige001$ ln fun fun-hard
+maclab-105:playground klige001$ ln fun dir1/fun-hard
+maclab-105:playground klige001$ ln fun dir2/fun-hard
+maclab-105:playground klige001$ ls -1
+dir1
+dir2
+fun
+fun-hard
+ryan1
+ryan2
+maclab-105:playground klige001$ ls -li
+total 32
+6898062 drwxr-xr-x  3 klige001  UWP\Domain Users    96 Feb 13 15:46 dir1
+6898163 drwxr-xr-x  3 klige001  UWP\Domain Users    96 Feb 13 15:47 dir2
+6898167 -rw-r--r--  4 klige001  UWP\Domain Users  6804 Feb 13 15:34 fun
+6898167 -rw-r--r--  4 klige001  UWP\Domain Users  6804 Feb 13 15:34 fun-hard
+6898066 drwxr-xr-x  3 klige001  UWP\Domain Users    96 Feb 13 15:24 ryan1
+6898067 drwxr-xr-x  2 klige001  UWP\Domain Users    64 Feb 13 15:22 ryan2
+maclab-105:playground klige001$ ln -s fun fun-sym
+maclab-105:playground klige001$ ln -s ../fun dir1/fun-sym
+maclab-105:playground klige001$ ln -s ../fun dir2/fun-symm
+maclab-105:playground klige001$ ln -s ../fun dir2/fun-sym
+maclab-105:playground klige001$ ls -1 dir1
+fun-hard
+fun-sym
+maclab-105:playground klige001$ ln -s /home/me/playground/fun dir1/fun-sym
+ln: dir1/fun-sym: File exists
+maclab-105:playground klige001$ ln -s dir1 dir1-sym
+maclab-105:playground klige001$ ls -1
+dir1
+dir1-sym
+dir2
+fun
+fun-hard
+fun-sym
+ryan1
+ryan2
+maclab-105:playground klige001$ rm fun-hard
+maclab-105:playground klige001$ ls -l
+total 16
+drwxr-xr-x  4 klige001  UWP\Domain Users   128 Feb 13 15:48 dir1
+lrwxr-xr-x  1 klige001  UWP\Domain Users     4 Feb 13 15:51 dir1-sym -> dir1
+drwxr-xr-x  5 klige001  UWP\Domain Users   160 Feb 13 15:49 dir2
+-rw-r--r--  3 klige001  UWP\Domain Users  6804 Feb 13 15:34 fun
+lrwxr-xr-x  1 klige001  UWP\Domain Users     3 Feb 13 15:48 fun-sym -> fun
+drwxr-xr-x  3 klige001  UWP\Domain Users    96 Feb 13 15:24 ryan1
+drwxr-xr-x  2 klige001  UWP\Domain Users    64 Feb 13 15:22 ryan2
+maclab-105:playground klige001$ rm -i fun
+remove fun? y
+maclab-105:playground klige001$ ls -1
+dir1
+dir1-sym
+dir2
+fun-sym
+ryan1
+ryan2
+maclab-105:playground klige001$ less fun-sym
+fun-sym: No such file or directory
+maclab-105:playground klige001$ rm fun-sym dir1-sym
+maclab-105:playground klige001$ ls -1
+dir1
+dir2
+ryan1
+ryan2
+maclab-105:playground klige001$ cd
+maclab-105:~ klige001$ rm -r playground 
+maclab-105:~ klige001$ ls
+Desktop		Library		Pictures	ryan1
+Documents	Movies		Public		ryan2
+Downloads	Music		directory...	ryan3
+maclab-105:~ klige001$ 
