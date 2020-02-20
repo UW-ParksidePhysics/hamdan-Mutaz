@@ -1,0 +1,40 @@
+Last login: Tue Feb 18 14:03:29 on ttys000
+maclab-105:~ klige001$ ls 
+Desktop		Movies		PycharmProjects	ls-output.txt	ryan2
+Documents	Music		directory...	ls.txt		ryan3
+Downloads	Pictures	lazy_dog.txt	movie.mpeg
+Library		Public		ls-error.txt	ryan1
+maclab-105:~ klige001$ ls ls-output.txt 
+ls-output.txt
+maclab-105:~ klige001$ ls Documents
+maclab-105:~ klige001$ history | less
+maclab-105:~ klige001$ history | grep /usr/bin
+    1  ls -1 /usr/bin > ls-output.txt
+    8  ls -1 /usr/bin >> ls-output.txt
+    9  ls -l /usr/bin >> ls-output.txt
+   10  ls -l /usr/bin >> ls-output.txt
+   11  ls -l /usr/bin >> ls-output.txt
+   34  ls -1 /usr/bin | less
+   35  ls /bin /usr/bin | sort | less
+   36  ls /bin /usr/bin | sort | uniq |less
+   37  ls /bin /usr/bin | sort | uniq -d | less
+   39  ls /bin /usr/bin | sort | uniq | wc -l
+   40  ls /bin /usr/bin | sort | uniq | grep zip
+   44  ls /usr/bin > ls-output.txt
+   47  ls /usr/bin | tail -n 5
+   49  ls /usr/bin > ls-output.txt
+   51  ls /usr/bin | tee ls.txt | grep zip
+   56  history | grep /usr/bin
+maclab-105:~ klige001$ !88
+-bash: !88: event not found
+maclab-105:~ klige001$ history | less
+maclab-105:~ klige001$ !54
+ls Documents
+maclab-105:~ klige001$ history | less
+maclab-105:~ klige001$ 
+maclab-105:~ klige001$ `/usr/bin': ls -l /usr/bin > ls-output.txt
+> `/usr/bin': ls -l /usr/bin > ls-output.txt
+> -bash: unexpected EOF while looking for matching `''
+-bash: syntax error: unexpected end of file
+maclab-105:~ klige001$ ls -l /usr/bin > ls-output.txt
+maclab-105:~ klige001$ 
