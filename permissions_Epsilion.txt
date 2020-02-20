@@ -1,0 +1,94 @@
+Last login: Thu Feb 20 14:08:00 on ttys000
+maclab-95:~ hamda013$ file /etc/shadow
+/etc/shadow: cannot open `/etc/shadow' (No such file or directory)
+maclab-95:~ hamda013$ less /etc/shadow
+/etc/shadow: No such file or directory
+maclab-95:~ hamda013$ id
+uid=385807022(hamda013) gid=1116625352(UWP\Domain Users) groups=1116625352(UWP\Domain Users),12(everyone),62(netaccounts),122488206(UWP\2020-SPRG-PENG-211-001),125416489(UWP\2020-SPRG-PHYS-241-001),404264946(UWP\2019-FALL-MATH-223-001),488686889(UWP\2019-SPRG-COMM-107-001),573945132(UWP\DL_ALL-ENRL-CUR-TRM_A),746693073(UWP\2019-SUM-ENGL-167-M21),938502483(UWP\2019-FALL-BUS-100-005),1179213447(UWP\DL_ALL-ENRL-P2-CUR-F1_A),1239965828(UWP\2019-FALL-PHYS-202-001),2016335520(UWP\2019-FALL-PENG-212-003),2059522209(UWP\2020-SPRG-PENG-214-001),219400799(UWP\DL_ADV-LEWISB),710279956(UWP\2019-SPRG-PHYS-201-001),826194757(UWP\2019-FALL-MATH-317-001),884829712(UWP\DL_ALL-EMPL-STUD_A),928887509(UWP\2019-SPRG-ENGL-101-017),1427030562(UWP\Student Users),1437456152(UWP\2019-SPRG-MATH-221-002),1589289961(UWP\2019-FALL-CRMJ-101-001),1737851202(UWP\2020-SPRG-PHYS-403-001),1981629663(UWP\DL_STU-ENRL-CUR-UGRD_A),2124421418(UWP\PSO All Campus),701(com.apple.sharepoint.group.1),702(com.apple.sharepoint.group.2),333250915(UWP\Publisher),376089144(UWP\CTX-Mathematica),1102773013(UWP\Windows Explorer),1535688893(UWP\PS Elements),1953500456(UWP\Parkside-Campus Info-traverse),2110368857(UWP\SSH),178840370(UWP\Internet Explorer),183735245(UWP\Accessories),336527048(UWP\CreativeServices-Public-full),714050089(UWP\InfoPath),739946822(UWP\Notepad_Plus),839023789(UWP\Visio),993404883(UWP\Project),1111887947(UWP\Parkside-Campus Info-Leadership-read),1289955258(UWP\Emergency List),1371522217(UWP\Adobe Reader),1432469368(UWP\Office),1458183425(UWP\Notepad),1875240670(UWP\IBM Director Client),2144369774(UWP\SPSS)
+maclab-95:~ hamda013$ id
+uid=385807022(hamda013) gid=1116625352(UWP\Domain Users) groups=1116625352(UWP\Domain Users),12(everyone),62(netaccounts),122488206(UWP\2020-SPRG-PENG-211-001),125416489(UWP\2020-SPRG-PHYS-241-001),404264946(UWP\2019-FALL-MATH-223-001),488686889(UWP\2019-SPRG-COMM-107-001),573945132(UWP\DL_ALL-ENRL-CUR-TRM_A),746693073(UWP\2019-SUM-ENGL-167-M21),938502483(UWP\2019-FALL-BUS-100-005),1179213447(UWP\DL_ALL-ENRL-P2-CUR-F1_A),1239965828(UWP\2019-FALL-PHYS-202-001),2016335520(UWP\2019-FALL-PENG-212-003),2059522209(UWP\2020-SPRG-PENG-214-001),219400799(UWP\DL_ADV-LEWISB),710279956(UWP\2019-SPRG-PHYS-201-001),826194757(UWP\2019-FALL-MATH-317-001),884829712(UWP\DL_ALL-EMPL-STUD_A),928887509(UWP\2019-SPRG-ENGL-101-017),1427030562(UWP\Student Users),1437456152(UWP\2019-SPRG-MATH-221-002),1589289961(UWP\2019-FALL-CRMJ-101-001),1737851202(UWP\2020-SPRG-PHYS-403-001),1981629663(UWP\DL_STU-ENRL-CUR-UGRD_A),2124421418(UWP\PSO All Campus),701(com.apple.sharepoint.group.1),702(com.apple.sharepoint.group.2),333250915(UWP\Publisher),376089144(UWP\CTX-Mathematica),1102773013(UWP\Windows Explorer),1535688893(UWP\PS Elements),1953500456(UWP\Parkside-Campus Info-traverse),2110368857(UWP\SSH),178840370(UWP\Internet Explorer),183735245(UWP\Accessories),336527048(UWP\CreativeServices-Public-full),714050089(UWP\InfoPath),739946822(UWP\Notepad_Plus),839023789(UWP\Visio),993404883(UWP\Project),1111887947(UWP\Parkside-Campus Info-Leadership-read),1289955258(UWP\Emergency List),1371522217(UWP\Adobe Reader),1432469368(UWP\Office),1458183425(UWP\Notepad),1875240670(UWP\IBM Director Client),2144369774(UWP\SPSS)
+maclab-95:~ hamda013$ > foo.txt
+maclab-95:~ hamda013$ ls -l foo.txt
+-rw-r--r--  1 hamda013  UWP\Domain Users  0 Feb 20 14:14 foo.txt
+maclab-95:~ hamda013$ chmod 600 foo.txt
+maclab-95:~ hamda013$ ls -l foo.txt
+-rw-------  1 hamda013  UWP\Domain Users  0 Feb 20 14:14 foo.txt
+maclab-95:~ hamda013$ rm -f foo.txt
+maclab-95:~ hamda013$ unmask
+-bash: unmask: command not found
+maclab-95:~ hamda013$ > foo.txt
+maclab-95:~ hamda013$ ls -l foo.txt
+-rw-r--r--  1 hamda013  UWP\Domain Users  0 Feb 20 14:16 foo.txt
+maclab-95:~ hamda013$ rm foo.txt
+maclab-95:~ hamda013$ umask 0000
+maclab-95:~ hamda013$ > foo.txt
+maclab-95:~ hamda013$ ls -l foo.txt
+-rw-rw-rw-  1 hamda013  UWP\Domain Users  0 Feb 20 14:16 foo.txt
+maclab-95:~ hamda013$ rm foo.txt; umask 0002
+maclab-95:~ hamda013$ su -
+Password:
+su: Sorry
+maclab-95:~ hamda013$ su -
+Password:
+su: Sorry
+maclab-95:~ hamda013$ su -
+Password:
+su: Sorry
+maclab-95:~ hamda013$ su -c 'ls -l /root/*'
+su: illegal option -- c
+usage: su [-] [-flm] [login [args]]
+maclab-95:~ hamda013$ sudo backup_script
+Password:
+Sorry, try again.
+Password:
+Sorry, try again.
+Password:
+sudo: 3 incorrect password attempts
+maclab-95:~ hamda013$ sudo cp myfile.txt ~tony
+Password:
+Sorry, try again.
+Password:
+Sorry, try again.
+Password:
+sudo: 3 incorrect password attempts
+maclab-95:~ hamda013$  sudo mkdir /usr/local/share/Music
+Password:
+Sorry, try again.
+Password:
+Sorry, try again.
+Password:
+afsudo: 3 incorrect password attempts
+maclab-95:~ hamda013$ ls -ld /usr/local/share/Music
+ls: /usr/local/share/Music: No such file or directory
+maclab-95:~ hamda013$ ls -ld /usr/local/share/Music
+ls: /usr/local/share/Music: No such file or directory
+maclab-95:~ hamda013$ > /usr/local/share/Music/test_file
+-bash: /usr/local/share/Music/test_file: No such file or directory
+maclab-95:~ hamda013$ ls -l /usr/local/share/Music
+ls: /usr/local/share/Music: No such file or directory
+maclab-95:~ hamda013$ ls -ld /usr/local/share/Music
+ls: /usr/local/share/Music: No such file or directory
+maclab-95:~ hamda013$ umask 0002
+maclab-95:~ hamda013$ rm /usr/local/share/Music/test_file
+rm: /usr/local/share/Music/test_file: No such file or directory
+maclab-95:~ hamda013$ > /usr/local/share/Music/test_file
+-bash: /usr/local/share/Music/test_file: No such file or directory
+maclab-95:~ hamda013$ mkdir /usr/local/share/Music/test_dir
+mkdir: /usr/local/share/Music: No such file or directory
+maclab-95:~ hamda013$ ls -l /usr/local/share/Music
+ls: /usr/local/share/Music: No such file or directory
+maclab-95:~ hamda013$ mkdir /usr/local/share/Music
+mkdir: /usr/local/share: No such file or directory
+maclab-95:~ hamda013$ ls -ld /usr/local/share/Music
+ls: /usr/local/share/Music: No such file or directory
+maclab-95:~ hamda013$ 
+
+
+
+
+
+
+
+
+
+
