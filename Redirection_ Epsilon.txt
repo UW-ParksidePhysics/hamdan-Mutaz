@@ -1,0 +1,129 @@
+Last login: Tue Feb 18 14:02:58 on console
+maclab-105:~ klige001$ ls -1 /usr/bin > ls-output.txt
+maclab-105:~ klige001$ ls -l ls-output.txt
+-rw-r--r--  1 klige001  UWP\Domain Users  8091 Feb 18 14:07 ls-output.txt
+maclab-105:~ klige001$ less ls-output.txt
+maclab-105:~ klige001$ less ls-output.txt
+maclab-105:~ klige001$ ls -1 /bin/usr > ls-output.txt
+ls: /bin/usr: No such file or directory
+maclab-105:~ klige001$ ls -1 ls-output.txt
+ls-output.txt
+maclab-105:~ klige001$ > ls-output.txt
+maclab-105:~ klige001$ ls -1 /usr/bin >> ls-output.txt
+maclab-105:~ klige001$ ls -l /usr/bin >> ls-output.txt
+maclab-105:~ klige001$ ls -l /usr/bin >> ls-output.txt
+maclab-105:~ klige001$ ls -l /usr/bin >> ls-output.txt
+maclab-105:~ klige001$ ls -l ls-output.txt
+-rw-r--r--  1 klige001  UWP\Domain Users  200169 Feb 18 14:16 ls-output.txt
+maclab-105:~ klige001$ ls -l /bin/usr 2> ls-error.txt
+maclab-105:~ klige001$ ls -1 /bin/usr >ls-output.txt 2>&1
+maclab-105:~ klige001$ ls -1 /bin/usr &> ls-output.txt
+maclab-105:~ klige001$ ls -l /bin/usr &>> ls-output.txt
+-bash: syntax error near unexpected token `>'
+maclab-105:~ klige001$ ls -l /bin/usr &>> ls-output.txt
+-bash: syntax error near unexpected token `>'
+maclab-105:~ klige001$ ls -1 /bin/usr &>> ls-output.txt
+-bash: syntax error near unexpected token `>'
+maclab-105:~ klige001$ ls -1 /bin/usr 2> /dev/null
+maclab-105:~ klige001$ cat ls-output.txt
+ls: /bin/usr: No such file or directory
+maclab-105:~ klige001$ cat [file...]
+cat: [file...]: No such file or directory
+maclab-105:~ klige001$ cat ls-output.txt
+ls: /bin/usr: No such file or directory
+maclab-105:~ klige001$ ls -1 /bin/usr 2> /dev/null
+maclab-105:~ klige001$ cat ls-output.txt
+ls: /bin/usr: No such file or directory
+maclab-105:~ klige001$ cat [file...]
+cat: [file...]: No such file or directory
+maclab-105:~ klige001$ cat ls-output.txt
+ls: /bin/usr: No such file or directory
+maclab-105:~ klige001$ cat movie.mpeg.0^* > movie.mpeg
+cat: movie.mpeg.0^*: No such file or directory
+maclab-105:~ klige001$ cat movie.mpeg.0* > movie.mpeg
+cat: movie.mpeg.0*: No such file or directory
+maclab-105:~ klige001$ cat
+The quick brown fox jumped over the lazy dog.
+The quick brown fox jumped over the lazy dog.
+cat  
+cat
+maclab-105:~ klige001$ cat 
+maclab-105:~ klige001$ cat > lazy_dog.txt
+The quick brown fox jumped over the lazy dog.
+maclab-105:~ klige001$ cat lazy_dog.txt
+The quick brown fox jumped over the lazy dog.
+maclab-105:~ klige001$ cat < lazy_dog.txt
+The quick brown fox jumped over the lazy dog.
+maclab-105:~ klige001$ ls -1 /usr/bin | less
+maclab-105:~ klige001$ ls /bin /usr/bin | sort | less
+maclab-105:~ klige001$ ls /bin /usr/bin | sort | uniq |less
+maclab-105:~ klige001$ ls /bin /usr/bin | sort | uniq -d | less
+maclab-105:~ klige001$ wc ls-output.txt
+       1       7      40 ls-output.txt
+maclab-105:~ klige001$ ls /bin /usr/bin | sort | uniq | wc -l
+    1007
+maclab-105:~ klige001$ ls /bin /usr/bin | sort | uniq | grep zip
+bunzip2
+bzip2
+bzip2recover
+funzip
+gunzip
+gzip
+unzip
+unzipsfx
+zip
+zipcloak
+zipdetails
+zipdetails5.18
+zipgrep
+zipinfo
+zipnote
+zipsplit
+maclab-105:~ klige001$ head -n 5 ls-output.txt
+ls: /bin/usr: No such file or directory
+maclab-105:~ klige001$ head -n 5 ls-output.txt
+ls: /bin/usr: No such file or directory
+maclab-105:~ klige001$ tail -n 5 ls-output.txt
+ls: /bin/usr: No such file or directory
+maclab-105:~ klige001$ ls /usr/bin > ls-output.txt
+maclab-105:~ klige001$ head -n 5 ls-output.txt
+2to3-
+2to3-2.7
+AssetCacheLocatorUtil
+AssetCacheManagerUtil
+AssetCacheTetheratorUtil
+maclab-105:~ klige001$ tail -n 5 ls-output.txt
+zipsplit
+zless
+zmore
+znew
+zprint
+maclab-105:~ klige001$ ls /usr/bin | tail -n 5
+zipsplit
+zless
+zmore
+znew
+zprint
+maclab-105:~ klige001$ tail -f /var/log/messages
+tail: /var/log/messages: No such file or directory
+maclab-105:~ klige001$ ls /usr/bin > ls-output.txt
+maclab-105:~ klige001$ tail -f /var/log/messages
+tail: /var/log/messages: No such file or directory
+maclab-105:~ klige001$ ls /usr/bin | tee ls.txt | grep zip
+bunzip2
+bzip2
+bzip2recover
+funzip
+gunzip
+gzip
+unzip
+unzipsfx
+zip
+zipcloak
+zipdetails
+zipdetails5.18
+zipgrep
+zipinfo
+zipnote
+zipsplit
+maclab-105:~ klige001$ 
