@@ -1,0 +1,1330 @@
+Last login: Thu Feb 20 14:01:39 on console
+maclab-105:~ klige001$ ps
+  PID TTY           TIME CMD
+ 4969 ttys000    0:00.01 -bash
+maclab-105:~ klige001$ ps x
+  PID   TT  STAT      TIME COMMAND
+ 4599   ??  S      0:00.02 /System/Library/Frameworks/LocalAuthentication.frame
+ 4600   ??  S      0:00.46 /usr/sbin/cfprefsd agent
+ 4622   ??  S      0:00.40 /usr/libexec/UserEventAgent (Aqua)
+ 4624   ??  S      0:00.17 /usr/sbin/distnoted agent
+ 4625   ??  S      0:00.09 /usr/sbin/universalaccessd launchd -s
+ 4627   ??  S      0:00.15 /System/Library/Frameworks/CoreTelephony.framework/S
+ 4628   ??  S      0:00.23 /usr/libexec/lsd
+ 4629   ??  S      0:01.40 /usr/libexec/trustd --agent
+ 4640   ??  S      0:00.11 /usr/libexec/secd
+ 4641   ??  S      0:00.73 /System/Library/PrivateFrameworks/CloudKitDaemon.fra
+ 4642   ??  S      0:00.16 /System/Library/PrivateFrameworks/TelephonyUtilities
+ 4644   ??  S      0:00.30 /System/Library/Frameworks/Accounts.framework/Versio
+ 4645   ??  S      0:00.14 /System/Library/PrivateFrameworks/IDS.framework/iden
+ 4646   ??  S      0:00.02 /System/Library/Frameworks/Security.framework/Versio
+ 4656   ??  S      0:00.13 /System/Library/PrivateFrameworks/TCC.framework/Reso
+ 4657   ??  S      0:00.31 /usr/libexec/nsurlsessiond
+ 4658   ??  S      0:00.11 /System/Library/PrivateFrameworks/IMCore.framework/i
+ 4661   ??  S      0:00.06 /System/Library/PrivateFrameworks/IMDPersistence.fra
+ 4662   ??  S      0:00.05 /System/Library/Frameworks/AddressBook.framework/Exe
+ 4664   ??  S      0:00.29 /usr/libexec/secinitd
+ 4668   ??  S      0:00.06 /usr/libexec/rapportd
+ 4671   ??  S      0:00.17 /usr/sbin/usernoted
+ 4674   ??  S      0:00.68 /usr/libexec/routined LAUNCHED_BY_LAUNCHD
+ 4675   ??  S      0:00.58 /System/Library/CoreServices/NotificationCenter.app/
+ 4679   ??  Ss     0:00.04 /System/Library/PrivateFrameworks/IMFoundation.frame
+ 4680   ??  S      0:00.13 /System/Library/PrivateFrameworks/MessagesKit.framew
+ 4681   ??  S      0:00.56 /usr/libexec/nsurlstoraged
+ 4682   ??  S      0:00.03 /usr/libexec/pboard
+ 4683   ??  S      0:00.07 /System/Library/PrivateFrameworks/UserActivity.frame
+ 4684   ??  S      0:00.08 /System/Library/CoreServices/talagent
+ 4685   ??  S      0:00.57 /System/Library/Frameworks/ApplicationServices.frame
+ 4687   ??  S      0:00.18 /usr/libexec/sharingd
+ 4688   ??  S      0:00.07 /usr/libexec/fmfd
+ 4690   ??  Ss     0:00.04 /System/Library/PrivateFrameworks/IMFoundation.frame
+ 4691   ??  S      0:00.07 /System/Library/PrivateFrameworks/ViewBridge.framewo
+ 4694   ??  S      0:00.09 /System/Library/CoreServices/sharedfilelistd
+ 4695   ??  Ss     0:00.02 /System/Library/PrivateFrameworks/IMFoundation.frame
+ 4696   ??  S      0:00.03 /System/Library/PrivateFrameworks/FamilyCircle.frame
+ 4699   ??  Ss     0:00.04 /System/Library/PrivateFrameworks/IMFoundation.frame
+ 4700   ??  S      0:00.08 /System/Library/PrivateFrameworks/AOSKit.framework/V
+ 4701   ??  S      0:00.10 /System/Library/CoreServices/CoreLocationAgent.app/C
+ 4703   ??  S      0:00.03 /usr/libexec/networkserviceproxy
+ 4704   ??  S      0:00.48 /System/Library/PrivateFrameworks/CalendarAgent.fram
+ 4705   ??  S      0:00.01 /System/Library/CoreServices/APFSUserAgent
+ 4706   ??  S      0:00.53 /System/Library/PrivateFrameworks/CoreParsec.framewo
+ 4712   ??  S      0:00.15 /System/Library/CoreServices/iconservicesagent
+ 4718   ??  Ss     0:00.15 /System/Library/PrivateFrameworks/CalendarNotificati
+ 4719   ??  S      0:00.45 /System/Library/PrivateFrameworks/CoreSuggestions.fr
+ 4720   ??  S      0:00.18 /System/Library/CoreServices/SafariSupport.bundle/Co
+ 4722   ??  S      0:00.12 /System/Library/CoreServices/mapspushd
+ 4724   ??  S      0:00.68 /usr/libexec/pkd
+ 4725   ??  S      0:00.07 /System/Library/PrivateFrameworks/CommerceKit.framew
+ 4728   ??  S      0:00.20 /System/Library/Frameworks/CoreServices.framework/Fr
+ 4729   ??  S      0:00.15 /System/Library/PrivateFrameworks/AssistantServices.
+ 4730   ??  S      0:00.06 /usr/libexec/swcd
+ 4731   ??  S      0:00.05 /System/Library/PrivateFrameworks/CloudDocsDaemon.fr
+ 4732   ??  S      0:00.03 /System/Library/CoreServices/pbs
+ 4734   ??  S      0:00.03 /System/Library/CoreServices/backgroundtaskmanagemen
+ 4735   ??  S      0:00.25 /System/Library/CoreServices/WiFiAgent.app/Contents/
+ 4737   ??  S      0:00.06 /System/Library/PrivateFrameworks/AuthKit.framework/
+ 4739   ??  S      0:00.86 /System/Library/PrivateFrameworks/CommerceKit.framew
+ 4751   ??  S      0:19.22 /Applications/Safari.app/Contents/MacOS/Safari -psn_
+ 4752   ??  S      0:01.00 /Applications/Utilities/Terminal.app/Contents/MacOS/
+ 4755   ??  S      0:00.84 /System/Library/CoreServices/Dock.app/Contents/MacOS
+ 4756   ??  S      0:00.29 /System/Library/CoreServices/SystemUIServer.app/Cont
+ 4757   ??  S      0:00.30 /System/Library/CoreServices/Finder.app/Contents/Mac
+ 4760   ??  Ss     0:00.02 /System/Library/CoreServices/NotificationCenter.app/
+ 4762   ??  S      0:01.47 /System/Library/CoreServices/Spotlight.app/Contents/
+ 4765   ??  Ss     0:00.11 /System/Library/Frameworks/VideoToolbox.framework/Ve
+ 4766   ??  Ss     0:00.14 /Applications/Utilities/Adobe Sync/CoreSync/Core Syn
+ 4768   ??  S      0:00.34 /System/Library/PrivateFrameworks/GeoServices.framew
+ 4770   ??  Ss     0:00.04 /System/Library/PrivateFrameworks/CoreWLANKit.framew
+ 4772   ??  Ss     0:00.01 /System/Library/PrivateFrameworks/login.framework/Ve
+ 4774   ??  S      0:00.10 /System/Library/StagedFrameworks/Safari/SafariShared
+ 4776   ??  S      0:00.08 /System/Library/CoreServices/CoreServicesUIAgent.app
+ 4780   ??  Ss     0:01.92 /System/Library/StagedFrameworks/Safari/WebKit.frame
+ 4782   ??  S      0:00.07 /System/Library/CoreServices/SafariSupport.bundle/Co
+ 4787   ??  S      0:00.08 /System/Library/Frameworks/ApplicationServices.frame
+ 4789   ??  S      0:00.09 /System/Library/Frameworks/CoreServices.framework/Fr
+ 4790   ??  S      0:00.06 /System/Library/Frameworks/CoreServices.framework/Fr
+ 4791   ??  S      0:00.08 /System/Library/Frameworks/CoreServices.framework/Fr
+ 4792   ??  S      0:00.13 /System/Library/Frameworks/CoreServices.framework/Fr
+ 4795   ??  S      0:00.07 /usr/libexec/videosubscriptionsd
+ 4797   ??  S      0:00.52 /System/Library/PrivateFrameworks/CacheDelete.framew
+ 4804   ??  Ss     0:00.12 /System/Library/CoreServices/Dock.app/Contents/XPCSe
+ 4808   ??  S      0:00.08 /System/Library/CoreServices/diagnostics_agent
+ 4809   ??  S      0:00.20 /System/Library/CoreServices/cloudphotosd.app/Conten
+ 4810   ??  S      0:00.10 /System/Library/PrivateFrameworks/CommerceKit.framew
+ 4811   ??  S      0:00.04 /System/Library/PrivateFrameworks/QuickLookThumbnail
+ 4812   ??  S      0:00.02 /System/Library/PrivateFrameworks/CallHistory.framew
+ 4823   ??  S      0:00.01 SafeEjectGPUAgent
+ 4824   ??  S      0:00.02 /System/Library/CoreServices/Menu Extras/SafeEjectGP
+ 4857   ??  Ss     0:00.04 /System/Library/PrivateFrameworks/AssistantServices.
+ 4858   ??  S      0:00.06 /System/Library/PrivateFrameworks/CloudPhotoServices
+ 4860   ??  S      0:00.12 /usr/libexec/knowledge-agent
+ 4861   ??  Ss     0:00.06 /System/Library/Frameworks/iTunesLibrary.framework/V
+ 4863   ??  Ss     0:00.39 /System/Library/Frameworks/MediaLibrary.framework/Ve
+ 4864   ??  S      0:00.09 /System/Library/PrivateFrameworks/PhotoLibraryPrivat
+ 4866   ??  S      0:00.06 /System/Library/PrivateFrameworks/AssetCacheServices
+ 4870   ??  S      0:00.02 /System/Library/PrivateFrameworks/CoreSpeech.framewo
+ 4874   ??  S      0:00.03 /System/Library/CoreServices/SocialPushAgent.app/Con
+ 4876   ??  SN     0:00.05 /usr/local/jamf/bin/jamfAgent
+ 4877   ??  S      0:00.05 /usr/libexec/dmd
+ 4878   ??  S      0:00.10 /System/Library/Frameworks/InputMethodKit.framework/
+ 4879   ??  S      0:00.07 /System/Library/Image Capture/Support/icdd
+ 4882   ??  S      0:00.08 /Library/Application Support/Pharos/Notify.app/Conte
+ 4883   ??  S      0:00.05 /System/Library/CoreServices/AirPlayUIAgent.app/Cont
+ 4884   ??  S      0:00.06 /System/Library/CoreServices/cloudpaird
+ 4885   ??  S      0:06.33 /Applications/Utilities/Adobe Creative Cloud/ACC/Cre
+ 4886   ??  S      0:00.13 /System/Library/PrivateFrameworks/Noticeboard.framew
+ 4887   ??  S      0:00.10 /usr/libexec/adprivacyd
+ 4888   ??  S      0:00.09 /Library/Application Support/Malwarebytes/Malwarebyt
+ 4890   ??  S      0:00.02 /System/Library/Frameworks/CryptoTokenKit.framework/
+ 4891   ??  S      0:00.02 /System/Library/Frameworks/CryptoTokenKit.framework/
+ 4898   ??  S      0:00.18 /Library/Application Support/Adobe/Adobe Desktop Com
+ 4900   ??  S      0:01.88 /Applications/Utilities/Adobe Creative Cloud/ACC/Cre
+ 4901   ??  Ss     0:00.03 /System/Library/Frameworks/VideoToolbox.framework/Ve
+ 4902   ??  S      0:02.99 /Library/Application Support/Adobe/Adobe Desktop Com
+ 4904   ??  S      0:00.24 /Applications/Utilities/Adobe Creative Cloud/ACC/Cre
+ 4905   ??  S      0:00.41 /Applications/Utilities/Adobe Creative Cloud/ACC/Cre
+ 4908   ??  S      0:00.23 /Library/Application Support/Adobe/Adobe Desktop Com
+ 4909   ??  S      0:00.57 /Library/Application Support/Adobe/Creative Cloud Li
+ 4911   ??  S      0:00.04 /System/Library/Frameworks/CoreServices.framework/Fr
+ 4914   ??  S      0:00.04 /System/Library/Frameworks/CoreServices.framework/Fr
+ 4915   ??  S      0:00.04 /System/Library/Frameworks/CoreServices.framework/Fr
+ 4917   ??  S      0:00.01 /System/Library/Frameworks/ColorSync.framework/Suppo
+ 4920   ??  S      0:02.84 /Applications/Utilities/Adobe Creative Cloud/ACC/Cre
+ 4924   ??  S      0:00.16 /Applications/Utilities/Adobe Sync/CoreSync/Core Syn
+ 4925   ??  S      0:00.39 /Applications/Utilities/Adobe Creative Cloud Experie
+ 4926   ??  S      0:00.26 /Applications/Utilities/Adobe Sync/CoreSync/Core Syn
+ 4941   ??  S      0:00.93 /System/Library/PrivateFrameworks/Tourist.framework/
+ 4942   ??  S      0:00.02 /System/Library/CoreServices/Software Update.app/Con
+ 4945   ??  S      0:00.06 /System/Library/PrivateFrameworks/CommerceKit.framew
+ 4946   ??  S      0:00.44 /System/Library/PrivateFrameworks/CommerceKit.framew
+ 4947   ??  S      0:00.07 /System/Library/PrivateFrameworks/CommerceKit.framew
+ 4948   ??  Ss     0:00.07 /System/Library/PrivateFrameworks/CommerceKit.framew
+ 4954   ??  S      0:00.04 /System/Library/CoreServices/EscrowSecurityAlert.app
+ 4964   ??  S      0:00.48 /System/Library/Services/AppleSpell.service/Contents
+ 4965   ??  S      0:00.07 /usr/libexec/keyboardservicesd
+ 4967   ??  Ss     0:00.14 /System/Library/PrivateFrameworks/CommerceKit.framew
+ 4976   ??  S      0:00.05 /System/Library/Frameworks/CoreServices.framework/Fr
+ 4978   ??  S      0:00.04 /System/Library/Frameworks/CoreServices.framework/Ve
+ 4979   ??  S      0:00.06 /System/Library/PrivateFrameworks/PhotoAnalysis.fram
+ 4982   ??  S      0:00.05 /System/Library/PrivateFrameworks/IMDPersistence.fra
+ 4983   ??  Ss     0:14.04 /System/Library/StagedFrameworks/Safari/WebKit.frame
+ 4986   ??  S      0:01.15 /System/Library/PrivateFrameworks/SafariSafeBrowsing
+ 4991   ??  Ss     0:00.14 /System/Library/StagedFrameworks/Safari/SafariShared
+ 4992   ??  Ss     0:01.97 /System/Library/StagedFrameworks/Safari/WebKit.frame
+ 4993   ??  S      0:00.12 /usr/libexec/silhouette
+ 4994   ??  S      0:00.05 /System/Library/PrivateFrameworks/ContextKit.framewo
+ 4995   ??  Ss     0:00.10 /System/Library/Frameworks/Metal.framework/Versions/
+ 4996   ??  S      0:00.01 /System/Library/Frameworks/MediaAccessibility.framew
+ 4997   ??  Ss     0:00.37 /System/Library/StagedFrameworks/Safari/WebKit.frame
+ 4998   ??  S      0:00.07 /System/Library/PrivateFrameworks/UsageTracking.fram
+ 5000   ??  S      0:00.22 /System/Library/PrivateFrameworks/AppStoreDaemon.fra
+ 5001   ??  S      0:00.02 /System/Library/PrivateFrameworks/CoreFollowUp.frame
+ 5002   ??  Ss     0:00.83 /System/Library/StagedFrameworks/Safari/WebKit.frame
+ 5004   ??  Ss     0:00.05 /System/Library/Frameworks/Metal.framework/Versions/
+ 5006   ??  Ss     0:00.04 /System/Library/Frameworks/Metal.framework/Versions/
+ 5007   ??  Ss     0:03.28 /System/Library/StagedFrameworks/Safari/WebKit.frame
+ 5008   ??  Ss     0:00.09 /System/Library/StagedFrameworks/Safari/WebKit.frame
+ 5009   ??  S      0:00.21 /System/Library/Frameworks/ApplicationServices.frame
+ 5012   ??  S      0:00.07 /System/Library/PrivateFrameworks/ProtectedCloudStor
+ 5013   ??  S      0:00.20 /System/Library/Frameworks/ApplicationServices.frame
+ 4968 s000  Ss     0:00.01 login -pf klige001
+ 4969 s000  S      0:00.01 -bash
+ 5077 s000  R+     0:00.00 ps x
+maclab-105:~ klige001$ ps aux
+USER               PID  %CPU %MEM      VSZ    RSS   TT  STAT STARTED      TIME COMMAND
+_windowserver     3969   0.1  0.7  7587008 115368   ??  Ss   12:33PM   0:22.30 /System/Library/
+_netbios           334   0.1  0.1  4331424   9444   ??  SNs   8:22AM   0:00.47 /usr/sbin/netbio
+root               102   0.1  0.1  4426508  20536   ??  Ss    8:22AM   0:31.51 /usr/libexec/ope
+klige001          5012   0.0  0.1  4354824  15436   ??  S     2:07PM   0:00.07 /System/Library/
+klige001          5009   0.0  0.1  4353688   8924   ??  S     2:06PM   0:00.21 /System/Library/
+klige001          5008   0.0  0.3 89423828  44136   ??  Ss    2:06PM   0:00.09 /System/Library/
+klige001          5007   0.0  0.9 89728392 143668   ??  Ss    2:06PM   0:03.29 /System/Library/
+klige001          5006   0.0  0.1  4828220  14816   ??  Ss    2:04PM   0:00.04 /System/Library/
+klige001          5004   0.0  0.1  4846748  15916   ??  Ss    2:03PM   0:00.05 /System/Library/
+klige001          5002   0.0  0.5 106239096  77900   ??  Ss    2:03PM   0:00.83 /System/Library/
+klige001          5001   0.0  0.1  4319244   9620   ??  S     2:03PM   0:00.02 /System/Library/
+klige001          5000   0.0  0.1  4361448  21788   ??  S     2:03PM   0:00.23 /System/Library/
+klige001          4998   0.0  0.1  4355024  12280   ??  S     2:03PM   0:00.07 /System/Library/
+klige001          4997   0.0  0.5 106238488  80236   ??  Ss    2:03PM   0:00.38 /System/Library/
+klige001          4996   0.0  0.0  4318448   5380   ??  S     2:03PM   0:00.01 /System/Library/
+klige001          4995   0.0  0.1  4826696  16180   ??  Ss    2:03PM   0:00.10 /System/Library/
+klige001          4994   0.0  0.1  4416556  12444   ??  S     2:03PM   0:00.05 /System/Library/
+klige001          4993   0.0  0.1  4328860  15632   ??  S     2:03PM   0:00.12 /usr/libexec/sil
+klige001          4992   0.0  1.0 89665228 168192   ??  Ss    2:03PM   0:01.97 /System/Library/
+klige001          4991   0.0  0.2  4460932  35660   ??  Ss    2:02PM   0:00.14 /System/Library/
+klige001          4986   0.0  0.2  4378532  26252   ??  S     2:02PM   0:01.15 /System/Library/
+klige001          4983   0.0  1.5 106664564 257368   ??  Ss    2:02PM   0:15.63 /System/Library/
+klige001          4982   0.0  0.1  4354724  19564   ??  S     2:02PM   0:00.05 /System/Library/
+klige001          4979   0.0  0.2  4353856  28364   ??  S     2:02PM   0:00.06 /System/Library/
+klige001          4978   0.0  0.0  4354440   7148   ??  S     2:02PM   0:00.04 /System/Library/
+klige001          4976   0.0  0.1  4365104  13496   ??  S     2:02PM   0:00.05 /System/Library/
+_spotlight        4975   0.0  0.1  4339788  18516   ??  S     2:02PM   0:00.06 /System/Library/
+klige001          4969   0.0  0.0  4297560   1580 s000  S     2:02PM   0:00.01 -bash
+root              4968   0.0  0.0  4327184   5960 s000  Ss    2:02PM   0:00.01 login -pf klige0
+klige001          4967   0.0  0.1  4361796  19576   ??  Ss    2:02PM   0:00.14 /System/Library/
+klige001          4965   0.0  0.1  4361424  17508   ??  S     2:02PM   0:00.07 /usr/libexec/key
+klige001          4964   0.0  0.3  4420316  48200   ??  S     2:02PM   0:00.48 /System/Library/
+ocasi002          4960   0.0  0.1  4360284  10740   ??  S     2:02PM   0:00.12 /usr/libexec/tru
+allen108          4959   0.0  0.1  4360240  10736   ??  S     2:02PM   0:00.11 /usr/libexec/tru
+klige001          4954   0.0  0.2  4319600  27072   ??  S     2:02PM   0:00.04 /System/Library/
+klige001          4948   0.0  0.1  4331432  14672   ??  Ss    2:02PM   0:00.07 /System/Library/
+klige001          4947   0.0  0.1  4371828  22856   ??  S     2:02PM   0:00.07 /System/Library/
+klige001          4946   0.0  0.1  4366304  23072   ??  S     2:02PM   0:00.44 /System/Library/
+klige001          4945   0.0  0.1  4354940  17636   ??  S     2:02PM   0:00.06 /System/Library/
+klige001          4942   0.0  0.1  4320188  12908   ??  S     2:02PM   0:00.02 /System/Library/
+klige001          4941   0.0  0.2  4374276  32200   ??  S     2:02PM   0:00.94 /System/Library/
+klige001          4926   0.0  0.1  4355428  10612   ??  S     2:01PM   0:00.29 /Applications/Ut
+klige001          4925   0.0  0.3  5007624  51024   ??  S     2:01PM   0:00.39 /Applications/Ut
+klige001          4924   0.0  0.2  4957324  29184   ??  S     2:01PM   0:00.17 /Applications/Ut
+klige001          4920   0.0  0.8  4888104 136412   ??  S     2:01PM   0:03.13 /Applications/Ut
+klige001          4917   0.0  0.0  4319648   6388   ??  S     2:01PM   0:00.01 /System/Library/
+klige001          4915   0.0  0.1  4336008  18608   ??  S     2:01PM   0:00.04 /System/Library/
+klige001          4914   0.0  0.1  4336008  17340   ??  S     2:01PM   0:00.04 /System/Library/
+klige001          4911   0.0  0.1  4362412  13796   ??  S     2:01PM   0:00.04 /System/Library/
+klige001          4909   0.0  0.3  5028012  58684   ??  S     2:01PM   0:00.57 /Library/Applica
+klige001          4908   0.0  0.1  4355428  10556   ??  S     2:01PM   0:00.26 /Library/Applica
+klige001          4905   0.0  0.5  4801512  79512   ??  S     2:01PM   0:00.41 /Applications/Ut
+klige001          4904   0.0  0.1  4354904  10580   ??  S     2:01PM   0:00.26 /Applications/Ut
+klige001          4902   0.0  1.0  5632340 163236   ??  S     2:01PM   0:03.02 /Library/Applica
+klige001          4901   0.0  0.0  4339276   8128   ??  Ss    2:01PM   0:00.03 /System/Library/
+klige001          4900   0.0  0.4  4685068  61444   ??  S     2:01PM   0:02.08 /Applications/Ut
+_gamecontrollerd  4899   0.0  0.1  4319672   9904   ??  Ss    2:01PM   0:00.03 /usr/libexec/gam
+klige001          4898   0.0  0.1  4375848  15704   ??  S     2:01PM   0:00.20 /Library/Applica
+klige001          4891   0.0  0.1  4329020  10812   ??  S     2:01PM   0:00.02 /System/Library/
+klige001          4890   0.0  0.1  4328584  10976   ??  S     2:01PM   0:00.02 /System/Library/
+klige001          4888   0.0  0.1  4390508  18384   ??  S     2:01PM   0:00.09 /Library/Applica
+klige001          4887   0.0  0.1  4358716  21028   ??  S     2:01PM   0:00.10 /usr/libexec/adp
+klige001          4886   0.0  0.1  4375608  22900   ??  S     2:01PM   0:00.13 /System/Library/
+klige001          4885   0.0  0.4  4729904  60624   ??  S     2:01PM   0:06.75 /Applications/Ut
+klige001          4884   0.0  0.1  4355444  21332   ??  S     2:01PM   0:00.06 /System/Library/
+klige001          4883   0.0  0.1  4880012  15328   ??  S     2:01PM   0:00.05 /System/Library/
+klige001          4882   0.0  0.1  4388368  18084   ??  S     2:01PM   0:00.08 /Library/Applica
+klige001          4879   0.0  0.1  4355252  16920   ??  S     2:01PM   0:00.07 /System/Library/
+klige001          4878   0.0  0.1  4357544  12504   ??  S     2:01PM   0:00.10 /System/Library/
+klige001          4877   0.0  0.1  4355228  18084   ??  S     2:01PM   0:00.05 /usr/libexec/dmd
+klige001          4876   0.0  0.1  4355080  11624   ??  SN    2:01PM   0:00.05 /usr/local/jamf/
+klige001          4874   0.0  0.1  4353896  13456   ??  S     2:01PM   0:00.03 /System/Library/
+klige001          4870   0.0  0.1  4301768  17056   ??  S     2:01PM   0:00.02 /System/Library/
+klige001          4866   0.0  0.1  4358088   9712   ??  S     2:01PM   0:00.07 /System/Library/
+klige001          4864   0.0  0.1  4359708  18352   ??  S     2:01PM   0:00.09 /System/Library/
+klige001          4863   0.0  0.2  4384400  31172   ??  Ss    2:01PM   0:00.39 /System/Library/
+klige001          4861   0.0  0.1  4356584  11704   ??  Ss    2:01PM   0:00.06 /System/Library/
+klige001          4860   0.0  0.1  4359852  16424   ??  S     2:01PM   0:00.12 /usr/libexec/kno
+klige001          4858   0.0  0.1  4354252  22980   ??  S     2:01PM   0:00.06 /System/Library/
+klige001          4857   0.0  0.1  4327384  15408   ??  Ss    2:01PM   0:00.04 /System/Library/
+klige001          4824   0.0  0.1  4355080  10400   ??  S     2:01PM   0:00.02 /System/Library/
+klige001          4823   0.0  0.1  4830480   9104   ??  S     2:01PM   0:00.01 SafeEjectGPUAgen
+klige001          4812   0.0  0.1  4346324  10936   ??  S     2:01PM   0:00.02 /System/Library/
+klige001          4811   0.0  0.0  4354076   7496   ??  S     2:01PM   0:00.04 /System/Library/
+klige001          4810   0.0  0.1  4360792  18352   ??  S     2:01PM   0:00.10 /System/Library/
+klige001          4809   0.0  0.2  4398632  34544   ??  S     2:01PM   0:00.21 /System/Library/
+klige001          4808   0.0  0.1  4354784  17324   ??  S     2:01PM   0:00.08 /System/Library/
+klige001          4804   0.0  0.2  4883564  32264   ??  Ss    2:01PM   0:00.12 /System/Library/
+klige001          4797   0.0  0.1  4357052   9828   ??  S     2:01PM   0:00.52 /System/Library/
+klige001          4795   0.0  0.1  4354916  10644   ??  S     2:01PM   0:00.07 /usr/libexec/vid
+klige001          4792   0.0  0.2  4356072  30872   ??  S     2:01PM   0:00.13 /System/Library/
+klige001          4791   0.0  0.1  4340760  19296   ??  S     2:01PM   0:00.08 /System/Library/
+klige001          4790   0.0  0.1  4336832  18432   ??  S     2:01PM   0:00.06 /System/Library/
+klige001          4789   0.0  0.1  4340240  20100   ??  S     2:01PM   0:00.09 /System/Library/
+klige001          4787   0.0  0.0  4327704   5844   ??  S     2:01PM   0:00.08 /System/Library/
+klige001          4782   0.0  0.2  4470076  37136   ??  S     2:01PM   0:00.07 /System/Library/
+klige001          4780   0.0  0.3  4484120  45936   ??  Ss    2:01PM   0:01.95 /System/Library/
+klige001          4776   0.0  0.1  4375512  16112   ??  S     2:01PM   0:00.08 /System/Library/
+klige001          4774   0.0  0.2  4456532  33920   ??  S     2:01PM   0:00.10 /System/Library/
+klige001          4772   0.0  0.0  4327636   5104   ??  Ss    2:01PM   0:00.01 /System/Library/
+klige001          4770   0.0  0.1  4354300  13604   ??  Ss    2:01PM   0:00.04 /System/Library/
+klige001          4768   0.0  0.1  4367152  19456   ??  S     2:01PM   0:00.34 /System/Library/
+klige001          4766   0.0  0.3  4416184  50648   ??  Ss    2:01PM   0:00.14 /Applications/Ut
+klige001          4765   0.0  0.1  4394268  22108   ??  Ss    2:01PM   0:00.11 /System/Library/
+klige001          4762   0.0  0.5  5028096  89284   ??  S     2:01PM   0:01.47 /System/Library/
+klige001          4760   0.0  0.1  4327276  16528   ??  Ss    2:01PM   0:00.02 /System/Library/
+klige001          4757   0.0  0.3  4938632  48020   ??  S     2:01PM   0:00.30 /System/Library/
+klige001          4756   0.0  0.3  4930856  45488   ??  S     2:01PM   0:00.29 /System/Library/
+klige001          4755   0.0  1.0  5039052 170996   ??  S     2:01PM   0:00.85 /System/Library/
+klige001          4752   0.0  0.3  4958648  56884   ??  S     2:01PM   0:01.39 /Applications/Ut
+klige001          4751   0.0  0.9  6571280 147704   ??  S     2:01PM   0:20.26 /Applications/Sa
+klige001          4739   0.0  0.2  4367108  25520   ??  S     2:01PM   0:00.86 /System/Library/
+klige001          4737   0.0  0.1  4358016   9976   ??  S     2:01PM   0:00.06 /System/Library/
+klige001          4735   0.0  0.1  4369284  16264   ??  S     2:01PM   0:00.27 /System/Library/
+klige001          4734   0.0  0.0  4355340   8096   ??  S     2:01PM   0:00.03 /System/Library/
+klige001          4732   0.0  0.0  4358420   7752   ??  S     2:01PM   0:00.03 /System/Library/
+klige001          4731   0.0  0.1  4355032  17424   ??  S     2:01PM   0:00.05 /System/Library/
+klige001          4730   0.0  0.1  4355764   9028   ??  S     2:01PM   0:00.06 /usr/libexec/swc
+klige001          4729   0.0  0.2  4360200  28932   ??  S     2:01PM   0:00.15 /System/Library/
+klige001          4728   0.0  0.2  4552948  35616   ??  S     2:01PM   0:00.20 /System/Library/
+klige001          4725   0.0  0.1  4329024  18248   ??  S     2:01PM   0:00.07 /System/Library/
+klige001          4724   0.0  0.1  4358276  14756   ??  S     2:01PM   0:00.68 /usr/libexec/pkd
+klige001          4722   0.0  0.1  4356744  18576   ??  S     2:01PM   0:00.12 /System/Library/
+klige001          4720   0.0  0.2  4473172  39624   ??  S     2:01PM   0:00.19 /System/Library/
+klige001          4719   0.0  0.3  4421812  42008   ??  S     2:01PM   0:00.45 /System/Library/
+klige001          4718   0.0  0.2  4360432  33528   ??  Ss    2:01PM   0:00.15 /System/Library/
+klige001          4712   0.0  0.1  4376504  13060   ??  S     2:01PM   0:00.15 /System/Library/
+klige001          4706   0.0  0.2  4365980  26056   ??  S     2:01PM   0:00.53 /System/Library/
+klige001          4705   0.0  0.0  4319588   5732   ??  S     2:01PM   0:00.01 /System/Library/
+klige001          4704   0.0  0.2  4362772  39380   ??  S     2:01PM   0:00.48 /System/Library/
+klige001          4703   0.0  0.1  4355796  12012   ??  S     2:01PM   0:00.03 /usr/libexec/net
+klige001          4701   0.0  0.1  4378656  17560   ??  S     2:01PM   0:00.11 /System/Library/
+klige001          4700   0.0  0.1  4359416  17796   ??  S     2:01PM   0:00.08 /System/Library/
+klige001          4699   0.0  0.1  4355280  12732   ??  Ss    2:01PM   0:00.04 /System/Library/
+klige001          4696   0.0  0.1  4354600  18404   ??  S     2:01PM   0:00.03 /System/Library/
+klige001          4695   0.0  0.0  4327160   5644   ??  Ss    2:01PM   0:00.02 /System/Library/
+klige001          4694   0.0  0.1  4355988   9336   ??  S     2:01PM   0:00.09 /System/Library/
+klige001          4691   0.0  0.1  4354976  12524   ??  S     2:01PM   0:00.08 /System/Library/
+klige001          4690   0.0  0.1  4355280  12668   ??  Ss    2:01PM   0:00.04 /System/Library/
+klige001          4688   0.0  0.1  4355804  22844   ??  S     2:01PM   0:00.07 /usr/libexec/fmf
+klige001          4687   0.0  0.2  4364164  34240   ??  S     2:01PM   0:00.19 /usr/libexec/sha
+klige001          4685   0.0  0.1  4356844  12124   ??  S     2:01PM   0:00.58 /System/Library/
+klige001          4684   0.0  0.1  4381800  17608   ??  S     2:01PM   0:00.08 /System/Library/
+klige001          4683   0.0  0.1  4356564  10800   ??  S     2:01PM   0:00.07 /System/Library/
+klige001          4682   0.0  0.0  4328280   6556   ??  S     2:01PM   0:00.03 /usr/libexec/pbo
+klige001          4681   0.0  0.1  4363996  16548   ??  S     2:01PM   0:00.56 /usr/libexec/nsu
+klige001          4680   0.0  0.2  4359944  33944   ??  S     2:01PM   0:00.13 /System/Library/
+klige001          4679   0.0  0.1  4355344  12828   ??  Ss    2:01PM   0:00.04 /System/Library/
+klige001          4675   0.0  0.4  4946052  70800   ??  S     2:01PM   0:00.58 /System/Library/
+klige001          4674   0.0  0.2  4363192  39896   ??  S     2:01PM   0:00.69 /usr/libexec/rou
+klige001          4671   0.0  0.1  4357272  17192   ??  S     2:01PM   0:00.17 /usr/sbin/userno
+klige001          4668   0.0  0.1  4355488  19088   ??  S     2:01PM   0:00.06 /usr/libexec/rap
+klige001          4664   0.0  0.1  4356412  11104   ??  S     2:01PM   0:00.29 /usr/libexec/sec
+klige001          4662   0.0  0.1  4327352  18320   ??  S     2:01PM   0:00.05 /System/Library/
+klige001          4661   0.0  0.1  4355364  18284   ??  S     2:01PM   0:00.06 /System/Library/
+klige001          4658   0.0  0.1  4355748  22820   ??  S     2:01PM   0:00.11 /System/Library/
+klige001          4657   0.0  0.1  4361920  19832   ??  S     2:01PM   0:00.31 /usr/libexec/nsu
+klige001          4656   0.0  0.1  4360004  10608   ??  S     2:01PM   0:00.13 /System/Library/
+klige001          4646   0.0  0.0  4327508   6352   ??  S     2:01PM   0:00.02 /System/Library/
+klige001          4645   0.0  0.1  4364488  19536   ??  S     2:01PM   0:00.14 /System/Library/
+klige001          4644   0.0  0.1  4358296   8964   ??  S     2:01PM   0:00.30 /System/Library/
+klige001          4642   0.0  0.2  4363184  32696   ??  S     2:01PM   0:00.16 /System/Library/
+klige001          4641   0.0  0.2  4367488  36508   ??  S     2:01PM   0:00.73 /System/Library/
+klige001          4640   0.0  0.1  4358672  14976   ??  S     2:01PM   0:00.11 /usr/libexec/sec
+klige001          4629   0.0  0.2  4382248  32004   ??  S     2:01PM   0:01.40 /usr/libexec/tru
+klige001          4628   0.0  0.1  4358856  10728   ??  S     2:01PM   0:00.23 /usr/libexec/lsd
+klige001          4627   0.0  0.2  4367608  34160   ??  S     2:01PM   0:00.15 /System/Library/
+klige001          4625   0.0  0.1  4368120  13632   ??  S     2:01PM   0:00.09 /usr/sbin/univer
+klige001          4624   0.0  0.0  4328420   4872   ??  S     2:01PM   0:00.17 /usr/sbin/distno
+klige001          4622   0.0  0.2  4357152  36432   ??  S     2:01PM   0:00.40 /usr/libexec/Use
+root              4603   0.0  0.1  4354996  10988   ??  Ss    2:01PM   0:00.03 /System/Library/
+klige001          4600   0.0  0.0  4327808   3484   ??  S     2:01PM   0:00.46 /usr/sbin/cfpref
+klige001          4599   0.0  0.1  4354188  10872   ??  S     2:01PM   0:00.02 /System/Library/
+_spotlight        4048   0.0  0.1  4339860  17060   ??  S    12:33PM   0:00.05 /System/Library/
+klige001          3966   0.0  0.2  4913496  25388   ??  Ss   12:33PM   0:00.51 /System/Library/
+root              3836   0.0  0.1  4309996   9200   ??  Ss   12:32PM   0:00.01 /System/Library/
+root              3835   0.0  0.2  4437220  38552   ??  Ss   12:32PM   0:00.23 /System/Library/
+ocasi002          3797   0.0  0.2  4399800  33100   ??  S    12:31PM   0:00.43 /System/Library/
+ocasi002          3193   0.0  0.1  4418604  12524   ??  S    10:45AM   0:00.05 /System/Library/
+ocasi002          3178   0.0  0.0  4327756   5552   ??  S    10:45AM   0:00.01 /System/Library/
+ocasi002          3165   0.0  0.2  4456308  33680   ??  S    10:45AM   0:00.18 /System/Library/
+ocasi002          3150   0.0  0.0  4327796   5836   ??  S    10:36AM   0:00.05 /System/Library/
+ocasi002          2679   0.0  0.1  4354016  22616   ??  S    10:31AM   0:00.08 /System/Library/
+ocasi002          2655   0.0  0.0  4319352   4636   ??  S    10:31AM   0:00.01 /System/Library/
+ocasi002          2593   0.0  0.1  4355080  10440   ??  S    10:31AM   0:00.02 /System/Library/
+ocasi002          2537   0.0  0.1  4366988  18124   ??  S    10:31AM   0:00.46 /System/Library/
+ocasi002          2535   0.0  0.1  4329020  10812   ??  S    10:31AM   0:00.02 /System/Library/
+ocasi002          2458   0.0  0.1  4358348  13960   ??  S    10:31AM   0:03.23 /usr/libexec/pkd
+ocasi002          2442   0.0  0.1  4355364  18156   ??  S    10:31AM   0:00.09 /System/Library/
+ocasi002          2405   0.0  0.1  4356596  11680   ??  S    10:31AM   0:00.97 /usr/libexec/sec
+ocasi002          2378   0.0  0.1  4359024  10528   ??  S    10:31AM   0:00.66 /usr/libexec/lsd
+ocasi002          2370   0.0  0.0  4328420   5128   ??  S    10:31AM   0:00.63 /usr/sbin/distno
+ocasi002          2346   0.0  0.0  4328008   3748   ??  S    10:31AM   0:00.99 /usr/sbin/cfpref
+ocasi002          2345   0.0  0.1  4354188  10848   ??  S    10:31AM   0:00.03 /System/Library/
+root              2182   0.0  0.0  4293260   4916   ??  Ss   10:07AM   0:00.01 /usr/libexec/app
+root              2179   0.0  0.0  4357632   7612   ??  Ss   10:04AM   0:00.18 /System/Library/
+root              2178   0.0  0.1  4356908  16904   ??  Ss   10:04AM   0:00.52 /System/Library/
+root              2141   0.0  0.1  4362224  18416   ??  Ss   10:01AM   0:00.45 /System/Library/
+root              2139   0.0  0.1  4329008  14884   ??  Ss   10:01AM   0:00.04 /System/Library/
+root              1769   0.0  0.0  4356172   6976   ??  S     9:24AM   0:00.07 /usr/libexec/sec
+root              1768   0.0  0.1  4366968  11160   ??  S     9:24AM   0:00.44 /System/Library/
+root              1567   0.0  0.1  4349040  17760   ??  Ss    8:41AM   0:00.04 /System/Library/
+root              1254   0.0  0.1  4357600  10152   ??  Ss    8:28AM   0:00.30 /usr/libexec/rtc
+_assetcache       1253   0.0  0.0  4358072   7020   ??  Ss    8:28AM   0:00.25 /System/Library/
+_spotlight        1251   0.0  0.1  4320708  11724   ??  S     8:28AM   0:00.03 /System/Library/
+root              1236   0.0  0.1  4353788  11952   ??  Ss    8:28AM   0:00.04 /System/Library/
+root              1181   0.0  0.0  4293808    792   ??  SNs   8:28AM   0:00.01 /usr/libexec/per
+_softwareupdate   1165   0.0  0.0  4328420   2728   ??  S     8:28AM   0:00.03 /usr/sbin/distno
+_softwareupdate   1164   0.0  0.0  4319448   1168   ??  S     8:28AM   0:00.04 /usr/sbin/cfpref
+root              1136   0.0  0.1  4355428  13788   ??  Ss    8:27AM   0:00.16 /Library/Privile
+root              1112   0.0  0.1  4318608   8416   ??  Ss    8:26AM   0:00.02 /System/Library/
+root              1071   0.0  0.1  4361372   9772   ??  Ss    8:25AM   0:00.37 /usr/libexec/dpr
+allen108          1070   0.0  0.1  4418604  14424   ??  S     8:25AM   0:00.09 /System/Library/
+allen108          1068   0.0  0.0  4327756   5476   ??  S     8:25AM   0:00.02 /System/Library/
+allen108          1046   0.0  0.0  4327796   5840   ??  S     8:25AM   0:00.11 /System/Library/
+allen108          1040   0.0  0.2  4455284  33632   ??  S     8:25AM   0:00.17 /System/Library/
+root              1037   0.0  0.0  4320860   4360   ??  Ss    8:25AM   0:00.02 /usr/libexec/mob
+_datadetectors    1023   0.0  0.1  4334676  20012   ??  Ss    8:24AM   0:04.53 /usr/libexec/Dat
+_applepay          996   0.0  0.0  4355092   8080   ??  Ss    8:24AM   0:00.04 /usr/libexec/nfc
+_spotlight         976   0.0  0.0  4328420   2980   ??  S     8:24AM   0:00.05 /usr/sbin/distno
+_locationd         948   0.0  0.0  4328420   2808   ??  S     8:23AM   0:00.04 /usr/sbin/distno
+_locationd         947   0.0  0.0  4358868   7808   ??  S     8:23AM   0:00.20 /usr/libexec/tru
+_locationd         945   0.0  0.0  4319448   1224   ??  S     8:23AM   0:00.05 /usr/sbin/cfpref
+_locationd         943   0.0  0.0  4356348   6988   ??  S     8:23AM   0:00.11 /usr/libexec/sec
+_locationd         942   0.0  0.1  4366072   9212   ??  S     8:23AM   0:00.54 /System/Library/
+root               941   0.0  0.1  4355256  17320   ??  Ss    8:23AM   0:00.10 /usr/libexec/dmd
+allen108           897   0.0  0.1  4355080  10416   ??  S     8:23AM   0:00.03 /System/Library/
+_spotlight         895   0.0  0.1  4358180  11724   ??  S     8:23AM   0:00.67 /usr/libexec/tru
+allen108           882   0.0  0.1  4365600  14208   ??  S     8:23AM   0:00.61 /System/Library/
+allen108           874   0.0  0.1  4329020  10776   ??  S     8:23AM   0:00.02 /System/Library/
+_fpsd              834   0.0  0.0  4329060   6192   ??  Ss    8:23AM   0:00.15 /System/Library/
+_softwareupdate    829   0.0  0.1  4354944  10288   ??  Ss    8:23AM   0:00.05 /System/Library/
+allen108           797   0.0  0.1  4354252  22944   ??  S     8:23AM   0:00.09 /System/Library/
+root               781   0.0  0.1  4360964  13820   ??  Ss    8:23AM   0:00.17 /System/Library/
+_softwareupdate    780   0.0  0.5  4507800  82052   ??  Ss    8:23AM   0:24.01 /System/Library/
+_fpsd              770   0.0  0.1  4331476   9424   ??  Ss    8:23AM   0:00.08 /System/Library/
+root               760   0.0  0.2  4375516  39876   ??  Ss    8:23AM   0:04.72 /System/Library/
+root               759   0.0  0.0  4355856   7960   ??  Ss    8:23AM   0:00.14 /usr/bin/sysdiag
+root               756   0.0  0.2  4369812  27912   ??  Ss    8:23AM   0:00.69 /System/Library/
+_assetcache        752   0.0  0.1  4357660  13456   ??  Ss    8:23AM   0:00.15 /usr/libexec/Ass
+allen108           751   0.0  0.1  4358424  14336   ??  S     8:23AM   0:03.84 /usr/libexec/pkd
+root               717   0.0  0.1  4358656  14928   ??  Ss    8:23AM   0:01.40 /System/Library/
+root               711   0.0  0.7  4430376 112500   ??  Ss    8:23AM   0:02.19 /usr/sbin/spindu
+root               708   0.0  0.0  4332820   7368   ??  Ss    8:23AM   0:00.12 /usr/sbin/fileco
+root               699   0.0  0.2  4386680  26812   ??  Ss    8:23AM   0:00.55 /System/Library/
+allen108           692   0.0  0.1  4327688  11848   ??  S     8:23AM   0:00.03 /System/Library/
+allen108           690   0.0  0.1  4354528   8548   ??  S     8:23AM   0:00.13 /System/Library/
+root               682   0.0  0.0  4327220   6276   ??  Ss    8:23AM   0:00.03 /System/Library/
+root               667   0.0  0.1  4355276   8456   ??  Ss    8:23AM   0:00.27 /usr/sbin/wirele
+allen108           643   0.0  0.1  4354680  18032   ??  S     8:23AM   0:00.09 /System/Library/
+root               627   0.0  0.1  4354924  12928   ??  Ss    8:23AM   0:00.65 /usr/sbin/Wirele
+allen108           618   0.0  0.1  4363960  22116   ??  S     8:23AM   0:05.20 /usr/libexec/sec
+allen108           616   0.0  0.1  4357972  14600   ??  S     8:23AM   0:00.25 /usr/libexec/lan
+allen108           609   0.0  0.1  4368668  22652   ??  S     8:23AM   0:14.05 /usr/libexec/lsd
+allen108           601   0.0  0.0  4328420   5320   ??  S     8:23AM   0:00.61 /usr/sbin/distno
+root               581   0.0  0.0  4328852   6620   ??  Ss    8:23AM   0:00.09 /usr/libexec/sec
+allen108           562   0.0  0.0  4327772   3352   ??  S     8:23AM   0:01.29 /usr/sbin/cfpref
+allen108           561   0.0  0.1  4354188  10824   ??  S     8:23AM   0:00.05 /System/Library/
+root               539   0.0  0.0  4303400   4924   ??  Ss    8:23AM   0:00.02 /System/Library/
+root               477   0.0  0.0  4327752   7112   ??  Ss    8:22AM   0:00.01 /System/Library/
+root               419   0.0  0.0  4327744   1428   ??  Ss    8:22AM   0:00.02 /System/Library/
+_analyticsd        416   0.0  0.1  4356388  11528   ??  Ss    8:22AM   0:00.64 /System/Library/
+root               414   0.0  0.0  4355716   6256   ??  S     8:22AM   0:00.07 /usr/sbin/system
+root               408   0.0  0.0  4327640   5932   ??  Ss    8:22AM   0:01.17 /usr/libexec/sys
+root               395   0.0  0.0  4356268   7612   ??  Ss    8:22AM   0:00.14 /System/Library/
+root               347   0.0  0.0  4302800   4348   ??  Ss    8:22AM   0:00.01 /usr/libexec/smd
+root               320   0.0  0.1  4355172  21232   ??  Ss    8:22AM   0:00.11 /usr/libexec/fin
+_nsurlstoraged     317   0.0  0.0  4327840   7680   ??  Ss    8:22AM   0:00.11 /usr/libexec/nsu
+root               316   0.0  0.0  4328976   6740   ??  Ss    8:22AM   0:00.43 /System/Library/
+root               315   0.0  0.0  4328420   2856   ??  S     8:22AM   0:00.04 /usr/sbin/distno
+root               313   0.0  0.1  4358584   9696   ??  Ss    8:22AM   0:00.10 /usr/sbin/system
+root               311   0.0  0.0  4327676   5820   ??  Ss    8:22AM   0:00.02 /System/Library/
+root               308   0.0  0.1  4327636  10380   ??  Ss    8:22AM   0:00.03 /System/Library/
+root               307   0.0  0.1  4328464  10708   ??  Ss    8:22AM   0:00.02 /System/Library/
+root               306   0.0  0.0  4328836   6612   ??  Ss    8:22AM   0:00.38 /System/Library/
+_atsserver         301   0.0  0.1  4357132  11200   ??  Ss    8:22AM   0:00.21 /System/Library/
+root               294   0.0  0.1  4318856  11176   ??  Ss    8:22AM   0:00.02 /usr/libexec/boo
+root               287   0.0  0.0  4328012   6248   ??  Ss    8:22AM   0:00.02 /usr/libexec/col
+root               286   0.0  0.1  4367872  21084   ??  Ss    8:22AM   0:04.15 /System/Library/
+root               285   0.0  0.0  4327244   6236   ??  Ss    8:22AM   0:00.04 /usr/libexec/col
+root               284   0.0  0.1  4408020  11856   ??  Ss    8:22AM   0:00.15 /System/Library/
+_coreaudiod        283   0.0  0.1  4311020   9188   ??  Ss    8:22AM   0:00.01 /System/Library/
+root               282   0.0  0.0  4320936   8240   ??  Ss    8:22AM   0:00.03 /System/Library/
+root               254   0.0  0.8  5101968 136936   ??  Ss    8:22AM   0:15.52 /System/Library/
+root               247   0.0  0.1  4356172  10168   ??  Ss    8:22AM   0:00.09 /usr/libexec/sec
+root               239   0.0  0.1  4294428   9340   ??  Ss    8:22AM   0:00.02 /usr/libexec/the
+root               235   0.0  0.0  4303576   4932   ??  Ss    8:22AM   0:00.12 /usr/libexec/wat
+_cmiodalassistants   233   0.0  0.1  4385044   9944   ??  Ss    8:22AM   0:00.22 /System/Library/
+root               232   0.0  0.0  4327728   4196   ??  Ss    8:22AM   0:00.08 /usr/libexec/fir
+root               231   0.0  0.1  4354976   9264   ??  Ss    8:22AM   0:00.40 /usr/libexec/usb
+root               230   0.0  0.2  4366828  26152   ??  Ss    8:22AM   2:08.53 /usr/libexec/air
+root               229   0.0  0.0  4327196   5964   ??  Ss    8:22AM   0:00.04 /usr/libexec/apf
+root               228   0.0  0.1  4319048   9736   ??  Ss    8:22AM   0:00.03 /System/Library/
+root               224   0.0  0.1  4357684  12328   ??  Ss    8:22AM   0:01.90 /System/Library/
+root               222   0.0  0.1  4360768  14872   ??  Ss    8:22AM   0:01.10 /usr/libexec/amf
+root               221   0.0  0.2  4362736  25960   ??  Ss    8:22AM   0:02.38 /usr/libexec/sys
+root               220   0.0  0.1  4330644   9428   ??  Ss    8:22AM   0:00.53 /System/Library/
+root               219   0.0  0.0  4354936   6704   ??  Ss    8:22AM   0:00.68 /usr/sbin/mDNSRe
+_mdnsresponder     217   0.0  0.1  4357740  10980   ??  Ss    8:22AM   0:12.23 /usr/sbin/mDNSRe
+root               216   0.0  0.1  4359868  10572   ??  Ss    8:22AM   0:00.58 /usr/libexec/lsd
+_nsurlsessiond     210   0.0  0.1  4365976  20108   ??  Ss    8:22AM   0:01.09 /usr/libexec/nsu
+_coreaudiod        204   0.0  0.0  4354556   7600   ??  Ss    8:22AM   0:00.07 /System/Library/
+_networkd          201   0.0  0.1  4363196  10884   ??  Ss    8:22AM   0:03.22 /usr/libexec/sym
+root               200   0.0  0.1  4364588  24700   ??  Ss    8:22AM   0:04.50 /usr/libexec/mob
+_ctkd              193   0.0  0.1  4320720  10392   ??  Ss    8:22AM   0:00.02 /System/Library/
+_coreaudiod        192   0.0  0.1  4336488  15276   ??  Ss    8:22AM   0:01.66 /usr/sbin/coreau
+root               186   0.0  0.1  4369920  20912   ??  Ss    8:22AM   0:09.60 /usr/libexec/tru
+root               185   0.0  0.1  4319516   9020   ??  Ss    8:22AM   0:00.01 /System/Library/
+root               183   0.0  0.1  4360460   9848   ??  Ss    8:22AM   0:00.15 /usr/libexec/neh
+root               178   0.0  0.1  4360856  17532   ??  Ss    8:22AM   0:02.96 /System/Library/
+root               177   0.0  0.1  4383052  14092   ??  Ss    8:22AM   0:02.72 /System/Library/
+root               168   0.0  0.0  4327760   5684   ??  Ss    8:22AM   0:00.43 aslmanager
+root               151   0.0  0.1  4357960  12088   ??  Ss    8:22AM   0:01.08 /System/Library/
+root               132   0.0  0.0  4328156   5580   ??  Ss    8:22AM   0:02.98 /usr/sbin/cfpref
+_distnote          131   0.0  0.0  4328420   3680   ??  Ss    8:22AM   0:00.37 /usr/sbin/distno
+root               130   0.0  0.0  4302824   2092   ??  Ss    8:22AM   0:05.11 /usr/sbin/notify
+root               129   0.0  0.1  4355524  13816   ??  Ss    8:22AM   0:00.28 /usr/libexec/Air
+root               128   0.0  0.1  4355244  13060   ??  Ss    8:22AM   0:00.43 /usr/libexec/cor
+root               127   0.0  0.7  4417484 120272   ??  Ss    8:22AM   0:26.51 /usr/libexec/san
+_hidd              126   0.0  0.0  4330196   7504   ??  Ss    8:22AM   1:29.73 /usr/libexec/hid
+root               125   0.0  0.1  4359372  11728   ??  Ss    8:22AM   0:01.38 /usr/sbin/blueto
+root               123   0.0  0.0  4327628   4928   ??  Ss    8:22AM   0:00.01 /usr/sbin/Kernel
+root               122   0.0  0.0  4356444   6868   ??  Ss    8:22AM   0:00.18 /System/Library/
+root               121   0.0  0.0  4327312   6596   ??  Ss    8:22AM   0:00.05 /System/Library/
+root               117   0.0  0.1  4355860   8628   ??  Ss    8:22AM   0:00.11 /System/Library/
+root               116   0.0  0.1  4359996  14232   ??  Ss    8:22AM   0:02.38 /usr/libexec/das
+_displaypolicyd    114   0.0  0.1  4330384  10756   ??  Ss    8:22AM   0:00.05 /usr/libexec/dis
+root               113   0.0  0.0  4327756   5520   ??  Ss    8:22AM   0:00.09 autofsd
+_locationd         111   0.0  0.1  4371944  22468   ??  Ss    8:22AM   0:37.80 /usr/libexec/loc
+_usbmuxd           109   0.0  0.0  4354684   6380   ??  Ss    8:22AM   0:00.05 /System/Library/
+root               108   0.0  0.1  4361856  15928   ??  Ss    8:22AM   0:03.86 /usr/sbin/securi
+_timed             107   0.0  0.0  4354344   7456   ??  Ss    8:22AM   0:00.39 /usr/libexec/tim
+root               106   0.0  0.1  4359704  16932   ??  Ss    8:22AM   0:06.74 /System/Library/
+root               105   0.0  0.0  4355348   6776   ??  Ss    8:22AM   0:00.10 /System/Library/
+root               104   0.0  0.2  4381552  36024   ??  S<s   8:22AM   0:02.48 /Library/Applica
+root               103   0.0  0.1  4358932  23912   ??  Ss    8:22AM   0:01.79 /System/Library/
+root                98   0.0  0.1  4361376  17636   ??  Ss    8:22AM   0:00.71 /usr/libexec/cor
+root                97   0.0  0.2  4328972  30876   ??  Ss    8:22AM   0:00.27 /System/Library/
+root                93   0.0  0.0  4353924   7524   ??  Ss    8:22AM   0:02.23 /usr/libexec/dis
+_iconservices       92   0.0  0.0  4328820   5308   ??  Ss    8:22AM   0:00.03 /System/Library/
+root                91   0.0  0.4  4487448  67328   ??  Ss    8:22AM   0:18.94 /System/Library/
+root                85   0.0  0.0  4327344   5444   ??  Ss    8:22AM   0:00.02 /usr/libexec/key
+root                84   0.0  0.2  4420364  33180   ??  Ss    8:22AM   0:07.60 /usr/libexec/log
+root                81   0.0  0.1  4359228  13288   ??  Ss    8:22AM   0:00.15 /Library/Applica
+root                80   0.0  0.1  4354384  12384   ??  Ss    8:22AM   0:07.37 /System/Library/
+root                79   0.0  0.1  4359904  12496   ??  Ss    8:22AM   0:11.85 /usr/libexec/con
+root                77   0.0  0.1  4361872   8868   ??  Ss    8:22AM   0:02.39 /usr/sbin/system
+_appleevents        76   0.0  0.1  4356596  10652   ??  Ss    8:22AM   0:00.27 /System/Library/
+psnotify            75   0.0  0.0  4328644   6332   ??  Ss    8:22AM   0:00.03 /Library/Applica
+root                72   0.0  0.1  4359484  23452   ??  Ss    8:22AM   0:00.22 /System/Library/
+root                71   0.0  0.1  4365824  21568   ??  SNs   8:22AM   0:00.55 /usr/local/jamf/
+root                69   0.0  0.1  4357932  14784   ??  Ss    8:22AM   0:03.71 /System/Library/
+root                68   0.0  0.1  4363740  21696   ??  Ss    8:22AM   0:02.44 /usr/libexec/kex
+root                67   0.0  0.0  4294616   5260   ??  Ss    8:22AM   0:00.41 /System/Library/
+root                64   0.0  0.1  4356768  19236   ??  Ss    8:22AM   0:01.02 /usr/libexec/Use
+root                63   0.0  0.0  4328340   1280   ??  Ss    8:22AM   0:01.10 /usr/sbin/syslog
+root              5078   0.0  0.0  4268464   1044 s000  R+    2:10PM   0:00.00 ps aux
+root                 1   0.0  0.1  4352832  23864   ??  Ss    8:22AM   0:38.51 /sbin/launchd
+root              5035   0.0  0.0  4327468   7072   ??  Ss    2:08PM   0:00.02 /usr/sbin/ocspd
+klige001          5013   0.0  0.2  4365584  25352   ??  S     2:08PM   0:00.20 /System/Library/
+maclab-105:~ klige001$ top
+maclab-105:~ klige001$ top
+maclab-105:~ klige001$ xlogo
+-bash: xlogo: command not found
+maclab-105:~ klige001$ gedit
+-bash: gedit: command not found
+maclab-105:~ klige001$ kwrite
+-bash: kwrite: command not found
+maclab-105:~ klige001$ xlogo
+-bash: xlogo: command not found
+maclab-105:~ klige001$ open -a TextEdit
+maclab-105:~ klige001$ open -a TextEdit
+maclab-105:~ klige001$ 
+maclab-105:~ klige001$ open -a TextEdit &
+[1] 5162
+maclab-105:~ klige001$ ps
+  PID TTY           TIME CMD
+ 4969 ttys000    0:00.03 -bash
+[1]+  Done                    open -a TextEdit
+maclab-105:~ klige001$ jobs
+maclab-105:~ klige001$ jobs
+maclab-105:~ klige001$ fg %1
+-bash: fg: %1: no such job
+maclab-105:~ klige001$ open -a TextEdit
+maclab-105:~ klige001$ bg %1
+-bash: bg: %1: no such job
+maclab-105:~ klige001$ open -a TextEdit &
+[1] 5168
+maclab-105:~ klige001$ kill -1 5168
+-bash: kill: (5168) - No such process
+[1]+  Done                    open -a TextEdit
+maclab-105:~ klige001$ xed &
+[1] 5169
+maclab-105:~ klige001$ kill -1 5169
+
+[1]+  Stopped                 xed
+maclab-105:~ klige001$ kill -INT 5169
+-bash: kill: (5169) - No such process
+[1]+  Hangup: 1               xed
+maclab-105:~ klige001$ kill -SIGINT 5169
+-bash: kill: (5169) - No such process
+maclab-105:~ klige001$ ps aux
+USER               PID  %CPU %MEM      VSZ    RSS   TT  STAT STARTED      TIME COMMAND
+_windowserver     3969   0.1  0.7  8036348 122824   ??  Ss   12:33PM   0:45.35 /System/Library/
+root               102   0.1  0.1  4426508  20532   ??  Ss    8:22AM   0:31.81 /usr/libexec/ope
+root                 1   0.1  0.1  4352832  24652   ??  Ss    8:22AM   0:41.18 /sbin/launchd
+klige001          5184   0.0  0.3  4703692  48820   ??  S     2:35PM   0:03.06 /System/Library/
+klige001          5179   0.0  0.1  4354024  10668   ??  Ss    2:34PM   0:00.03 /Applications/Xc
+klige001          5178   0.0  0.1  4358484  12288   ??  S     2:34PM   0:00.08 /Applications/Xc
+klige001          5177   0.0  0.1  4356188   9308   ??  S     2:34PM   0:00.07 /System/Library/
+klige001          5176   0.0  0.2  4375764  34944   ??  S     2:34PM   0:02.27 /System/Library/
+klige001          5175   0.0  0.1  4881144  14316   ??  S     2:34PM   0:00.04 /Library/Develop
+klige001          5174   0.0  0.1  4882092  17544   ??  S     2:34PM   0:00.32 /Library/Develop
+klige001          5172   0.0  0.1  4827460  20620   ??  Ss    2:34PM   0:00.11 /System/Library/
+root              5171   0.0  0.0  4354092   6944   ??  Ss    2:34PM   0:00.02 /usr/sbin/ocspd
+klige001          5170   0.0  1.0  6053236 169324   ??  S     2:34PM   0:02.50 /Applications/Xc
+klige001          5096   0.0  0.1  4835956  17020   ??  Ss    2:23PM   0:00.10 /System/Library/
+klige001          5095   0.0  0.3  4973488  53556   ??  S     2:23PM   0:01.62 /Applications/Te
+klige001          5090   0.0  0.1  4832672  10624   ??  Ss    2:23PM   0:00.04 /System/Library/
+klige001          5089   0.0  0.3 89420280  43924   ??  Ss    2:23PM   0:00.12 /System/Library/
+klige001          5088   0.0  1.6 106708316 271268   ??  Ss    2:23PM   0:16.98 /System/Library/
+klige001          5087   0.0  0.1  4837532  16876   ??  Ss    2:23PM   0:00.11 /System/Library/
+klige001          5086   0.0  0.8 106368440 127976   ??  Ss    2:22PM   0:00.82 /System/Library/
+klige001          5013   0.0  0.2  4365584  25352   ??  S     2:08PM   0:00.20 /System/Library/
+klige001          5012   0.0  0.1  4354824  15484   ??  S     2:07PM   0:00.09 /System/Library/
+klige001          5009   0.0  0.1  4353688   8904   ??  S     2:06PM   0:00.21 /System/Library/
+klige001          5008   0.0  0.3 89445236  55556   ??  Ss    2:06PM   0:00.19 /System/Library/
+klige001          5007   0.0  0.9 89733080 143448   ??  Ss    2:06PM   0:03.49 /System/Library/
+klige001          5006   0.0  0.1  4837532  15736   ??  Ss    2:04PM   0:00.06 /System/Library/
+klige001          5004   0.0  0.1  4846748  15916   ??  Ss    2:03PM   0:00.05 /System/Library/
+klige001          5002   0.0  0.5 106235548  77660   ??  Ss    2:03PM   0:00.88 /System/Library/
+klige001          5001   0.0  0.1  4319244   9620   ??  S     2:03PM   0:00.02 /System/Library/
+klige001          5000   0.0  0.1  4357944  21332   ??  S     2:03PM   0:00.27 /System/Library/
+klige001          4998   0.0  0.1  4355024  12188   ??  S     2:03PM   0:00.07 /System/Library/
+klige001          4997   0.0  0.5 106234940  79844   ??  Ss    2:03PM   0:00.43 /System/Library/
+klige001          4996   0.0  0.0  4318448   5380   ??  S     2:03PM   0:00.01 /System/Library/
+klige001          4994   0.0  0.1  4416556  14588   ??  S     2:03PM   0:00.06 /System/Library/
+klige001          4993   0.0  0.1  4328860  15632   ??  S     2:03PM   0:00.12 /usr/libexec/sil
+klige001          4991   0.0  0.2  4459296  36152   ??  Ss    2:02PM   0:00.23 /System/Library/
+klige001          4986   0.0  0.2  4374524  26028   ??  S     2:02PM   0:02.26 /System/Library/
+klige001          4983   0.0  1.8 106788348 305516   ??  Ss    2:02PM   0:36.11 /System/Library/
+klige001          4982   0.0  0.1  4354724  19568   ??  S     2:02PM   0:00.05 /System/Library/
+klige001          4979   0.0  0.2  4353856  28356   ??  S     2:02PM   0:00.06 /System/Library/
+klige001          4978   0.0  0.0  4354440   7148   ??  S     2:02PM   0:00.04 /System/Library/
+_spotlight        4975   0.0  0.1  4339788  18572   ??  S     2:02PM   0:00.07 /System/Library/
+klige001          4969   0.0  0.0  4314968   1676 s000  S     2:02PM   0:00.05 -bash
+root              4968   0.0  0.0  4327184   5960 s000  Ss    2:02PM   0:00.01 login -pf klige0
+klige001          4967   0.0  0.1  4361272  19576   ??  Ss    2:02PM   0:00.16 /System/Library/
+klige001          4965   0.0  0.1  4360900  17508   ??  S     2:02PM   0:00.09 /usr/libexec/key
+klige001          4964   0.0  0.3  4416812  47896   ??  S     2:02PM   0:00.48 /System/Library/
+ocasi002          4960   0.0  0.1  4360872  10936   ??  S     2:02PM   0:00.18 /usr/libexec/tru
+allen108          4959   0.0  0.1  4360828  10936   ??  S     2:02PM   0:00.17 /usr/libexec/tru
+klige001          4954   0.0  0.2  4319600  27072   ??  S     2:02PM   0:00.04 /System/Library/
+klige001          4948   0.0  0.1  4331432  14672   ??  Ss    2:02PM   0:00.07 /System/Library/
+klige001          4947   0.0  0.1  4371828  22844   ??  S     2:02PM   0:00.10 /System/Library/
+klige001          4946   0.0  0.1  4365780  23084   ??  S     2:02PM   0:00.47 /System/Library/
+klige001          4945   0.0  0.1  4354940  17636   ??  S     2:02PM   0:00.06 /System/Library/
+klige001          4942   0.0  0.1  4320188  12908   ??  S     2:02PM   0:00.02 /System/Library/
+klige001          4941   0.0  0.2  4370772  31440   ??  S     2:02PM   0:00.98 /System/Library/
+klige001          4926   0.0  0.1  4355428  10784   ??  S     2:01PM   0:01.18 /Applications/Ut
+klige001          4925   0.0  0.3  5008136  51488   ??  S     2:01PM   0:00.52 /Applications/Ut
+klige001          4924   0.0  0.2  4957324  29184   ??  S     2:01PM   0:00.32 /Applications/Ut
+klige001          4920   0.0  0.8  4888104 136504   ??  S     2:01PM   0:10.57 /Applications/Ut
+klige001          4917   0.0  0.0  4319648   6392   ??  S     2:01PM   0:00.01 /System/Library/
+klige001          4909   0.0  0.3  5028012  58684   ??  S     2:01PM   0:00.65 /Library/Applica
+klige001          4908   0.0  0.1  4355428  10736   ??  S     2:01PM   0:01.03 /Library/Applica
+klige001          4905   0.0  0.5  4801512  79492   ??  S     2:01PM   0:00.42 /Applications/Ut
+klige001          4904   0.0  0.1  4354904  10760   ??  S     2:01PM   0:01.03 /Applications/Ut
+klige001          4902   0.0  1.0  5633388 163292   ??  S     2:01PM   0:03.65 /Library/Applica
+klige001          4901   0.0  0.0  4339276   8128   ??  Ss    2:01PM   0:00.03 /System/Library/
+klige001          4900   0.0  0.4  4685068  61536   ??  S     2:01PM   0:07.41 /Applications/Ut
+_gamecontrollerd  4899   0.0  0.1  4319672   9904   ??  Ss    2:01PM   0:00.09 /usr/libexec/gam
+klige001          4898   0.0  0.1  4375848  15688   ??  S     2:01PM   0:00.55 /Library/Applica
+klige001          4891   0.0  0.1  4329020  10804   ??  S     2:01PM   0:00.02 /System/Library/
+klige001          4890   0.0  0.1  4328584  10948   ??  S     2:01PM   0:00.02 /System/Library/
+klige001          4888   0.0  0.1  4390508  18416   ??  S     2:01PM   0:00.13 /Library/Applica
+klige001          4887   0.0  0.1  4358716  21044   ??  S     2:01PM   0:00.12 /usr/libexec/adp
+klige001          4886   0.0  0.1  4375084  22904   ??  S     2:01PM   0:00.18 /System/Library/
+klige001          4885   0.0  0.4  4729904  60672   ??  S     2:01PM   0:16.98 /Applications/Ut
+klige001          4884   0.0  0.1  4355444  21332   ??  S     2:01PM   0:00.06 /System/Library/
+klige001          4883   0.0  0.1  4880012  15320   ??  S     2:01PM   0:00.09 /System/Library/
+klige001          4882   0.0  0.1  4388368  18072   ??  S     2:01PM   0:00.11 /Library/Applica
+klige001          4879   0.0  0.1  4355252  16912   ??  S     2:01PM   0:00.07 /System/Library/
+klige001          4878   0.0  0.1  4357600  12820   ??  S     2:01PM   0:00.14 /System/Library/
+klige001          4877   0.0  0.1  4355228  18068   ??  S     2:01PM   0:00.05 /usr/libexec/dmd
+klige001          4876   0.0  0.1  4355080  12608   ??  SN    2:01PM   0:00.14 /usr/local/jamf/
+klige001          4874   0.0  0.1  4353896  13448   ??  S     2:01PM   0:00.03 /System/Library/
+klige001          4870   0.0  0.1  4301768  17056   ??  S     2:01PM   0:00.02 /System/Library/
+klige001          4866   0.0  0.1  4358088   9716   ??  S     2:01PM   0:00.08 /System/Library/
+klige001          4864   0.0  0.1  4359708  18352   ??  S     2:01PM   0:00.09 /System/Library/
+klige001          4863   0.0  0.2  4384336  31348   ??  Ss    2:01PM   0:00.40 /System/Library/
+klige001          4861   0.0  0.1  4356584  11720   ??  Ss    2:01PM   0:00.06 /System/Library/
+klige001          4860   0.0  0.1  4359328  16396   ??  S     2:01PM   0:00.12 /usr/libexec/kno
+klige001          4858   0.0  0.1  4354252  23540   ??  S     2:01PM   0:00.07 /System/Library/
+klige001          4857   0.0  0.1  4327384  15304   ??  Ss    2:01PM   0:00.04 /System/Library/
+klige001          4824   0.0  0.1  4355080  10388   ??  S     2:01PM   0:00.02 /System/Library/
+klige001          4823   0.0  0.1  4830480   9104   ??  S     2:01PM   0:00.01 SafeEjectGPUAgen
+klige001          4812   0.0  0.1  4346324  10944   ??  S     2:01PM   0:00.02 /System/Library/
+klige001          4811   0.0  0.0  4354076   7496   ??  S     2:01PM   0:00.04 /System/Library/
+klige001          4810   0.0  0.1  4357288  18132   ??  S     2:01PM   0:00.10 /System/Library/
+klige001          4809   0.0  0.2  4398108  34540   ??  S     2:01PM   0:00.26 /System/Library/
+klige001          4808   0.0  0.1  4355076  18820   ??  S     2:01PM   0:00.11 /System/Library/
+klige001          4804   0.0  0.2  4883564  32180   ??  Ss    2:01PM   0:00.16 /System/Library/
+klige001          4797   0.0  0.1  4357104   9956   ??  S     2:01PM   0:00.52 /System/Library/
+klige001          4795   0.0  0.1  4355556  14308   ??  S     2:01PM   0:00.17 /usr/libexec/vid
+klige001          4791   0.0  0.1  4341132  19776   ??  S     2:01PM   0:00.10 /System/Library/
+klige001          4789   0.0  0.1  4336736  19716   ??  S     2:01PM   0:00.09 /System/Library/
+klige001          4787   0.0  0.0  4327704   5876   ??  S     2:01PM   0:00.10 /System/Library/
+klige001          4782   0.0  0.2  4470076  37124   ??  S     2:01PM   0:00.07 /System/Library/
+klige001          4780   0.0  0.3  4480120  48200   ??  Ss    2:01PM   0:03.26 /System/Library/
+klige001          4776   0.0  0.1  4375448  16276   ??  S     2:01PM   0:00.11 /System/Library/
+klige001          4774   0.0  0.2  4456532  33928   ??  S     2:01PM   0:00.11 /System/Library/
+klige001          4772   0.0  0.0  4327636   5104   ??  Ss    2:01PM   0:00.01 /System/Library/
+klige001          4770   0.0  0.1  4354300  13660   ??  Ss    2:01PM   0:00.07 /System/Library/
+klige001          4768   0.0  0.1  4367152  19500   ??  S     2:01PM   0:00.39 /System/Library/
+klige001          4766   0.0  0.3  4416184  50648   ??  Ss    2:01PM   0:00.18 /Applications/Ut
+klige001          4765   0.0  0.1  4394268  22112   ??  Ss    2:01PM   0:00.12 /System/Library/
+klige001          4762   0.0  0.5  5030216  90760   ??  S     2:01PM   0:01.62 /System/Library/
+klige001          4760   0.0  0.1  4327276  16512   ??  Ss    2:01PM   0:00.02 /System/Library/
+klige001          4757   0.0  0.3  4949056  55412   ??  S     2:01PM   0:00.58 /System/Library/
+klige001          4756   0.0  0.3  4930856  45504   ??  S     2:01PM   0:00.41 /System/Library/
+klige001          4755   0.0  1.0  5040340 172608   ??  S     2:01PM   0:01.02 /System/Library/
+klige001          4752   0.0  0.3  4951900  56860   ??  S     2:01PM   0:10.67 /Applications/Ut
+klige001          4751   0.0  0.8  6540568 129676   ??  S     2:01PM   0:40.71 /Applications/Sa
+klige001          4739   0.0  0.1  4363604  25080   ??  S     2:01PM   0:00.88 /System/Library/
+klige001          4737   0.0  0.1  4358016   9988   ??  S     2:01PM   0:00.08 /System/Library/
+klige001          4735   0.0  0.1  4369284  16392   ??  S     2:01PM   0:00.76 /System/Library/
+klige001          4734   0.0  0.0  4355340   8104   ??  S     2:01PM   0:00.03 /System/Library/
+klige001          4732   0.0  0.0  4354916   7564   ??  S     2:01PM   0:00.04 /System/Library/
+klige001          4731   0.0  0.1  4355032  17444   ??  S     2:01PM   0:00.05 /System/Library/
+klige001          4730   0.0  0.1  4355764   9120   ??  S     2:01PM   0:00.08 /usr/libexec/swc
+klige001          4729   0.0  0.2  4360436  29652   ??  S     2:01PM   0:00.16 /System/Library/
+klige001          4728   0.0  0.2  4664224  35892   ??  S     2:01PM   0:00.22 /System/Library/
+klige001          4725   0.0  0.1  4329024  18252   ??  S     2:01PM   0:00.07 /System/Library/
+klige001          4724   0.0  0.1  4358212  14880   ??  S     2:01PM   0:01.14 /usr/libexec/pkd
+klige001          4722   0.0  0.1  4356744  18576   ??  S     2:01PM   0:00.12 /System/Library/
+klige001          4720   0.0  0.2  4473172  39700   ??  S     2:01PM   0:00.44 /System/Library/
+klige001          4719   0.0  0.3  4421812  42032   ??  S     2:01PM   0:00.46 /System/Library/
+klige001          4718   0.0  0.2  4360432  33524   ??  Ss    2:01PM   0:00.17 /System/Library/
+klige001          4712   0.0  0.1  4376440  12804   ??  S     2:01PM   0:00.24 /System/Library/
+klige001          4706   0.0  0.2  4365980  26064   ??  S     2:01PM   0:00.74 /System/Library/
+klige001          4705   0.0  0.0  4319588   5752   ??  S     2:01PM   0:00.01 /System/Library/
+klige001          4704   0.0  0.2  4362772  39404   ??  S     2:01PM   0:00.50 /System/Library/
+klige001          4703   0.0  0.1  4355796  12012   ??  S     2:01PM   0:00.03 /usr/libexec/net
+klige001          4701   0.0  0.1  4378656  17564   ??  S     2:01PM   0:00.13 /System/Library/
+klige001          4699   0.0  0.1  4355280  12736   ??  Ss    2:01PM   0:00.04 /System/Library/
+klige001          4696   0.0  0.1  4354600  18392   ??  S     2:01PM   0:00.03 /System/Library/
+klige001          4695   0.0  0.0  4327160   5644   ??  Ss    2:01PM   0:00.02 /System/Library/
+klige001          4694   0.0  0.1  4355988   9628   ??  S     2:01PM   0:00.11 /System/Library/
+klige001          4691   0.0  0.1  4354976  12544   ??  S     2:01PM   0:00.18 /System/Library/
+klige001          4690   0.0  0.1  4355280  12672   ??  Ss    2:01PM   0:00.04 /System/Library/
+klige001          4688   0.0  0.1  4355804  22848   ??  S     2:01PM   0:00.07 /usr/libexec/fmf
+klige001          4687   0.0  0.2  4364164  34256   ??  S     2:01PM   0:00.25 /usr/libexec/sha
+klige001          4685   0.0  0.1  4356844  12148   ??  S     2:01PM   0:00.64 /System/Library/
+klige001          4684   0.0  0.1  4381800  17612   ??  S     2:01PM   0:00.11 /System/Library/
+klige001          4683   0.0  0.1  4356564  10820   ??  S     2:01PM   0:00.11 /System/Library/
+klige001          4682   0.0  0.0  4328280   6560   ??  S     2:01PM   0:00.04 /usr/libexec/pbo
+klige001          4681   0.0  0.1  4364504  17684   ??  S     2:01PM   0:01.09 /usr/libexec/nsu
+klige001          4680   0.0  0.2  4359944  33920   ??  S     2:01PM   0:00.13 /System/Library/
+klige001          4679   0.0  0.1  4355344  12832   ??  Ss    2:01PM   0:00.04 /System/Library/
+klige001          4675   0.0  0.4  4946040  70960   ??  S     2:01PM   0:00.64 /System/Library/
+klige001          4674   0.0  0.2  4363192  39900   ??  S     2:01PM   0:00.82 /usr/libexec/rou
+klige001          4671   0.0  0.1  4357272  17740   ??  S     2:01PM   0:00.21 /usr/sbin/userno
+klige001          4668   0.0  0.1  4355488  19064   ??  S     2:01PM   0:00.06 /usr/libexec/rap
+klige001          4664   0.0  0.1  4357096  13292   ??  S     2:01PM   0:00.50 /usr/libexec/sec
+klige001          4662   0.0  0.1  4327352  18304   ??  S     2:01PM   0:00.06 /System/Library/
+klige001          4661   0.0  0.1  4355364  18292   ??  S     2:01PM   0:00.06 /System/Library/
+klige001          4658   0.0  0.1  4355748  22824   ??  S     2:01PM   0:00.11 /System/Library/
+klige001          4657   0.0  0.1  4361920  19832   ??  S     2:01PM   0:00.35 /usr/libexec/nsu
+klige001          4656   0.0  0.1  4356500  10508   ??  S     2:01PM   0:00.14 /System/Library/
+klige001          4646   0.0  0.0  4327508   6340   ??  S     2:01PM   0:00.02 /System/Library/
+klige001          4645   0.0  0.1  4364488  19624   ??  S     2:01PM   0:00.15 /System/Library/
+klige001          4644   0.0  0.1  4358296   8964   ??  S     2:01PM   0:00.32 /System/Library/
+klige001          4642   0.0  0.2  4363184  32680   ??  S     2:01PM   0:00.16 /System/Library/
+klige001          4641   0.0  0.2  4363984  36380   ??  S     2:01PM   0:00.77 /System/Library/
+klige001          4640   0.0  0.1  4358672  14964   ??  S     2:01PM   0:00.11 /usr/libexec/sec
+klige001          4629   0.0  0.2  4370256  25256   ??  S     2:01PM   0:01.85 /usr/libexec/tru
+klige001          4628   0.0  0.1  4362184  14232   ??  S     2:01PM   0:00.41 /usr/libexec/lsd
+klige001          4627   0.0  0.2  4368132  34184   ??  S     2:01PM   0:00.26 /System/Library/
+klige001          4625   0.0  0.1  4368644  13632   ??  S     2:01PM   0:00.21 /usr/sbin/univer
+klige001          4624   0.0  0.0  4328420   5024   ??  S     2:01PM   0:00.23 /usr/sbin/distno
+klige001          4622   0.0  0.2  4357676  36472   ??  S     2:01PM   0:00.51 /usr/libexec/Use
+root              4603   0.0  0.1  4354996  10980   ??  Ss    2:01PM   0:00.03 /System/Library/
+klige001          4600   0.0  0.0  4327812   3576   ??  S     2:01PM   0:00.56 /usr/sbin/cfpref
+klige001          4599   0.0  0.1  4354188  10912   ??  S     2:01PM   0:00.03 /System/Library/
+klige001          3966   0.0  0.2  4913544  26544   ??  Ss   12:33PM   0:00.66 /System/Library/
+root              3836   0.0  0.1  4309996   9200   ??  Ss   12:32PM   0:00.01 /System/Library/
+root              3835   0.0  0.2  4437220  38560   ??  Ss   12:32PM   0:00.23 /System/Library/
+ocasi002          3797   0.0  0.2  4399800  33100   ??  S    12:31PM   0:00.43 /System/Library/
+ocasi002          3193   0.0  0.1  4418604  12512   ??  S    10:45AM   0:00.05 /System/Library/
+ocasi002          3178   0.0  0.0  4327756   5540   ??  S    10:45AM   0:00.01 /System/Library/
+ocasi002          3165   0.0  0.2  4456308  33680   ??  S    10:45AM   0:00.18 /System/Library/
+ocasi002          3150   0.0  0.0  4327796   5824   ??  S    10:36AM   0:00.05 /System/Library/
+ocasi002          2679   0.0  0.1  4354016  22616   ??  S    10:31AM   0:00.08 /System/Library/
+ocasi002          2655   0.0  0.0  4319352   4636   ??  S    10:31AM   0:00.01 /System/Library/
+ocasi002          2593   0.0  0.1  4355080  10432   ??  S    10:31AM   0:00.02 /System/Library/
+ocasi002          2537   0.0  0.1  4366988  18128   ??  S    10:31AM   0:00.47 /System/Library/
+ocasi002          2535   0.0  0.1  4329020  10800   ??  S    10:31AM   0:00.02 /System/Library/
+ocasi002          2458   0.0  0.1  4358348  13952   ??  S    10:31AM   0:03.24 /usr/libexec/pkd
+ocasi002          2442   0.0  0.1  4355364  18156   ??  S    10:31AM   0:00.10 /System/Library/
+ocasi002          2405   0.0  0.1  4356596  11680   ??  S    10:31AM   0:00.97 /usr/libexec/sec
+ocasi002          2378   0.0  0.1  4359024  10528   ??  S    10:31AM   0:00.67 /usr/libexec/lsd
+ocasi002          2370   0.0  0.0  4328420   5128   ??  S    10:31AM   0:00.63 /usr/sbin/distno
+ocasi002          2346   0.0  0.0  4328008   3732   ??  S    10:31AM   0:00.99 /usr/sbin/cfpref
+ocasi002          2345   0.0  0.1  4354188  10848   ??  S    10:31AM   0:00.03 /System/Library/
+root              2182   0.0  0.0  4293260   4916   ??  Ss   10:07AM   0:00.01 /usr/libexec/app
+root              2179   0.0  0.0  4357632   7612   ??  Ss   10:04AM   0:00.19 /System/Library/
+root              2178   0.0  0.1  4356908  17296   ??  Ss   10:04AM   0:00.52 /System/Library/
+root              2141   0.0  0.1  4362224  18416   ??  Ss   10:01AM   0:00.47 /System/Library/
+root              2139   0.0  0.1  4329008  14884   ??  Ss   10:01AM   0:00.04 /System/Library/
+root              1769   0.0  0.0  4356172   6976   ??  S     9:24AM   0:00.07 /usr/libexec/sec
+root              1768   0.0  0.1  4366968  11224   ??  S     9:24AM   0:00.48 /System/Library/
+root              1567   0.0  0.1  4349040  17760   ??  Ss    8:41AM   0:00.04 /System/Library/
+root              1254   0.0  0.1  4357600  10148   ??  Ss    8:28AM   0:00.32 /usr/libexec/rtc
+_assetcache       1253   0.0  0.0  4358072   7020   ??  Ss    8:28AM   0:00.27 /System/Library/
+_spotlight        1251   0.0  0.1  4320708  11724   ??  S     8:28AM   0:00.03 /System/Library/
+root              1236   0.0  0.1  4353788  11952   ??  Ss    8:28AM   0:00.04 /System/Library/
+root              1181   0.0  0.0  4293808    792   ??  SNs   8:28AM   0:00.01 /usr/libexec/per
+_softwareupdate   1165   0.0  0.0  4328420   2728   ??  S     8:28AM   0:00.03 /usr/sbin/distno
+_softwareupdate   1164   0.0  0.0  4319448   1168   ??  S     8:28AM   0:00.04 /usr/sbin/cfpref
+root              1136   0.0  0.1  4355428  13788   ??  Ss    8:27AM   0:00.16 /Library/Privile
+root              1112   0.0  0.1  4318608   8416   ??  Ss    8:26AM   0:00.02 /System/Library/
+root              1071   0.0  0.1  4360848   9768   ??  Ss    8:25AM   0:00.37 /usr/libexec/dpr
+allen108          1070   0.0  0.1  4418604  14424   ??  S     8:25AM   0:00.09 /System/Library/
+allen108          1068   0.0  0.0  4327756   5476   ??  S     8:25AM   0:00.02 /System/Library/
+allen108          1046   0.0  0.0  4327796   5840   ??  S     8:25AM   0:00.11 /System/Library/
+allen108          1040   0.0  0.2  4455284  33632   ??  S     8:25AM   0:00.17 /System/Library/
+root              1037   0.0  0.0  4320860   4360   ??  Ss    8:25AM   0:00.02 /usr/libexec/mob
+_datadetectors    1023   0.0  0.1  4334676  20012   ??  Ss    8:24AM   0:04.53 /usr/libexec/Dat
+_applepay          996   0.0  0.0  4355092   8080   ??  Ss    8:24AM   0:00.04 /usr/libexec/nfc
+_spotlight         976   0.0  0.0  4328420   2984   ??  S     8:24AM   0:00.05 /usr/sbin/distno
+_locationd         948   0.0  0.0  4328420   2812   ??  S     8:23AM   0:00.04 /usr/sbin/distno
+_locationd         947   0.0  0.0  4358868   7808   ??  S     8:23AM   0:00.20 /usr/libexec/tru
+_locationd         945   0.0  0.0  4319448   1224   ??  S     8:23AM   0:00.05 /usr/sbin/cfpref
+_locationd         943   0.0  0.0  4356348   6988   ??  S     8:23AM   0:00.11 /usr/libexec/sec
+_locationd         942   0.0  0.1  4366072   9212   ??  S     8:23AM   0:00.56 /System/Library/
+root               941   0.0  0.1  4355256  17320   ??  Ss    8:23AM   0:00.10 /usr/libexec/dmd
+allen108           897   0.0  0.1  4355080  10416   ??  S     8:23AM   0:00.03 /System/Library/
+_spotlight         895   0.0  0.1  4358704  11744   ??  S     8:23AM   0:00.74 /usr/libexec/tru
+allen108           882   0.0  0.1  4365600  14208   ??  S     8:23AM   0:00.63 /System/Library/
+allen108           874   0.0  0.1  4329020  10776   ??  S     8:23AM   0:00.02 /System/Library/
+_fpsd              834   0.0  0.0  4329060   6192   ??  Ss    8:23AM   0:00.16 /System/Library/
+_softwareupdate    829   0.0  0.1  4354944  10288   ??  Ss    8:23AM   0:00.05 /System/Library/
+allen108           797   0.0  0.1  4354252  22944   ??  S     8:23AM   0:00.09 /System/Library/
+root               781   0.0  0.1  4360964  13820   ??  Ss    8:23AM   0:00.17 /System/Library/
+_softwareupdate    780   0.0  0.5  4507276  82052   ??  Ss    8:23AM   0:24.07 /System/Library/
+_fpsd              770   0.0  0.1  4331476   9424   ??  Ss    8:23AM   0:00.08 /System/Library/
+root               760   0.0  0.2  4375516  39876   ??  Ss    8:23AM   0:04.72 /System/Library/
+root               759   0.0  0.0  4355856   7952   ??  Ss    8:23AM   0:00.14 /usr/bin/sysdiag
+root               756   0.0  0.2  4369812  27912   ??  Ss    8:23AM   0:00.70 /System/Library/
+_assetcache        752   0.0  0.1  4357660  13456   ??  Ss    8:23AM   0:00.15 /usr/libexec/Ass
+allen108           751   0.0  0.1  4358424  14332   ??  S     8:23AM   0:03.84 /usr/libexec/pkd
+root               717   0.0  0.1  4361036  15556   ??  Ss    8:23AM   0:03.61 /System/Library/
+root               711   0.0  0.6  4406692 103688   ??  Ss    8:23AM   0:03.95 /usr/sbin/spindu
+root               708   0.0  0.0  4332820   7372   ??  Ss    8:23AM   0:00.12 /usr/sbin/fileco
+root               699   0.0  0.2  4386680  26900   ??  Ss    8:23AM   0:00.56 /System/Library/
+allen108           692   0.0  0.1  4327688  11848   ??  S     8:23AM   0:00.03 /System/Library/
+allen108           690   0.0  0.1  4354528   8548   ??  S     8:23AM   0:00.13 /System/Library/
+root               682   0.0  0.0  4327220   6276   ??  Ss    8:23AM   0:00.03 /System/Library/
+root               667   0.0  0.1  4355276   8456   ??  Ss    8:23AM   0:00.27 /usr/sbin/wirele
+allen108           643   0.0  0.1  4354680  18032   ??  S     8:23AM   0:00.09 /System/Library/
+root               627   0.0  0.1  4354924  12928   ??  Ss    8:23AM   0:00.65 /usr/sbin/Wirele
+allen108           618   0.0  0.1  4363960  22116   ??  S     8:23AM   0:05.20 /usr/libexec/sec
+allen108           616   0.0  0.1  4357972  14600   ??  S     8:23AM   0:00.25 /usr/libexec/lan
+allen108           609   0.0  0.1  4368668  22652   ??  S     8:23AM   0:14.06 /usr/libexec/lsd
+allen108           601   0.0  0.0  4328420   5320   ??  S     8:23AM   0:00.61 /usr/sbin/distno
+root               581   0.0  0.0  4328852   6620   ??  Ss    8:23AM   0:00.09 /usr/libexec/sec
+allen108           562   0.0  0.0  4327772   3336   ??  S     8:23AM   0:01.29 /usr/sbin/cfpref
+allen108           561   0.0  0.1  4354188  10824   ??  S     8:23AM   0:00.05 /System/Library/
+root               539   0.0  0.0  4303400   4924   ??  Ss    8:23AM   0:00.02 /System/Library/
+root               477   0.0  0.0  4327752   7112   ??  Ss    8:22AM   0:00.01 /System/Library/
+root               419   0.0  0.0  4327744   1432   ??  Ss    8:22AM   0:00.02 /System/Library/
+_analyticsd        416   0.0  0.1  4356388  11548   ??  Ss    8:22AM   0:00.65 /System/Library/
+root               414   0.0  0.0  4355716   6264   ??  S     8:22AM   0:00.07 /usr/sbin/system
+root               408   0.0  0.0  4327640   5980   ??  Ss    8:22AM   0:01.26 /usr/libexec/sys
+root               395   0.0  0.0  4356268   7612   ??  Ss    8:22AM   0:00.14 /System/Library/
+root               347   0.0  0.0  4302800   4348   ??  Ss    8:22AM   0:00.01 /usr/libexec/smd
+_netbios           334   0.0  0.1  4329328   9428   ??  SNs   8:22AM   0:00.52 /usr/sbin/netbio
+root               320   0.0  0.1  4355172  21232   ??  Ss    8:22AM   0:00.11 /usr/libexec/fin
+_nsurlstoraged     317   0.0  0.0  4327840   7708   ??  Ss    8:22AM   0:00.12 /usr/libexec/nsu
+root               316   0.0  0.0  4328976   6756   ??  Ss    8:22AM   0:00.53 /System/Library/
+root               315   0.0  0.0  4328420   2856   ??  S     8:22AM   0:00.05 /usr/sbin/distno
+root               313   0.0  0.1  4358584   9692   ??  Ss    8:22AM   0:00.11 /usr/sbin/system
+root               311   0.0  0.0  4327676   5820   ??  Ss    8:22AM   0:00.02 /System/Library/
+root               308   0.0  0.1  4327636  10380   ??  Ss    8:22AM   0:00.03 /System/Library/
+root               307   0.0  0.1  4328464  10708   ??  Ss    8:22AM   0:00.02 /System/Library/
+root               306   0.0  0.0  4329092   7120   ??  Ss    8:22AM   0:00.46 /System/Library/
+_atsserver         301   0.0  0.1  4357132  11200   ??  Ss    8:22AM   0:00.21 /System/Library/
+root               294   0.0  0.1  4318856  11176   ??  Ss    8:22AM   0:00.02 /usr/libexec/boo
+root               287   0.0  0.0  4328012   6248   ??  Ss    8:22AM   0:00.02 /usr/libexec/col
+root               286   0.0  0.1  4367872  21268   ??  Ss    8:22AM   0:04.20 /System/Library/
+root               285   0.0  0.0  4327244   6236   ??  Ss    8:22AM   0:00.04 /usr/libexec/col
+root               284   0.0  0.1  4408020  11856   ??  Ss    8:22AM   0:00.15 /System/Library/
+_coreaudiod        283   0.0  0.1  4311020   9188   ??  Ss    8:22AM   0:00.01 /System/Library/
+root               282   0.0  0.0  4320936   8240   ??  Ss    8:22AM   0:00.03 /System/Library/
+root               254   0.0  0.8  5094540 132408   ??  Ss    8:22AM   0:15.94 /System/Library/
+root               247   0.0  0.1  4356172  10168   ??  Ss    8:22AM   0:00.09 /usr/libexec/sec
+root               239   0.0  0.1  4294428   9340   ??  Ss    8:22AM   0:00.02 /usr/libexec/the
+root               235   0.0  0.0  4303576   4932   ??  Ss    8:22AM   0:00.13 /usr/libexec/wat
+_cmiodalassistants   233   0.0  0.1  4385044   9944   ??  Ss    8:22AM   0:00.22 /System/Library/
+root               232   0.0  0.0  4327728   4196   ??  Ss    8:22AM   0:00.08 /usr/libexec/fir
+root               231   0.0  0.1  4354976   9264   ??  Ss    8:22AM   0:00.40 /usr/libexec/usb
+root               230   0.0  0.2  4368400  26204   ??  Ss    8:22AM   2:17.04 /usr/libexec/air
+root               229   0.0  0.0  4327196   5964   ??  Ss    8:22AM   0:00.04 /usr/libexec/apf
+root               228   0.0  0.1  4319048   9736   ??  Ss    8:22AM   0:00.03 /System/Library/
+root               224   0.0  0.1  4358732  12372   ??  Ss    8:22AM   0:02.01 /System/Library/
+root               222   0.0  0.1  4360768  14960   ??  Ss    8:22AM   0:01.11 /usr/libexec/amf
+root               221   0.0  0.2  4362736  25980   ??  Ss    8:22AM   0:02.38 /usr/libexec/sys
+root               220   0.0  0.1  4330644   9556   ??  Ss    8:22AM   0:00.54 /System/Library/
+root               219   0.0  0.0  4354936   6704   ??  Ss    8:22AM   0:00.75 /usr/sbin/mDNSRe
+_mdnsresponder     217   0.0  0.1  4357740  10980   ??  Ss    8:22AM   0:12.66 /usr/sbin/mDNSRe
+root               216   0.0  0.1  4359868  10664   ??  Ss    8:22AM   0:00.59 /usr/libexec/lsd
+_nsurlsessiond     210   0.0  0.1  4365452  20400   ??  Ss    8:22AM   0:01.15 /usr/libexec/nsu
+_coreaudiod        204   0.0  0.0  4354556   7600   ??  Ss    8:22AM   0:00.08 /System/Library/
+_networkd          201   0.0  0.1  4363720  11016   ??  Ss    8:22AM   0:03.34 /usr/libexec/sym
+root               200   0.0  0.1  4364588  24712   ??  Ss    8:22AM   0:04.54 /usr/libexec/mob
+_ctkd              193   0.0  0.1  4320720  10392   ??  Ss    8:22AM   0:00.02 /System/Library/
+_coreaudiod        192   0.0  0.1  4336488  15288   ??  Ss    8:22AM   0:01.78 /usr/sbin/coreau
+root               186   0.0  0.1  4369920  20912   ??  Ss    8:22AM   0:09.69 /usr/libexec/tru
+root               185   0.0  0.1  4319516   9020   ??  Ss    8:22AM   0:00.01 /System/Library/
+root               183   0.0  0.1  4360460   9848   ??  Ss    8:22AM   0:00.15 /usr/libexec/neh
+root               178   0.0  0.1  4361000  18352   ??  Ss    8:22AM   0:03.31 /System/Library/
+root               177   0.0  0.1  4384224  14196   ??  Ss    8:22AM   0:02.80 /System/Library/
+root              5188   0.0  0.0  4277692   1068 s000  R+    2:36PM   0:00.00 ps aux
+root               151   0.0  0.1  4357960  12088   ??  Ss    8:22AM   0:01.08 /System/Library/
+root               132   0.0  0.0  4328156   5864   ??  Ss    8:22AM   0:03.05 /usr/sbin/cfpref
+_distnote          131   0.0  0.0  4328420   3692   ??  Ss    8:22AM   0:00.38 /usr/sbin/distno
+root               130   0.0  0.0  4302824   2104   ??  Ss    8:22AM   0:05.30 /usr/sbin/notify
+root               129   0.0  0.1  4355524  13808   ??  Ss    8:22AM   0:00.29 /usr/libexec/Air
+root               128   0.0  0.1  4356292  13068   ??  Ss    8:22AM   0:00.44 /usr/libexec/cor
+root               127   0.0  0.7  4419880 121456   ??  Ss    8:22AM   0:27.54 /usr/libexec/san
+_hidd              126   0.0  0.0  4330236   7536   ??  Ss    8:22AM   1:34.26 /usr/libexec/hid
+root               125   0.0  0.1  4359372  11712   ??  Ss    8:22AM   0:01.40 /usr/sbin/blueto
+root               123   0.0  0.0  4327628   4928   ??  Ss    8:22AM   0:00.01 /usr/sbin/Kernel
+root               122   0.0  0.0  4356444   6852   ??  Ss    8:22AM   0:00.18 /System/Library/
+root               121   0.0  0.0  4327312   6564   ??  Ss    8:22AM   0:00.05 /System/Library/
+root               117   0.0  0.1  4355860   8628   ??  Ss    8:22AM   0:00.12 /System/Library/
+root               116   0.0  0.1  4359996  14296   ??  Ss    8:22AM   0:02.62 /usr/libexec/das
+_displaypolicyd    114   0.0  0.1  4330384  10756   ??  Ss    8:22AM   0:00.05 /usr/libexec/dis
+root               113   0.0  0.0  4327756   5520   ??  Ss    8:22AM   0:00.09 autofsd
+_locationd         111   0.0  0.1  4371944  22572   ??  Ss    8:22AM   0:41.83 /usr/libexec/loc
+_usbmuxd           109   0.0  0.0  4354684   6440   ??  Ss    8:22AM   0:00.05 /System/Library/
+root               108   0.0  0.1  4362380  15936   ??  Ss    8:22AM   0:03.92 /usr/sbin/securi
+_timed             107   0.0  0.0  4354344   7460   ??  Ss    8:22AM   0:00.40 /usr/libexec/tim
+root               106   0.0  0.1  4361800  18656   ??  Ss    8:22AM   0:07.07 /System/Library/
+root               105   0.0  0.0  4355348   6776   ??  Ss    8:22AM   0:00.10 /System/Library/
+root               104   0.0  0.2  4381552  36032   ??  S<s   8:22AM   0:02.59 /Library/Applica
+root               103   0.0  0.1  4358932  23904   ??  Ss    8:22AM   0:01.82 /System/Library/
+root                98   0.0  0.1  4360852  17692   ??  Ss    8:22AM   0:00.78 /usr/libexec/cor
+root                97   0.0  0.2  4328972  30868   ??  Ss    8:22AM   0:00.28 /System/Library/
+root                93   0.0  0.0  4353924   7524   ??  Ss    8:22AM   0:02.24 /usr/libexec/dis
+_iconservices       92   0.0  0.0  4328820   5308   ??  Ss    8:22AM   0:00.03 /System/Library/
+root                91   0.0  0.4  4487704  69212   ??  Ss    8:22AM   0:19.55 /System/Library/
+root                85   0.0  0.0  4327344   5444   ??  Ss    8:22AM   0:00.02 /usr/libexec/key
+root                84   0.0  0.2  4422792  33536   ??  Ss    8:22AM   0:08.02 /usr/libexec/log
+root                81   0.0  0.1  4359228  13292   ??  Ss    8:22AM   0:00.15 /Library/Applica
+root                80   0.0  0.1  4354908  12392   ??  Ss    8:22AM   0:07.70 /System/Library/
+root                79   0.0  0.1  4359904  12496   ??  Ss    8:22AM   0:12.18 /usr/libexec/con
+root                77   0.0  0.1  4361872   8892   ??  Ss    8:22AM   0:02.49 /usr/sbin/system
+_appleevents        76   0.0  0.1  4356596  10656   ??  Ss    8:22AM   0:00.28 /System/Library/
+psnotify            75   0.0  0.0  4328644   6332   ??  Ss    8:22AM   0:00.03 /Library/Applica
+root                72   0.0  0.1  4359484  23452   ??  Ss    8:22AM   0:00.23 /System/Library/
+root                71   0.0  0.1  4365824  21648   ??  SNs   8:22AM   0:00.62 /usr/local/jamf/
+root                69   0.0  0.1  4358696  14456   ??  Ss    8:22AM   0:03.98 /System/Library/
+root                68   0.0  0.1  4363740  21696   ??  Ss    8:22AM   0:02.44 /usr/libexec/kex
+root                67   0.0  0.0  4294092   5260   ??  Ss    8:22AM   0:00.45 /System/Library/
+root                64   0.0  0.1  4356768  19248   ??  Ss    8:22AM   0:01.04 /usr/libexec/Use
+root                63   0.0  0.0  4328340   1300   ??  Ss    8:22AM   0:01.11 /usr/sbin/syslog
+root               168   0.0  0.0  4327760   5684   ??  Ss    8:22AM   0:00.43 aslmanager
+_reportmemoryexception  5186   0.0  0.0  4354744   6868   ??  Ss    2:35PM   0:00.04 /usr/libexec/Rep
+klige001          5185   0.0  0.1  4311440   8940   ??  S     2:35PM   0:00.03 /System/Library/
+maclab-105:~ klige001$ ps aux
+USER               PID  %CPU %MEM      VSZ    RSS   TT  STAT STARTED      TIME COMMAND
+_windowserver     3969   0.1  0.7  8045988 122804   ??  Rs   12:33PM   0:46.01 /System/Library/PrivateFrameworks/
+root              5189   0.0  0.0  4312880   6288   ??  Ss    2:36PM   0:00.01 /usr/libexec/diskmanagementd
+_reportmemoryexception  5186   0.0  0.0  4354744   6868   ??  Ss    2:35PM   0:00.04 /usr/libexec/ReportMemoryException
+klige001          5185   0.0  0.1  4311440   8940   ??  S     2:35PM   0:00.03 /System/Library/CoreServices/Repor
+klige001          5184   0.0  0.1  4663424  23220   ??  S     2:35PM   0:03.36 /System/Library/Frameworks/CoreSpo
+klige001          5179   0.0  0.1  4354024  10668   ??  Ss    2:34PM   0:00.03 /Applications/Xcode.app/Contents/P
+klige001          5178   0.0  0.1  4358484  12288   ??  S     2:34PM   0:00.08 /Applications/Xcode.app/Contents/D
+klige001          5177   0.0  0.1  4356188   9308   ??  S     2:34PM   0:00.07 /System/Library/Frameworks/AudioTo
+klige001          5176   0.0  0.2  4372812  34144   ??  S     2:34PM   0:02.28 /System/Library/PrivateFrameworks/
+klige001          5175   0.0  0.1  4881144  14316   ??  S     2:34PM   0:00.04 /Library/Developer/PrivateFramewor
+klige001          5174   0.0  0.1  4882092  17544   ??  S     2:34PM   0:00.32 /Library/Developer/PrivateFramewor
+klige001          5172   0.0  0.1  4827460  20620   ??  Ss    2:34PM   0:00.11 /System/Library/Frameworks/Metal.f
+root              5171   0.0  0.0  4354092   6944   ??  Ss    2:34PM   0:00.02 /usr/sbin/ocspd
+klige001          5170   0.0  1.0  6054056 169772   ??  S     2:34PM   0:02.55 /Applications/Xcode.app/Contents/M
+klige001          5096   0.0  0.1  4835956  17020   ??  Ss    2:23PM   0:00.10 /System/Library/Frameworks/Metal.f
+klige001          5095   0.0  0.3  4973488  53556   ??  S     2:23PM   0:01.62 /Applications/TextEdit.app/Content
+klige001          5090   0.0  0.1  4832672  10624   ??  Ss    2:23PM   0:00.04 /System/Library/Frameworks/Metal.f
+klige001          5089   0.0  0.3 89420280  43924   ??  Ss    2:23PM   0:00.12 /System/Library/StagedFrameworks/S
+klige001          5088   0.0  1.6 106707792 271256   ??  Ss    2:23PM   0:17.15 /System/Library/StagedFrameworks/S
+klige001          5087   0.0  0.1  4837532  16876   ??  Ss    2:23PM   0:00.11 /System/Library/Frameworks/Metal.f
+klige001          5086   0.0  0.8 106368440 127976   ??  Ss    2:22PM   0:00.82 /System/Library/StagedFrameworks/S
+klige001          5013   0.0  0.2  4365584  25352   ??  S     2:08PM   0:00.20 /System/Library/Frameworks/Applica
+klige001          5012   0.0  0.1  4354824  15484   ??  S     2:07PM   0:00.09 /System/Library/PrivateFrameworks/
+klige001          5009   0.0  0.1  4353688   8904   ??  S     2:06PM   0:00.21 /System/Library/Frameworks/Applica
+klige001          5008   0.0  0.3 89445236  55556   ??  Ss    2:06PM   0:00.19 /System/Library/StagedFrameworks/S
+klige001          5007   0.0  0.9 89733080 143448   ??  Ss    2:06PM   0:03.49 /System/Library/StagedFrameworks/S
+klige001          5006   0.0  0.1  4837532  15736   ??  Ss    2:04PM   0:00.06 /System/Library/Frameworks/Metal.f
+klige001          5004   0.0  0.1  4846748  15916   ??  Ss    2:03PM   0:00.05 /System/Library/Frameworks/Metal.f
+klige001          5002   0.0  0.5 106235548  77660   ??  Ss    2:03PM   0:00.89 /System/Library/StagedFrameworks/S
+klige001          5001   0.0  0.1  4319244   9620   ??  S     2:03PM   0:00.02 /System/Library/PrivateFrameworks/
+klige001          5000   0.0  0.1  4357944  21332   ??  S     2:03PM   0:00.27 /System/Library/PrivateFrameworks/
+klige001          4998   0.0  0.1  4355024  12188   ??  S     2:03PM   0:00.07 /System/Library/PrivateFrameworks/
+klige001          4997   0.0  0.5 106234940  79844   ??  Ss    2:03PM   0:00.43 /System/Library/StagedFrameworks/S
+klige001          4996   0.0  0.0  4318448   5380   ??  S     2:03PM   0:00.01 /System/Library/Frameworks/MediaAc
+klige001          4994   0.0  0.1  4416556  14588   ??  S     2:03PM   0:00.06 /System/Library/PrivateFrameworks/
+klige001          4993   0.0  0.1  4328860  15632   ??  S     2:03PM   0:00.12 /usr/libexec/silhouette
+klige001          4991   0.0  0.2  4459296  36152   ??  Ss    2:02PM   0:00.23 /System/Library/StagedFrameworks/S
+klige001          4986   0.0  0.2  4374524  26048   ??  S     2:02PM   0:02.26 /System/Library/PrivateFrameworks/
+klige001          4983   0.0  1.8 106788348 305516   ??  Ss    2:02PM   0:36.12 /System/Library/StagedFrameworks/S
+klige001          4982   0.0  0.1  4354724  19568   ??  S     2:02PM   0:00.05 /System/Library/PrivateFrameworks/
+klige001          4979   0.0  0.2  4353856  28356   ??  S     2:02PM   0:00.06 /System/Library/PrivateFrameworks/
+klige001          4978   0.0  0.0  4354440   7148   ??  S     2:02PM   0:00.04 /System/Library/Frameworks/CoreSer
+_spotlight        4975   0.0  0.1  4339788  18572   ??  S     2:02PM   0:00.07 /System/Library/Frameworks/CoreSer
+klige001          4969   0.0  0.0  4314968   1676 s000  S     2:02PM   0:00.06 -bash
+root              4968   0.0  0.0  4327184   5960 s000  Ss    2:02PM   0:00.01 login -pf klige001
+klige001          4967   0.0  0.1  4361272  19576   ??  Ss    2:02PM   0:00.16 /System/Library/PrivateFrameworks/
+klige001          4965   0.0  0.1  4360900  17508   ??  S     2:02PM   0:00.09 /usr/libexec/keyboardservicesd
+klige001          4964   0.0  0.3  4416812  47896   ??  S     2:02PM   0:00.48 /System/Library/Services/AppleSpel
+ocasi002          4960   0.0  0.1  4360348  10924   ??  S     2:02PM   0:00.18 /usr/libexec/trustd --agent
+allen108          4959   0.0  0.1  4360304  10924   ??  S     2:02PM   0:00.17 /usr/libexec/trustd --agent
+klige001          4954   0.0  0.2  4319600  27072   ??  S     2:02PM   0:00.04 /System/Library/CoreServices/Escro
+klige001          4948   0.0  0.1  4331432  14672   ??  Ss    2:02PM   0:00.07 /System/Library/PrivateFrameworks/
+klige001          4947   0.0  0.1  4371828  22844   ??  S     2:02PM   0:00.10 /System/Library/PrivateFrameworks/
+klige001          4946   0.0  0.1  4365780  23084   ??  S     2:02PM   0:00.47 /System/Library/PrivateFrameworks/
+klige001          4945   0.0  0.1  4354940  17636   ??  S     2:02PM   0:00.06 /System/Library/PrivateFrameworks/
+klige001          4942   0.0  0.1  4320188  12908   ??  S     2:02PM   0:00.02 /System/Library/CoreServices/Softw
+klige001          4941   0.0  0.2  4370772  31452   ??  S     2:02PM   0:00.98 /System/Library/PrivateFrameworks/
+klige001          4926   0.0  0.1  4355428  10784   ??  S     2:01PM   0:01.20 /Applications/Utilities/Adobe Sync
+klige001          4925   0.0  0.3  5008136  51488   ??  S     2:01PM   0:00.52 /Applications/Utilities/Adobe Crea
+klige001          4924   0.0  0.2  4957324  29184   ??  S     2:01PM   0:00.33 /Applications/Utilities/Adobe Sync
+klige001          4920   0.0  0.8  4888104 136504   ??  S     2:01PM   0:10.72 /Applications/Utilities/Adobe Crea
+klige001          4917   0.0  0.0  4319648   6392   ??  S     2:01PM   0:00.01 /System/Library/Frameworks/ColorSy
+klige001          4909   0.0  0.3  5028012  58684   ??  S     2:01PM   0:00.65 /Library/Application Support/Adobe
+klige001          4908   0.0  0.1  4355428  10736   ??  S     2:01PM   0:01.05 /Library/Application Support/Adobe
+klige001          4905   0.0  0.5  4801512  79492   ??  S     2:01PM   0:00.42 /Applications/Utilities/Adobe Crea
+klige001          4904   0.0  0.1  4354904  10760   ??  S     2:01PM   0:01.05 /Applications/Utilities/Adobe Crea
+klige001          4902   0.0  1.0  5633388 163292   ??  S     2:01PM   0:03.66 /Library/Application Support/Adobe
+klige001          4901   0.0  0.0  4339276   8128   ??  Ss    2:01PM   0:00.03 /System/Library/Frameworks/VideoTo
+klige001          4900   0.0  0.4  4685068  61536   ??  S     2:01PM   0:07.51 /Applications/Utilities/Adobe Crea
+_gamecontrollerd  4899   0.0  0.1  4319672   9904   ??  Ss    2:01PM   0:00.10 /usr/libexec/gamecontrollerd
+klige001          4898   0.0  0.1  4375848  15688   ??  S     2:01PM   0:00.56 /Library/Application Support/Adobe
+klige001          4891   0.0  0.1  4329020  10804   ??  S     2:01PM   0:00.02 /System/Library/Frameworks/CryptoT
+klige001          4890   0.0  0.1  4328584  10948   ??  S     2:01PM   0:00.02 /System/Library/Frameworks/CryptoT
+klige001          4888   0.0  0.1  4390508  18416   ??  S     2:01PM   0:00.13 /Library/Application Support/Malwa
+klige001          4887   0.0  0.1  4358716  21044   ??  S     2:01PM   0:00.13 /usr/libexec/adprivacyd
+klige001          4886   0.0  0.1  4375608  22904   ??  S     2:01PM   0:00.19 /System/Library/PrivateFrameworks/
+klige001          4885   0.0  0.4  4729904  60672   ??  S     2:01PM   0:17.36 /Applications/Utilities/Adobe Crea
+klige001          4884   0.0  0.1  4355444  21332   ??  S     2:01PM   0:00.06 /System/Library/CoreServices/cloud
+klige001          4883   0.0  0.1  4880012  15320   ??  S     2:01PM   0:00.09 /System/Library/CoreServices/AirPl
+klige001          4882   0.0  0.1  4388368  18072   ??  S     2:01PM   0:00.11 /Library/Application Support/Pharo
+klige001          4879   0.0  0.1  4355252  16912   ??  S     2:01PM   0:00.07 /System/Library/Image Capture/Supp
+klige001          4878   0.0  0.1  4357600  12820   ??  S     2:01PM   0:00.14 /System/Library/Frameworks/InputMe
+klige001          4877   0.0  0.1  4355228  18068   ??  S     2:01PM   0:00.05 /usr/libexec/dmd
+klige001          4876   0.0  0.1  4355080  12608   ??  SN    2:01PM   0:00.14 /usr/local/jamf/bin/jamfAgent
+klige001          4874   0.0  0.1  4353896  13448   ??  S     2:01PM   0:00.03 /System/Library/CoreServices/Socia
+klige001          4870   0.0  0.1  4301768  17056   ??  S     2:01PM   0:00.02 /System/Library/PrivateFrameworks/
+klige001          4866   0.0  0.1  4358088   9716   ??  S     2:01PM   0:00.08 /System/Library/PrivateFrameworks/
+klige001          4864   0.0  0.1  4359708  18352   ??  S     2:01PM   0:00.09 /System/Library/PrivateFrameworks/
+klige001          4863   0.0  0.2  4384336  31348   ??  Ss    2:01PM   0:00.40 /System/Library/Frameworks/MediaLi
+klige001          4861   0.0  0.1  4356584  11720   ??  Ss    2:01PM   0:00.06 /System/Library/Frameworks/iTunesL
+klige001          4860   0.0  0.1  4359328  16396   ??  S     2:01PM   0:00.12 /usr/libexec/knowledge-agent
+klige001          4858   0.0  0.1  4354252  23540   ??  S     2:01PM   0:00.07 /System/Library/PrivateFrameworks/
+klige001          4857   0.0  0.1  4327384  15304   ??  Ss    2:01PM   0:00.04 /System/Library/PrivateFrameworks/
+klige001          4824   0.0  0.1  4355080  10388   ??  S     2:01PM   0:00.02 /System/Library/CoreServices/Menu 
+klige001          4823   0.0  0.1  4830480   9104   ??  S     2:01PM   0:00.01 SafeEjectGPUAgent
+klige001          4812   0.0  0.1  4346324  10944   ??  S     2:01PM   0:00.02 /System/Library/PrivateFrameworks/
+klige001          4811   0.0  0.0  4354076   7496   ??  S     2:01PM   0:00.04 /System/Library/PrivateFrameworks/
+klige001          4810   0.0  0.1  4357288  18132   ??  S     2:01PM   0:00.10 /System/Library/PrivateFrameworks/
+klige001          4809   0.0  0.2  4398632  34544   ??  S     2:01PM   0:00.26 /System/Library/CoreServices/cloud
+klige001          4808   0.0  0.1  4355076  18820   ??  S     2:01PM   0:00.11 /System/Library/CoreServices/diagn
+klige001          4804   0.0  0.2  4883564  32180   ??  Ss    2:01PM   0:00.16 /System/Library/CoreServices/Dock.
+klige001          4797   0.0  0.1  4357104   9956   ??  S     2:01PM   0:00.52 /System/Library/PrivateFrameworks/
+klige001          4795   0.0  0.1  4355556  14308   ??  S     2:01PM   0:00.17 /usr/libexec/videosubscriptionsd
+klige001          4791   0.0  0.1  4341132  19776   ??  S     2:01PM   0:00.10 /System/Library/Frameworks/CoreSer
+klige001          4789   0.0  0.1  4336736  19716   ??  S     2:01PM   0:00.09 /System/Library/Frameworks/CoreSer
+klige001          4787   0.0  0.0  4327704   5876   ??  S     2:01PM   0:00.10 /System/Library/Frameworks/Applica
+klige001          4782   0.0  0.2  4470076  37124   ??  S     2:01PM   0:00.07 /System/Library/CoreServices/Safar
+klige001          4780   0.0  0.3  4480120  48200   ??  Ss    2:01PM   0:03.31 /System/Library/StagedFrameworks/S
+klige001          4776   0.0  0.1  4375448  16276   ??  S     2:01PM   0:00.11 /System/Library/CoreServices/CoreS
+klige001          4774   0.0  0.2  4456532  33928   ??  S     2:01PM   0:00.11 /System/Library/StagedFrameworks/S
+klige001          4772   0.0  0.0  4327636   5104   ??  Ss    2:01PM   0:00.01 /System/Library/PrivateFrameworks/
+klige001          4770   0.0  0.1  4354300  13660   ??  Ss    2:01PM   0:00.07 /System/Library/PrivateFrameworks/
+klige001          4768   0.0  0.1  4367152  19500   ??  S     2:01PM   0:00.39 /System/Library/PrivateFrameworks/
+klige001          4766   0.0  0.3  4416184  50648   ??  Ss    2:01PM   0:00.18 /Applications/Utilities/Adobe Sync
+klige001          4765   0.0  0.1  4394268  22112   ??  Ss    2:01PM   0:00.12 /System/Library/Frameworks/VideoTo
+klige001          4762   0.0  0.5  5030216  90752   ??  S     2:01PM   0:01.62 /System/Library/CoreServices/Spotl
+klige001          4760   0.0  0.1  4327276  16512   ??  Ss    2:01PM   0:00.02 /System/Library/CoreServices/Notif
+klige001          4757   0.0  0.3  4949056  55412   ??  S     2:01PM   0:00.58 /System/Library/CoreServices/Finde
+klige001          4756   0.0  0.3  4930856  45504   ??  S     2:01PM   0:00.41 /System/Library/CoreServices/Syste
+klige001          4755   0.0  1.0  5040864 172612   ??  S     2:01PM   0:01.02 /System/Library/CoreServices/Dock.
+klige001          4752   0.0  0.4  4964700  62644   ??  S     2:01PM   0:11.56 /Applications/Utilities/Terminal.a
+klige001          4751   0.0  0.8  6540568 129676   ??  S     2:01PM   0:40.72 /Applications/Safari.app/Contents/
+klige001          4739   0.0  0.1  4363604  25080   ??  S     2:01PM   0:00.88 /System/Library/PrivateFrameworks/
+klige001          4737   0.0  0.1  4358016   9988   ??  S     2:01PM   0:00.08 /System/Library/PrivateFrameworks/
+klige001          4735   0.0  0.1  4369284  16392   ??  S     2:01PM   0:00.76 /System/Library/CoreServices/WiFiA
+klige001          4734   0.0  0.0  4355340   8104   ??  S     2:01PM   0:00.03 /System/Library/CoreServices/backg
+klige001          4732   0.0  0.0  4354916   7564   ??  S     2:01PM   0:00.04 /System/Library/CoreServices/pbs
+klige001          4731   0.0  0.1  4355032  17444   ??  S     2:01PM   0:00.05 /System/Library/PrivateFrameworks/
+klige001          4730   0.0  0.1  4355764   9120   ??  S     2:01PM   0:00.08 /usr/libexec/swcd
+klige001          4729   0.0  0.2  4360436  29652   ??  S     2:01PM   0:00.16 /System/Library/PrivateFrameworks/
+klige001          4728   0.0  0.2  4664224  35892   ??  S     2:01PM   0:00.22 /System/Library/Frameworks/CoreSer
+klige001          4725   0.0  0.1  4329024  18252   ??  S     2:01PM   0:00.07 /System/Library/PrivateFrameworks/
+klige001          4724   0.0  0.1  4358212  14880   ??  S     2:01PM   0:01.14 /usr/libexec/pkd
+klige001          4722   0.0  0.1  4356744  18576   ??  S     2:01PM   0:00.12 /System/Library/CoreServices/mapsp
+klige001          4720   0.0  0.2  4473172  39700   ??  S     2:01PM   0:00.45 /System/Library/CoreServices/Safar
+klige001          4719   0.0  0.3  4421812  42032   ??  S     2:01PM   0:00.46 /System/Library/PrivateFrameworks/
+klige001          4718   0.0  0.2  4360432  33524   ??  Ss    2:01PM   0:00.17 /System/Library/PrivateFrameworks/
+klige001          4712   0.0  0.1  4376440  12804   ??  S     2:01PM   0:00.24 /System/Library/CoreServices/icons
+klige001          4706   0.0  0.2  4365980  26064   ??  S     2:01PM   0:00.75 /System/Library/PrivateFrameworks/
+klige001          4705   0.0  0.0  4319588   5752   ??  S     2:01PM   0:00.01 /System/Library/CoreServices/APFSU
+klige001          4704   0.0  0.2  4362772  39404   ??  S     2:01PM   0:00.50 /System/Library/PrivateFrameworks/
+klige001          4703   0.0  0.1  4355796  12012   ??  S     2:01PM   0:00.03 /usr/libexec/networkserviceproxy
+klige001          4701   0.0  0.1  4378656  17564   ??  S     2:01PM   0:00.13 /System/Library/CoreServices/CoreL
+klige001          4699   0.0  0.1  4355280  12736   ??  Ss    2:01PM   0:00.04 /System/Library/PrivateFrameworks/
+klige001          4696   0.0  0.1  4354600  18392   ??  S     2:01PM   0:00.03 /System/Library/PrivateFrameworks/
+klige001          4695   0.0  0.0  4327160   5644   ??  Ss    2:01PM   0:00.02 /System/Library/PrivateFrameworks/
+klige001          4694   0.0  0.1  4355988   9628   ??  S     2:01PM   0:00.11 /System/Library/CoreServices/share
+klige001          4691   0.0  0.1  4354976  12544   ??  S     2:01PM   0:00.18 /System/Library/PrivateFrameworks/
+klige001          4690   0.0  0.1  4355280  12672   ??  Ss    2:01PM   0:00.04 /System/Library/PrivateFrameworks/
+klige001          4688   0.0  0.1  4355804  22848   ??  S     2:01PM   0:00.07 /usr/libexec/fmfd
+klige001          4687   0.0  0.2  4364164  34256   ??  S     2:01PM   0:00.25 /usr/libexec/sharingd
+klige001          4685   0.0  0.1  4356844  12148   ??  S     2:01PM   0:00.64 /System/Library/Frameworks/Applica
+klige001          4684   0.0  0.1  4381800  17612   ??  S     2:01PM   0:00.11 /System/Library/CoreServices/talag
+klige001          4683   0.0  0.1  4356040  10812   ??  S     2:01PM   0:00.11 /System/Library/PrivateFrameworks/
+klige001          4682   0.0  0.0  4328280   6560   ??  S     2:01PM   0:00.04 /usr/libexec/pboard
+klige001          4681   0.0  0.1  4364504  17720   ??  S     2:01PM   0:01.11 /usr/libexec/nsurlstoraged
+klige001          4680   0.0  0.2  4359944  33920   ??  S     2:01PM   0:00.13 /System/Library/PrivateFrameworks/
+klige001          4679   0.0  0.1  4355344  12832   ??  Ss    2:01PM   0:00.04 /System/Library/PrivateFrameworks/
+klige001          4675   0.0  0.4  4946040  70960   ??  S     2:01PM   0:00.64 /System/Library/CoreServices/Notif
+klige001          4674   0.0  0.2  4363192  39900   ??  S     2:01PM   0:00.82 /usr/libexec/routined LAUNCHED_BY_
+klige001          4671   0.0  0.1  4357272  17740   ??  S     2:01PM   0:00.21 /usr/sbin/usernoted
+klige001          4668   0.0  0.1  4355488  19064   ??  S     2:01PM   0:00.06 /usr/libexec/rapportd
+klige001          4664   0.0  0.1  4357096  13292   ??  S     2:01PM   0:00.50 /usr/libexec/secinitd
+klige001          4662   0.0  0.1  4327352  18304   ??  S     2:01PM   0:00.06 /System/Library/Frameworks/Address
+klige001          4661   0.0  0.1  4355364  18292   ??  S     2:01PM   0:00.06 /System/Library/PrivateFrameworks/
+klige001          4658   0.0  0.1  4355748  22824   ??  S     2:01PM   0:00.11 /System/Library/PrivateFrameworks/
+klige001          4657   0.0  0.1  4361920  19824   ??  S     2:01PM   0:00.36 /usr/libexec/nsurlsessiond
+klige001          4656   0.0  0.1  4356500  10508   ??  S     2:01PM   0:00.14 /System/Library/PrivateFrameworks/
+klige001          4646   0.0  0.0  4327508   6340   ??  S     2:01PM   0:00.02 /System/Library/Frameworks/Securit
+klige001          4645   0.0  0.1  4364488  19624   ??  S     2:01PM   0:00.15 /System/Library/PrivateFrameworks/
+klige001          4644   0.0  0.1  4358296   8964   ??  S     2:01PM   0:00.32 /System/Library/Frameworks/Account
+klige001          4642   0.0  0.2  4363184  32680   ??  S     2:01PM   0:00.16 /System/Library/PrivateFrameworks/
+klige001          4641   0.0  0.2  4363984  36380   ??  S     2:01PM   0:00.77 /System/Library/PrivateFrameworks/
+klige001          4640   0.0  0.1  4358672  14964   ??  S     2:01PM   0:00.11 /usr/libexec/secd
+klige001          4629   0.0  0.2  4370256  25232   ??  S     2:01PM   0:01.86 /usr/libexec/trustd --agent
+klige001          4628   0.0  0.1  4362184  14232   ??  S     2:01PM   0:00.41 /usr/libexec/lsd
+klige001          4627   0.0  0.2  4367608  34168   ??  S     2:01PM   0:00.26 /System/Library/Frameworks/CoreTel
+klige001          4625   0.0  0.1  4368644  13632   ??  S     2:01PM   0:00.22 /usr/sbin/universalaccessd launchd
+klige001          4624   0.0  0.0  4328420   5024   ??  S     2:01PM   0:00.23 /usr/sbin/distnoted agent
+klige001          4622   0.0  0.2  4357152  36444   ??  S     2:01PM   0:00.51 /usr/libexec/UserEventAgent (Aqua)
+root              4603   0.0  0.1  4354996  10988   ??  Ss    2:01PM   0:00.03 /System/Library/PrivateFrameworks/
+klige001          4600   0.0  0.0  4327812   3568   ??  S     2:01PM   0:00.57 /usr/sbin/cfprefsd agent
+klige001          4599   0.0  0.1  4354188  10912   ??  S     2:01PM   0:00.03 /System/Library/Frameworks/LocalAu
+klige001          3966   0.0  0.2  4913544  26544   ??  Ss   12:33PM   0:00.67 /System/Library/CoreServices/login
+root              3836   0.0  0.1  4309996   9200   ??  Ss   12:32PM   0:00.01 /System/Library/Frameworks/AudioTo
+root              3835   0.0  0.2  4437220  38560   ??  Ss   12:32PM   0:00.23 /System/Library/Frameworks/Applica
+ocasi002          3797   0.0  0.2  4399800  33100   ??  S    12:31PM   0:00.43 /System/Library/Frameworks/Applica
+ocasi002          3193   0.0  0.1  4418604  12512   ??  S    10:45AM   0:00.05 /System/Library/PrivateFrameworks/
+ocasi002          3178   0.0  0.0  4327756   5540   ??  S    10:45AM   0:00.01 /System/Library/Frameworks/MediaAc
+ocasi002          3165   0.0  0.2  4456308  33680   ??  S    10:45AM   0:00.18 /System/Library/StagedFrameworks/S
+ocasi002          3150   0.0  0.0  4327796   5824   ??  S    10:36AM   0:00.05 /System/Library/Frameworks/Applica
+ocasi002          2679   0.0  0.1  4354016  22616   ??  S    10:31AM   0:00.08 /System/Library/PrivateFrameworks/
+ocasi002          2655   0.0  0.0  4319352   4636   ??  S    10:31AM   0:00.01 /System/Library/PrivateFrameworks/
+ocasi002          2593   0.0  0.1  4355080  10432   ??  S    10:31AM   0:00.02 /System/Library/CoreServices/Menu 
+ocasi002          2537   0.0  0.1  4366988  18128   ??  S    10:31AM   0:00.47 /System/Library/PrivateFrameworks/
+ocasi002          2535   0.0  0.1  4329020  10800   ??  S    10:31AM   0:00.02 /System/Library/Frameworks/CryptoT
+ocasi002          2458   0.0  0.1  4358348  13952   ??  S    10:31AM   0:03.24 /usr/libexec/pkd
+ocasi002          2442   0.0  0.1  4355364  18156   ??  S    10:31AM   0:00.10 /System/Library/PrivateFrameworks/
+ocasi002          2405   0.0  0.1  4356596  11680   ??  S    10:31AM   0:00.97 /usr/libexec/secinitd
+ocasi002          2378   0.0  0.1  4359024  10528   ??  S    10:31AM   0:00.67 /usr/libexec/lsd
+ocasi002          2370   0.0  0.0  4328420   5128   ??  S    10:31AM   0:00.63 /usr/sbin/distnoted agent
+ocasi002          2346   0.0  0.0  4328008   3732   ??  S    10:31AM   0:00.99 /usr/sbin/cfprefsd agent
+ocasi002          2345   0.0  0.1  4354188  10848   ??  S    10:31AM   0:00.03 /System/Library/Frameworks/LocalAu
+root              2182   0.0  0.0  4293260   4916   ??  Ss   10:07AM   0:00.01 /usr/libexec/applessdstatistics
+root              2179   0.0  0.0  4357632   7612   ??  Ss   10:04AM   0:00.19 /System/Library/PrivateFrameworks/
+root              2178   0.0  0.1  4356908  17296   ??  Ss   10:04AM   0:00.52 /System/Library/PrivateFrameworks/
+root              2141   0.0  0.1  4362224  18416   ??  Ss   10:01AM   0:00.47 /System/Library/PrivateFrameworks/
+root              2139   0.0  0.1  4329008  14884   ??  Ss   10:01AM   0:00.04 /System/Library/PrivateFrameworks/
+root              1769   0.0  0.0  4356172   6976   ??  S     9:24AM   0:00.07 /usr/libexec/secinitd
+root              1768   0.0  0.1  4366968  11224   ??  S     9:24AM   0:00.48 /System/Library/PrivateFrameworks/
+root              1567   0.0  0.1  4349040  17760   ??  Ss    8:41AM   0:00.04 /System/Library/PrivateFrameworks/
+root              1254   0.0  0.1  4357600  10148   ??  Ss    8:28AM   0:00.32 /usr/libexec/rtcreportingd
+_assetcache       1253   0.0  0.0  4358072   7020   ??  Ss    8:28AM   0:00.27 /System/Library/PrivateFrameworks/
+_spotlight        1251   0.0  0.1  4320708  11724   ??  S     8:28AM   0:00.03 /System/Library/Frameworks/CoreSer
+root              1236   0.0  0.1  4353788  11952   ??  Ss    8:28AM   0:00.04 /System/Library/PrivateFrameworks/
+root              1181   0.0  0.0  4293808    792   ??  SNs   8:28AM   0:00.01 /usr/libexec/periodic-wrapper dail
+_softwareupdate   1165   0.0  0.0  4328420   2728   ??  S     8:28AM   0:00.03 /usr/sbin/distnoted agent
+_softwareupdate   1164   0.0  0.0  4319448   1168   ??  S     8:28AM   0:00.04 /usr/sbin/cfprefsd agent
+root              1136   0.0  0.1  4355428  13788   ??  Ss    8:27AM   0:00.16 /Library/PrivilegedHelperTools/com
+root              1112   0.0  0.1  4318608   8416   ??  Ss    8:26AM   0:00.02 /System/Library/CoreServices/Repor
+root              1071   0.0  0.1  4360848   9768   ??  Ss    8:25AM   0:00.37 /usr/libexec/dprivacyd
+allen108          1070   0.0  0.1  4418604  14424   ??  S     8:25AM   0:00.09 /System/Library/PrivateFrameworks/
+allen108          1068   0.0  0.0  4327756   5476   ??  S     8:25AM   0:00.02 /System/Library/Frameworks/MediaAc
+allen108          1046   0.0  0.0  4327796   5840   ??  S     8:25AM   0:00.11 /System/Library/Frameworks/Applica
+allen108          1040   0.0  0.2  4455284  33632   ??  S     8:25AM   0:00.17 /System/Library/StagedFrameworks/S
+root              1037   0.0  0.0  4320860   4360   ??  Ss    8:25AM   0:00.02 /usr/libexec/mobileactivationd
+_datadetectors    1023   0.0  0.1  4334676  20012   ??  Ss    8:24AM   0:04.53 /usr/libexec/DataDetectorsSourceAc
+_applepay          996   0.0  0.0  4355092   8080   ??  Ss    8:24AM   0:00.04 /usr/libexec/nfcd
+_spotlight         976   0.0  0.0  4328420   2984   ??  S     8:24AM   0:00.05 /usr/sbin/distnoted agent
+_locationd         948   0.0  0.0  4328420   2812   ??  S     8:23AM   0:00.04 /usr/sbin/distnoted agent
+_locationd         947   0.0  0.0  4358868   7808   ??  S     8:23AM   0:00.20 /usr/libexec/trustd --agent
+_locationd         945   0.0  0.0  4319448   1224   ??  S     8:23AM   0:00.05 /usr/sbin/cfprefsd agent
+_locationd         943   0.0  0.0  4356348   6988   ??  S     8:23AM   0:00.11 /usr/libexec/secinitd
+_locationd         942   0.0  0.1  4366072   9212   ??  S     8:23AM   0:00.56 /System/Library/PrivateFrameworks/
+root               941   0.0  0.1  4355256  17320   ??  Ss    8:23AM   0:00.10 /usr/libexec/dmd
+allen108           897   0.0  0.1  4355080  10416   ??  S     8:23AM   0:00.03 /System/Library/CoreServices/Menu 
+_spotlight         895   0.0  0.1  4358180  11732   ??  S     8:23AM   0:00.74 /usr/libexec/trustd --agent
+allen108           882   0.0  0.1  4365600  14208   ??  S     8:23AM   0:00.63 /System/Library/PrivateFrameworks/
+allen108           874   0.0  0.1  4329020  10776   ??  S     8:23AM   0:00.02 /System/Library/Frameworks/CryptoT
+_fpsd              834   0.0  0.0  4329060   6192   ??  Ss    8:23AM   0:00.16 /System/Library/PrivateFrameworks/
+_softwareupdate    829   0.0  0.1  4354944  10288   ??  Ss    8:23AM   0:00.05 /System/Library/CoreServices/Softw
+allen108           797   0.0  0.1  4354252  22944   ??  S     8:23AM   0:00.09 /System/Library/PrivateFrameworks/
+root               781   0.0  0.1  4360964  13820   ??  Ss    8:23AM   0:00.17 /System/Library/CoreServices/Softw
+_softwareupdate    780   0.0  0.5  4507800  82052   ??  Ss    8:23AM   0:24.07 /System/Library/CoreServices/Softw
+_fpsd              770   0.0  0.1  4331476   9424   ??  Ss    8:23AM   0:00.08 /System/Library/PrivateFrameworks/
+root               760   0.0  0.2  4375516  39876   ??  Ss    8:23AM   0:04.72 /System/Library/PrivateFrameworks/
+root               759   0.0  0.0  4355856   7952   ??  Ss    8:23AM   0:00.14 /usr/bin/sysdiagnose
+root               756   0.0  0.2  4369812  27912   ??  Ss    8:23AM   0:00.70 /System/Library/PrivateFrameworks/
+_assetcache        752   0.0  0.1  4357660  13456   ??  Ss    8:23AM   0:00.15 /usr/libexec/AssetCache/AssetCache
+allen108           751   0.0  0.1  4358424  14332   ??  S     8:23AM   0:03.84 /usr/libexec/pkd
+root               717   0.0  0.1  4361036  15556   ??  Ss    8:23AM   0:03.61 /System/Library/CoreServices/Submi
+root               711   0.0  0.6  4406692 103688   ??  Ss    8:23AM   0:03.95 /usr/sbin/spindump
+root               708   0.0  0.0  4332820   7372   ??  Ss    8:23AM   0:00.12 /usr/sbin/filecoordinationd
+root               699   0.0  0.2  4386680  26900   ??  Ss    8:23AM   0:00.56 /System/Library/CoreServices/icons
+allen108           692   0.0  0.1  4327688  11848   ??  S     8:23AM   0:00.03 /System/Library/PrivateFrameworks/
+allen108           690   0.0  0.1  4354528   8548   ??  S     8:23AM   0:00.13 /System/Library/Frameworks/CoreSer
+root               682   0.0  0.0  4327220   6276   ??  Ss    8:23AM   0:00.03 /System/Library/CoreServices/Crash
+root               667   0.0  0.1  4355276   8456   ??  Ss    8:23AM   0:00.27 /usr/sbin/wirelessproxd
+allen108           643   0.0  0.1  4354680  18032   ??  S     8:23AM   0:00.09 /System/Library/PrivateFrameworks/
+root               627   0.0  0.1  4354924  12928   ??  Ss    8:23AM   0:00.65 /usr/sbin/WirelessRadioManagerd
+allen108           618   0.0  0.1  4363960  22116   ??  S     8:23AM   0:05.20 /usr/libexec/secinitd
+allen108           616   0.0  0.1  4357972  14600   ??  S     8:23AM   0:00.25 /usr/libexec/languageassetd --firs
+allen108           609   0.0  0.1  4368668  22652   ??  S     8:23AM   0:14.06 /usr/libexec/lsd
+allen108           601   0.0  0.0  4328420   5320   ??  S     8:23AM   0:00.61 /usr/sbin/distnoted agent
+root               581   0.0  0.0  4328852   6620   ??  Ss    8:23AM   0:00.09 /usr/libexec/securityd_service
+allen108           562   0.0  0.0  4327772   3336   ??  S     8:23AM   0:01.29 /usr/sbin/cfprefsd agent
+allen108           561   0.0  0.1  4354188  10824   ??  S     8:23AM   0:00.05 /System/Library/Frameworks/LocalAu
+root               539   0.0  0.0  4303400   4924   ??  Ss    8:23AM   0:00.02 /System/Library/Frameworks/GSS.fra
+root               477   0.0  0.0  4327752   7112   ??  Ss    8:22AM   0:00.01 /System/Library/PrivateFrameworks/
+root               419   0.0  0.0  4327744   1432   ??  Ss    8:22AM   0:00.02 /System/Library/Frameworks/CoreMed
+_analyticsd        416   0.0  0.1  4356388  11548   ??  Ss    8:22AM   0:00.65 /System/Library/PrivateFrameworks/
+root               414   0.0  0.0  4355716   6264   ??  S     8:22AM   0:00.07 /usr/sbin/systemstats --logger-hel
+root               408   0.0  0.0  4327640   5980   ??  Ss    8:22AM   0:01.26 /usr/libexec/sysmond
+root               395   0.0  0.0  4356268   7612   ??  Ss    8:22AM   0:00.14 /System/Library/CoreServices/share
+root               347   0.0  0.0  4302800   4348   ??  Ss    8:22AM   0:00.01 /usr/libexec/smd
+_netbios           334   0.0  0.1  4329328   9428   ??  SNs   8:22AM   0:00.52 /usr/sbin/netbiosd
+root               320   0.0  0.1  4355172  21232   ??  Ss    8:22AM   0:00.11 /usr/libexec/findmydeviced
+_nsurlstoraged     317   0.0  0.0  4327840   7708   ??  Ss    8:22AM   0:00.12 /usr/libexec/nsurlstoraged --privi
+root               316   0.0  0.0  4328976   6756   ??  Ss    8:22AM   0:00.53 /System/Library/PrivateFrameworks/
+root               315   0.0  0.0  4328420   2856   ??  S     8:22AM   0:00.05 /usr/sbin/distnoted agent
+root               313   0.0  0.1  4358584   9692   ??  Ss    8:22AM   0:00.11 /usr/sbin/systemsoundserverd
+root               311   0.0  0.0  4327676   5820   ??  Ss    8:22AM   0:00.02 /System/Library/PrivateFrameworks/
+root               308   0.0  0.1  4327636  10380   ??  Ss    8:22AM   0:00.03 /System/Library/Frameworks/LocalAu
+root               307   0.0  0.1  4328464  10708   ??  Ss    8:22AM   0:00.02 /System/Library/Frameworks/CryptoT
+root               306   0.0  0.0  4329092   7104   ??  Ss    8:22AM   0:00.46 /System/Library/PrivateFrameworks/
+_atsserver         301   0.0  0.1  4357132  11200   ??  Ss    8:22AM   0:00.21 /System/Library/Frameworks/Applica
+root               294   0.0  0.1  4318856  11176   ??  Ss    8:22AM   0:00.02 /usr/libexec/bootinstalld
+root               287   0.0  0.0  4328012   6248   ??  Ss    8:22AM   0:00.02 /usr/libexec/colorsyncd
+root               286   0.0  0.1  4367872  21268   ??  Ss    8:22AM   0:04.20 /System/Library/PrivateFrameworks/
+root               285   0.0  0.0  4327244   6236   ??  Ss    8:22AM   0:00.04 /usr/libexec/colorsync.displayserv
+root               284   0.0  0.1  4408020  11856   ??  Ss    8:22AM   0:00.15 /System/Library/Frameworks/OpenGL.
+_coreaudiod        283   0.0  0.1  4311020   9188   ??  Ss    8:22AM   0:00.01 /System/Library/Frameworks/AudioTo
+root               282   0.0  0.0  4320936   8240   ??  Ss    8:22AM   0:00.03 /System/Library/Frameworks/AudioTo
+root               254   0.0  0.8  5094540 132400   ??  Ss    8:22AM   0:15.95 /System/Library/Frameworks/CoreSer
+root               247   0.0  0.1  4356172  10168   ??  Ss    8:22AM   0:00.09 /usr/libexec/secinitd
+root               239   0.0  0.1  4294428   9340   ??  Ss    8:22AM   0:00.02 /usr/libexec/thermald
+root               235   0.0  0.0  4303576   4932   ??  Ss    8:22AM   0:00.13 /usr/libexec/watchdogd
+_cmiodalassistants   233   0.0  0.1  4385044   9944   ??  Ss    8:22AM   0:00.22 /System/Library/Frameworks/CoreMed
+root               232   0.0  0.0  4327728   4196   ??  Ss    8:22AM   0:00.08 /usr/libexec/firmwarecheckers/ethc
+root               231   0.0  0.1  4354976   9264   ??  Ss    8:22AM   0:00.40 /usr/libexec/usbd
+root               230   0.0  0.2  4367876  26160   ??  Ss    8:22AM   2:17.04 /usr/libexec/airportd
+root               229   0.0  0.0  4327196   5964   ??  Ss    8:22AM   0:00.04 /usr/libexec/apfsd
+root               228   0.0  0.1  4319048   9736   ??  Ss    8:22AM   0:00.03 /System/Library/CryptoTokenKit/com
+root               224   0.0  0.1  4357684  12344   ??  Ss    8:22AM   0:02.01 /System/Library/PrivateFrameworks/
+root               222   0.0  0.1  4360768  14960   ??  Ss    8:22AM   0:01.11 /usr/libexec/amfid
+root               221   0.0  0.2  4362736  25980   ??  Ss    8:22AM   0:02.38 /usr/libexec/syspolicyd
+root               220   0.0  0.1  4330644   9556   ??  Ss    8:22AM   0:00.54 /System/Library/Frameworks/Securit
+root               219   0.0  0.0  4354936   6704   ??  Ss    8:22AM   0:00.75 /usr/sbin/mDNSResponderHelper
+_mdnsresponder     217   0.0  0.1  4357740  10980   ??  Ss    8:22AM   0:12.67 /usr/sbin/mDNSResponder
+root               216   0.0  0.1  4359868  10664   ??  Ss    8:22AM   0:00.59 /usr/libexec/lsd runAsRoot
+_nsurlsessiond     210   0.0  0.1  4365452  20400   ??  Ss    8:22AM   0:01.15 /usr/libexec/nsurlsessiond --privi
+_coreaudiod        204   0.0  0.0  4354556   7600   ??  Ss    8:22AM   0:00.08 /System/Library/Frameworks/CoreAud
+_networkd          201   0.0  0.1  4363720  11028   ??  Ss    8:22AM   0:03.34 /usr/libexec/symptomsd
+root               200   0.0  0.1  4364588  24712   ??  Ss    8:22AM   0:04.54 /usr/libexec/mobileassetd
+_ctkd              193   0.0  0.1  4320720  10392   ??  Ss    8:22AM   0:00.02 /System/Library/Frameworks/CryptoT
+_coreaudiod        192   0.0  0.1  4336488  15288   ??  Ss    8:22AM   0:01.78 /usr/sbin/coreaudiod
+root               186   0.0  0.1  4369920  20940   ??  Ss    8:22AM   0:09.70 /usr/libexec/trustd
+root               185   0.0  0.1  4319516   9020   ??  Ss    8:22AM   0:00.01 /System/Library/Frameworks/PCSC.fr
+root               183   0.0  0.1  4360460   9848   ??  Ss    8:22AM   0:00.15 /usr/libexec/nehelper
+root               178   0.0  0.1  4360476  18336   ??  Ss    8:22AM   0:03.31 /System/Library/PrivateFrameworks/
+root               177   0.0  0.1  4384236  14208   ??  Ss    8:22AM   0:02.80 /System/Library/CoreServices/cores
+root               168   0.0  0.0  4327760   5684   ??  Ss    8:22AM   0:00.43 aslmanager
+root               151   0.0  0.1  4357960  12376   ??  Ss    8:22AM   0:01.11 /System/Library/Frameworks/Securit
+root               132   0.0  0.0  4328156   5872   ??  Ss    8:22AM   0:03.05 /usr/sbin/cfprefsd daemon
+_distnote          131   0.0  0.0  4328420   3692   ??  Ss    8:22AM   0:00.38 /usr/sbin/distnoted daemon
+root               130   0.0  0.0  4302824   2104   ??  Ss    8:22AM   0:05.30 /usr/sbin/notifyd
+root               129   0.0  0.1  4355524  13808   ??  Ss    8:22AM   0:00.29 /usr/libexec/AirPlayXPCHelper
+root               128   0.0  0.1  4355244  13068   ??  Ss    8:22AM   0:00.44 /usr/libexec/corebrightnessd --lau
+root               127   0.0  0.7  4419880 121456   ??  Ss    8:22AM   0:27.54 /usr/libexec/sandboxd
+_hidd              126   0.0  0.0  4330236   7548   ??  Ss    8:22AM   1:34.43 /usr/libexec/hidd
+root               125   0.0  0.1  4359372  11712   ??  Ss    8:22AM   0:01.40 /usr/sbin/bluetoothd
+root               123   0.0  0.0  4327628   4928   ??  Ss    8:22AM   0:00.01 /usr/sbin/KernelEventAgent
+root               122   0.0  0.0  4356444   6852   ??  Ss    8:22AM   0:00.18 /System/Library/PrivateFrameworks/
+root               121   0.0  0.0  4327312   6564   ??  Ss    8:22AM   0:00.05 /System/Library/CoreServices/login
+root               117   0.0  0.1  4355860   8628   ??  Ss    8:22AM   0:00.12 /System/Library/PrivateFrameworks/
+root               116   0.0  0.1  4359472  14264   ??  Ss    8:22AM   0:02.62 /usr/libexec/dasd
+_displaypolicyd    114   0.0  0.1  4330384  10756   ??  Ss    8:22AM   0:00.05 /usr/libexec/displaypolicyd -k 1
+root               113   0.0  0.0  4327756   5520   ??  Ss    8:22AM   0:00.09 autofsd
+_locationd         111   0.0  0.1  4371944  22568   ??  Ss    8:22AM   0:41.84 /usr/libexec/locationd
+_usbmuxd           109   0.0  0.0  4354684   6440   ??  Ss    8:22AM   0:00.05 /System/Library/PrivateFrameworks/
+root               108   0.0  0.1  4362380  15936   ??  Ss    8:22AM   0:03.92 /usr/sbin/securityd -i
+_timed             107   0.0  0.0  4354344   7460   ??  Ss    8:22AM   0:00.40 /usr/libexec/timed
+root               106   0.0  0.1  4361800  18656   ??  Ss    8:22AM   0:07.07 /System/Library/CoreServices/launc
+root               105   0.0  0.0  4355348   6776   ??  Ss    8:22AM   0:00.10 /System/Library/PrivateFrameworks/
+root               104   0.0  0.2  4381028  36020   ??  S<s   8:22AM   0:02.59 /Library/Application Support/Malwa
+root               103   0.0  0.1  4358932  23904   ??  Ss    8:22AM   0:01.82 /System/Library/PrivateFrameworks/
+root               102   0.0  0.1  4426508  20528   ??  Ss    8:22AM   0:31.81 /usr/libexec/opendirectoryd
+root                98   0.0  0.1  4360852  17692   ??  Ss    8:22AM   0:00.78 /usr/libexec/coreduetd
+root                97   0.0  0.2  4328972  30868   ??  Ss    8:22AM   0:00.28 /System/Library/CoreServices/backu
+root                93   0.0  0.0  4353924   7524   ??  Ss    8:22AM   0:02.24 /usr/libexec/diskarbitrationd
+_iconservices       92   0.0  0.0  4328820   5308   ??  Ss    8:22AM   0:00.03 /System/Library/CoreServices/icons
+root                91   0.0  0.4  4487704  69212   ??  Ss    8:22AM   0:19.56 /System/Library/Frameworks/CoreSer
+root                85   0.0  0.0  4327344   5444   ??  Ss    8:22AM   0:00.02 /usr/libexec/keybagd -t 15
+root                84   0.0  0.2  4423304  33568   ??  Ss    8:22AM   0:08.02 /usr/libexec/logd
+root                81   0.0  0.1  4359228  13292   ??  Ss    8:22AM   0:00.15 /Library/Application Support/JAMF/
+root                80   0.0  0.1  4354384  12368   ??  Ss    8:22AM   0:07.72 /System/Library/CoreServices/power
+root                79   0.0  0.1  4359904  12496   ??  Ss    8:22AM   0:12.19 /usr/libexec/configd
+root                77   0.0  0.1  4361872   8884   ??  Ss    8:22AM   0:02.49 /usr/sbin/systemstats --daemon
+_appleevents        76   0.0  0.1  4356596  10656   ??  Ss    8:22AM   0:00.28 /System/Library/CoreServices/apple
+psnotify            75   0.0  0.0  4328644   6332   ??  Ss    8:22AM   0:00.03 /Library/Application Support/Pharo
+root                72   0.0  0.1  4359484  23452   ??  Ss    8:22AM   0:00.23 /System/Library/PrivateFrameworks/
+root                71   0.0  0.1  4365824  21648   ??  SNs   8:22AM   0:00.63 /usr/local/jamf/bin/jamf launchDae
+root                69   0.0  0.1  4359220  14464   ??  Ss    8:22AM   0:03.99 /System/Library/Frameworks/CoreSer
+root                68   0.0  0.1  4363740  21696   ??  Ss    8:22AM   0:02.44 /usr/libexec/kextd
+root                67   0.0  0.0  4294092   5252   ??  Ss    8:22AM   0:00.45 /System/Library/PrivateFrameworks/
+root                64   0.0  0.1  4356768  19248   ??  Ss    8:22AM   0:01.04 /usr/libexec/UserEventAgent (Syste
+root                63   0.0  0.0  4328340   1284   ??  Ss    8:22AM   0:01.11 /usr/sbin/syslogd
+root              5190   0.0  0.0  4268476   1048 s000  R+    2:36PM   0:00.00 ps aux
+root                 1   0.0  0.1  4352832  24664   ??  Ss    8:22AM   0:41.23 /sbin/launchd
+maclab-105:~ klige001$ kill -1
+kill: usage: kill [-s sigspec | -n signum | -sigspec] pid | jobspec ... or kill -l [sigspec]
+maclab-105:~ klige001$ open -a TextEdit &
+[1] 5191
+maclab-105:~ klige001$ open -a TextEdit &
+[2] 5192
+[1]   Done                    open -a TextEdit
+maclab-105:~ klige001$ killall open -a TextEdit 
+killall: unknown signal a; valid signals:
+HUP INT QUIT ILL TRAP ABRT EMT FPE KILL BUS SEGV SYS PIPE ALRM TERM URG STOP 
+TSTP CONT CHLD TTIN TTOU IO XCPU XFSZ VTALRM PROF WINCH INFO USR1 USR2 
+[2]+  Done                    open -a TextEdit
+maclab-105:~ klige001$ 
